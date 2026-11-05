@@ -1,688 +1,596 @@
 {
- "senado-eua-2026": {
-  "host": "senado-eua-2026.vercel.app",
+ "membros-fora-titularidade-2026": {
+  "host": "membros-fora-titularidade-2026.vercel.app",
   "code": "200",
-  "title": "Senado dos EUA 2026 — Apuração e mapa",
-  "gate": false,
-  "bytes": 471452
- },
- "dashboard-long-short": {
-  "host": "dashboard-long-short.vercel.app",
-  "code": "200",
-  "title": "Dashboard Long/Short — Operações",
-  "gate": true,
-  "bytes": 296716
- },
- "resolucao-residencia-mppe-2026": {
-  "host": "resolucao-residencia-mppe-2026.vercel.app",
-  "code": "200",
-  "title": "Proposta de Resolução Conjunta PGJ–CGMP · Residência na comarca (MPPE, 2026)",
-  "gate": true,
-  "bytes": 47092
+  "title": "Membros do MPPE que residem fora da comarca de titularidade",
+  "gate": true
  },
  "distribuicao-caruaru": {
   "host": "distribuicao-caruaru.vercel.app",
   "code": "200",
   "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
-  "gate": true,
-  "bytes": 182647
+  "gate": true
  },
- "consolidado-supermercado": {
-  "host": "consolidado-supermercado.vercel.app",
+ "resolucao-residencia-mppe-2026": {
+  "host": "resolucao-residencia-mppe-2026.vercel.app",
   "code": "200",
-  "title": "🛒 Consolidado de Itens de Supermercado — 2026",
-  "gate": false,
-  "bytes": 58172
- },
- "mercado-analitico": {
-  "host": "mercado-analitico.vercel.app",
-  "code": "200",
-  "title": "Dashboard Analítico de Mercado — fechamento de 03/11/2026",
-  "gate": false,
-  "bytes": 489394
- },
- "fisher-resende-brazil": {
-  "host": "fisher-resende-brazil.vercel.app",
-  "code": "200",
-  "title": "Fisher e Resende no Brasil — John H. Cochrane | a conta de juros e o teste da teoria",
-  "gate": false,
-  "bytes": 83038
- },
- "horta-tirania-dos-juros": {
-  "host": "horta-tirania-dos-juros.vercel.app",
-  "code": "200",
-  "title": "Fernando Horta — a \"tirania dos juros\" | fio de 15 posts, conferido contra a base do BCB",
-  "gate": false,
-  "bytes": 44809
- },
- "eu-acuso-lara-resende": {
-  "host": "eu-acuso-lara-resende.vercel.app",
-  "code": "200",
-  "title": "Eu Acuso — André Lara Resende | a conta de juros e a proposta dos 7,5%",
-  "gate": false,
-  "bytes": 67870
- },
- "caruaru-ementas": {
-  "host": "caruaru-ementas.vercel.app",
-  "code": "200",
-  "title": "Ementas — Câmara Regional de Caruaru · MPPE",
-  "gate": true,
-  "bytes": 4705783
- },
- "cnmp-processos-mppe": {
-  "host": "cnmp-processos-mppe.vercel.app",
-  "code": "200",
-  "title": "Processos do MP/PE no CNMP — em tramitação",
-  "gate": true,
-  "bytes": 24206
- },
- "djen-lote3-caruaru": {
-  "host": "djen-lote3-caruaru.vercel.app",
-  "code": "200",
-  "title": "Achados do DJEN — 30/10/2026 (32 ações)",
-  "gate": true,
-  "bytes": 82113
- },
- "carteira-acoes-2026": {
-  "host": "carteira-acoes-2026.vercel.app",
-  "code": "200",
-  "title": "Carteira de ações — snapshot de 30/10/2026",
-  "gate": false,
-  "bytes": 37781
- },
- "ritjpe-dashboard": {
-  "host": "ritjpe-dashboard.vercel.app",
-  "code": "200",
-  "title": "RITJPE Navegável — Regimento Interno do TJPE (Resolução 395/2017)",
-  "gate": false,
-  "bytes": 456276
- },
- "vade-mecum-digital": {
-  "host": "vade-mecum-digital.vercel.app",
-  "code": "200",
-  "title": "Vade Mecum Digital — Índice de Painéis Navegáveis",
-  "gate": false,
-  "bytes": 24077
- },
- "csmp-votos-2026": {
-  "host": "csmp-votos-2026.vercel.app",
-  "code": "200",
-  "title": "⚖️ Votos — CSMP · Sessão de 04/11/2026",
-  "gate": true,
-  "bytes": 78654
- },
- "carta-flavio-bolsonaro-2026": {
-  "host": "carta-flavio-bolsonaro-2026.vercel.app",
-  "code": "200",
-  "title": "Carta ao povo brasileiro e à comunidade internacional — Flávio Bolsonaro",
-  "gate": false,
-  "bytes": 42704
- },
- "analise-sentenca-sulamerica-2026": {
-  "host": "analise-sentenca-sulamerica-2026.vercel.app",
-  "code": "200",
-  "title": "Análise da sentença — ACP 0049286-36.2025.8.17.2001",
-  "gate": false,
-  "bytes": 28807
- },
- "abstencao-estados-2026": {
-  "host": "abstencao-estados-2026.vercel.app",
-  "code": "200",
-  "title": "Abstenção nos estados — 1º vs 2º turno · presidente 2026",
-  "gate": false,
-  "bytes": 42562
- },
- "abstencao-capitais-2026": {
-  "host": "abstencao-capitais-2026.vercel.app",
-  "code": "200",
-  "title": "Abstenção nas capitais — 1º vs 2º turno · presidente 2026",
-  "gate": false,
-  "bytes": 42238
- },
- "pesquisas-2turno-2026": {
-  "host": "pesquisas-2turno-2026.vercel.app",
-  "code": "200",
-  "title": "Calendário de pesquisas — 2º turno presidencial 2026",
-  "gate": false,
-  "bytes": 62795
- },
- "clima-pe": {
-  "host": "clima-pe.vercel.app",
-  "code": "200",
-  "title": "Clima PE — acompanhamento meteorológico de Pernambuco",
-  "gate": false,
-  "bytes": 372727
- },
- "relatorio-hub-macmini-m4": {
-  "host": "relatorio-hub-macmini-m4.vercel.app",
-  "code": "200",
-  "title": "Viabilidade — hub e dock Thunderbolt com SSD NVMe para o Mac mini M4 (v3)",
-  "gate": false,
-  "bytes": 28738
- },
- "economist-ia-1710": {
-  "host": "economist-ia-1710.vercel.app",
-  "code": "200",
-  "title": "IA em foco — The Economist, 17 out. 2026",
-  "gate": false,
-  "bytes": 14204
- },
- "pulwtop-mac-mini": {
-  "host": "pulwtop-mac-mini.vercel.app",
-  "code": "200",
-  "title": "PULWTOP | Dashboard Mac Mini M4",
-  "gate": false,
-  "bytes": 29084
- },
- "improbidade-dashboard": {
-  "host": "improbidade-dashboard.vercel.app",
-  "code": "200",
-  "title": "Improbidade Navegável — Lei nº 8.429/1992 (Lei de Improbidade Administrativa)",
-  "gate": false,
-  "bytes": 88605
- },
- "mppe-designacoes-cgmp-ativas": {
-  "host": "mppe-designacoes-cgmp-ativas.vercel.app",
-  "code": "200",
-  "title": "Designações por membro · CGMP/MPPE 2023–2026",
-  "gate": false,
-  "bytes": 59233
- },
- "pronunciamentos-civel": {
-  "host": "pronunciamentos-civel.vercel.app",
-  "code": "200",
-  "title": "Pronunciamentos Cíveis — MPPE (Ementas CNJ)",
-  "gate": false,
-  "bytes": 8270509
- },
- "secoes-alteradas-2turno-2026": {
-  "host": "secoes-alteradas-2turno-2026.vercel.app",
-  "code": "200",
-  "title": "Consulta de Seções Eleitorais Alteradas — 2º Turno 2026",
-  "gate": false,
-  "bytes": 627201
- },
- "quadro-membros-mppe": {
-  "host": "quadro-membros-mppe.vercel.app",
-  "code": "200",
-  "title": "Quadro Geral de Membros — MPPE · Conjunto A",
-  "gate": true,
-  "bytes": 225394
- },
- "cf-dashboard": {
-  "host": "cf-dashboard-lac.vercel.app",
-  "code": "200",
-  "title": "Constituição Federal Navegável — CF/1988 e ADCT",
-  "gate": false,
-  "bytes": 930376
- },
- "vestigios-da-noite": {
-  "host": "vestigios-da-noite.vercel.app",
-  "code": "200",
-  "title": "Os vestígios da noite — dossiê navegável",
-  "gate": false,
-  "bytes": 91960
- },
- "l9656-dashboard": {
-  "host": "l9656-dashboard.vercel.app",
-  "code": "200",
-  "title": "Lei dos Planos de Saúde Navegável — Lei nº 9.656/1998",
-  "gate": false,
-  "bytes": 172731
- },
- "temas-stj-saude": {
-  "host": "temas-stj-saude.vercel.app",
-  "code": "200",
-  "title": "Temas repetitivos do STJ — saúde e planos de saúde",
-  "gate": false,
-  "bytes": 28352
- },
- "bioimpedancia-charles": {
-  "host": "bioimpedancia-charles.vercel.app",
-  "code": "200",
-  "title": "Composição Corporal — Charles · InBody 120",
-  "gate": true,
-  "bytes": 39283
- },
- "ms-dashboard": {
-  "host": "ms-dashboard-eight.vercel.app",
-  "code": "200",
-  "title": "Mandado de Segurança Navegável — Lei nº 12.016/2009",
-  "gate": false,
-  "bytes": 47636
- },
- "constituicao-e-o-supremo": {
-  "host": "constituicao-e-o-supremo.vercel.app",
-  "code": "200",
-  "title": "Constituição e o Supremo — CF/88 anotada pelo STF",
-  "gate": false,
-  "bytes": 8700428
- },
- "papj-estudo-qualitativo": {
-  "host": "papj-estudo-qualitativo.vercel.app",
-  "code": "200",
-  "title": "Estudo Qualitativo do PAPJ — MPPE",
-  "gate": true,
-  "bytes": 1760067
- },
- "oqueestaemjogo-celular": {
-  "host": "oqueestaemjogo-celular.vercel.app",
-  "code": "200",
-  "title": "O que está em jogo na sua cidade",
-  "gate": false,
-  "bytes": 95402
- },
- "movimentacoes-carreira-mppe": {
-  "host": "movimentacoes-carreira-mppe.vercel.app",
-  "code": "200",
-  "title": "MPPE · Movimentações de Carreira",
-  "gate": true,
-  "bytes": 97228
- },
- "procuradoria-caruaru-criminal": {
-  "host": "procuradoria-caruaru-criminal.vercel.app",
-  "code": "200",
-  "title": "Procuradoria de Justiça Regional de Caruaru — Criminal · MPPE | Estatísticas",
-  "gate": false,
-  "bytes": 111635
- },
- "procuradoria-caruaru-civel": {
-  "host": "procuradoria-caruaru-civel.vercel.app",
-  "code": "200",
-  "title": "Procuradoria de Justiça Regional de Caruaru — Cível · MPPE | Estatísticas",
-  "gate": false,
-  "bytes": 105025
- },
- "procuradoria-civel-estatisticas": {
-  "host": "procuradoria-civel-estatisticas.vercel.app",
-  "code": "200",
-  "title": "Procuradoria de Justiça Cível — MPPE | Estatísticas",
-  "gate": false,
-  "bytes": 151760
- },
- "guia-judicializacao-saude": {
-  "host": "guia-judicializacao-saude.vercel.app",
-  "code": "200",
-  "title": "Judicialização da Saúde — Guia Interativo",
-  "gate": false,
-  "bytes": 63392
- },
- "cdc-dashboard": {
-  "host": "cdc-dashboard-self.vercel.app",
-  "code": "200",
-  "title": "Código de Defesa do Consumidor Navegável — Lei nº 8.078/1990",
-  "gate": false,
-  "bytes": 122505
- },
- "eca-dashboard": {
-  "host": "eca-dashboard-indol.vercel.app",
-  "code": "200",
-  "title": "ECA Navegável — Estatuto da Criança e do Adolescente (Lei 8.069/1990)",
-  "gate": false,
-  "bytes": 328016
- },
- "circunscricoes-ministeriais-mppe": {
-  "host": "circunscricoes-ministeriais-mppe.vercel.app",
-  "code": "200",
-  "title": "Circunscrições Ministeriais do MPPE — Mapa de Pernambuco",
-  "gate": false,
-  "bytes": 542235
- },
- "lacp-dashboard": {
-  "host": "lacp-dashboard-rho.vercel.app",
-  "code": "200",
-  "title": "Lei de Ação Civil Pública Navegável — Lei nº 7.347/1985",
-  "gate": false,
-  "bytes": 46906
- },
- "alimentos-dashboard": {
-  "host": "alimentos-dashboard-chi.vercel.app",
-  "code": "200",
-  "title": "Lei de Alimentos Navegável — Lei nº 5.478/1968",
-  "gate": false,
-  "bytes": 43842
- },
- "camara-regional-caruaru": {
-  "host": "camara-regional-caruaru.vercel.app",
-  "code": "200",
-  "title": "Circunscrições Judiciárias do TJPE · Câmara Regional de Caruaru",
-  "gate": true,
-  "bytes": 520766
- },
- "recorte-cjf-mppe": {
-  "host": "recorte-cjf-mppe.vercel.app",
-  "code": "200",
-  "title": "Recorte CJF — Promotorias abaixo da mediana · MPPE",
-  "gate": true,
-  "bytes": 100933
- },
- "ancora-judicializacao-saude": {
-  "host": "ancora-judicializacao-saude.vercel.app",
-  "code": "200",
-  "title": "Dashboard Âncora — Judicialização da Saúde",
-  "gate": false,
-  "bytes": 99116
- },
- "habitacao-urbanismo-mppe": {
-  "host": "habitacao-urbanismo-mppe.vercel.app",
-  "code": "200",
-  "title": "Promotores de Justiça — Habitação e Urbanismo | MPPE",
-  "gate": true,
-  "bytes": 86257
- },
- "cpj-2a-sessao-2026": {
-  "host": "cpj-2a-sessao-2026.vercel.app",
-  "code": "200",
-  "title": "MPPE · CPJ — 2ª Sessão Ordinária de 2026",
-  "gate": true,
-  "bytes": 59169
- },
- "okinawa-vanekairi": {
-  "host": "okinawa-vanekairi.vercel.app",
-  "code": "200",
-  "title": "Okinawa Navegável — Caderno de Viagem (OMO5 Naha &amp; Hoshino Resorts)",
-  "gate": false,
-  "bytes": 41538
- },
- "cc-dashboard": {
-  "host": "cc-dashboard-woad.vercel.app",
-  "code": "200",
-  "title": "Código Civil Navegável — Lei 10.406/2002",
-  "gate": false,
-  "bytes": 710873
- },
- "cpc-dashboard": {
-  "host": "cpc-dashboard-tan.vercel.app",
-  "code": "200",
-  "title": "CPC Navegável — Código de Processo Civil (Lei 13.105/2015)",
-  "gate": false,
-  "bytes": 811866
- },
- "vault-grapho-chlima123": {
-  "host": "vault-grapho-chlima123.vercel.app",
-  "code": "200",
-  "title": "Grafo do Vault · chlima123",
-  "gate": true,
-  "bytes": 566268
- },
- "huntington-choque-civilizacoes": {
-  "host": "huntington-choque-civilizacoes.vercel.app",
-  "code": "200",
-  "title": "O Choque das Civilizações — Samuel P. Huntington | Guia Interativo",
-  "gate": true,
-  "bytes": 169815
- },
- "gramsci-coutinho": {
-  "host": "gramsci-coutinho.vercel.app",
-  "code": "200",
-  "title": "Gramsci: Um Estudo Sobre Seu Pensamento Político — Guia Interativo · Carlos Nelson Coutinho",
-  "gate": true,
-  "bytes": 104955
- },
- "tao-da-fisica": {
-  "host": "tao-da-fisica.vercel.app",
-  "code": "200",
-  "title": "O Tao da Física — Guia Interativo e Compreensivo (Fritjof Capra)",
-  "gate": false,
-  "bytes": 112085
- },
- "manual-portugues-redacao-juridica": {
-  "host": "manual-portugues-redacao-juridica.vercel.app",
-  "code": "200",
-  "title": "Manual de Português e Redação Jurídica — Guia Interativo",
-  "gate": true,
-  "bytes": 108148
- },
- "condicao-humana": {
-  "host": "condicao-humana.vercel.app",
-  "code": "200",
-  "title": "A Condição Humana — Hannah Arendt | Guia Interativo",
-  "gate": true,
-  "bytes": 112084
- },
- "guia-poetica": {
-  "host": "guia-poetica.vercel.app",
-  "code": "200",
-  "title": "Poética — Guia Interativo",
-  "gate": false,
-  "bytes": 98810
- },
- "guia-metafisica": {
-  "host": "guia-metafisica.vercel.app",
-  "code": "200",
-  "title": "Metafísica — Guia Interativo",
-  "gate": false,
-  "bytes": 92502
- },
- "guia-sobre-a-alma": {
-  "host": "guia-sobre-a-alma.vercel.app",
-  "code": "200",
-  "title": "Sobre a Alma — Guia Interativo",
-  "gate": false,
-  "bytes": 89645
- },
- "lyra-promotoria-publica": {
-  "host": "lyra-promotoria-publica.vercel.app",
-  "code": "200",
-  "title": "Teoria e Prática da Promotoria Pública — Guia Interativo",
-  "gate": false,
-  "bytes": 92253
- },
- "kant-metafisica-costumes": {
-  "host": "kant-metafisica-costumes.vercel.app",
-  "code": "200",
-  "title": "A Metafísica dos Costumes — Guia Interativo",
-  "gate": true,
-  "bytes": 89561
- },
- "guia-organon": {
-  "host": "guia-organon.vercel.app",
-  "code": "200",
-  "title": "Órganon — Guia Interativo",
-  "gate": false,
-  "bytes": 87696
- },
- "guia-etica-nicomaco": {
-  "host": "guia-etica-nicomaco.vercel.app",
-  "code": "200",
-  "title": "Ética a Nicômaco — Guia Interativo",
-  "gate": false,
-  "bytes": 80939
- },
- "guia-politica": {
-  "host": "guia-politica.vercel.app",
-  "code": "200",
-  "title": "Política — Guia Interativo",
-  "gate": false,
-  "bytes": 83845
- },
- "roteiro-construir-sertao": {
-  "host": "roteiro-construir-sertao.vercel.app",
-  "code": "200",
-  "title": "Roteiro para construir no Sertão · Guia Interativo",
-  "gate": true,
-  "bytes": 64128
- },
- "obsidian-guia-interativo": {
-  "host": "obsidian-guia-interativo.vercel.app",
-  "code": "200",
-  "title": "Obsidian desde cero — Guia Interativo",
-  "gate": true,
-  "bytes": 43295
- },
- "exames-joemia-2026": {
-  "host": "exames-joemia-2026.vercel.app",
-  "code": "200",
-  "title": "Exames Ana Joêmia — 25/08/2026",
-  "gate": true,
-  "bytes": 50236
- },
- "hermes-bots-guide": {
-  "host": "hermes-bots-guide.vercel.app",
-  "code": "200",
-  "title": "Hermes Bots — Dashboard do Guia",
-  "gate": true,
-  "bytes": 36205
- },
- "guia-aristoteles": {
-  "host": "guia-aristoteles.vercel.app",
-  "code": "200",
-  "title": "Guias Interativos — Aristóteles",
-  "gate": false,
-  "bytes": 30731
- },
- "mppe-cargos-atribuicoes": {
-  "host": "mppe-cargos-atribuicoes.vercel.app",
-  "code": "200",
-  "title": "MPPE — Cargos e Atribuições (Promotorias) · Demonstrativo consolidado",
-  "gate": false,
-  "bytes": 390307
- },
- "item8-correicoes-pjdc-cidadania": {
-  "host": "item8-correicoes-pjdc-cidadania.vercel.app",
-  "code": "200",
-  "title": "Síntese das Atividades Funcionais — Item 8 · Correições PJDC Caruaru e Jaboatão",
-  "gate": true,
-  "bytes": 24825
+  "title": "Residência na comarca · Proposta de Resolução Conjunta PGJ–CGMP (MPPE, 2026)",
+  "gate": false
  },
  "gaju-mps-2026": {
   "host": "gaju-mps-2026.vercel.app",
   "code": "200",
   "title": "GAJU / GECJAO nos Ministérios Públicos — Levantamento Nacional 2026",
-  "gate": true,
-  "bytes": 65090
+  "gate": true
+ },
+ "caruaru-ementas": {
+  "host": "caruaru-ementas.vercel.app",
+  "code": "200",
+  "title": "Ementas — Câmara Regional de Caruaru · MPPE",
+  "gate": true
+ },
+ "senado-eua-2026": {
+  "host": "senado-eua-2026.vercel.app",
+  "code": "200",
+  "title": "Senado dos EUA 2026 — Apuração e mapa",
+  "gate": false
+ },
+ "dashboard-long-short": {
+  "host": "dashboard-long-short.vercel.app",
+  "code": "200",
+  "title": "Dashboard Long/Short — Operações",
+  "gate": true
+ },
+ "consolidado-supermercado": {
+  "host": "consolidado-supermercado.vercel.app",
+  "code": "200",
+  "title": "🛒 Consolidado de Itens de Supermercado — 2026",
+  "gate": false
+ },
+ "mercado-analitico": {
+  "host": "mercado-analitico.vercel.app",
+  "code": "200",
+  "title": "Dashboard Analítico de Mercado — fechamento de 03/11/2026",
+  "gate": false
+ },
+ "fisher-resende-brazil": {
+  "host": "fisher-resende-brazil.vercel.app",
+  "code": "200",
+  "title": "Fisher e Resende no Brasil — John H. Cochrane | a conta de juros e o teste da teoria",
+  "gate": false
+ },
+ "horta-tirania-dos-juros": {
+  "host": "horta-tirania-dos-juros.vercel.app",
+  "code": "200",
+  "title": "Fernando Horta — a \"tirania dos juros\" | fio de 15 posts, conferido contra a base do BCB",
+  "gate": false
+ },
+ "eu-acuso-lara-resende": {
+  "host": "eu-acuso-lara-resende.vercel.app",
+  "code": "200",
+  "title": "Eu Acuso — André Lara Resende | a conta de juros e a proposta dos 7,5%",
+  "gate": false
+ },
+ "cnmp-processos-mppe": {
+  "host": "cnmp-processos-mppe.vercel.app",
+  "code": "200",
+  "title": "Processos do MP/PE no CNMP — em tramitação",
+  "gate": true
+ },
+ "djen-lote3-caruaru": {
+  "host": "djen-lote3-caruaru.vercel.app",
+  "code": "200",
+  "title": "Achados do DJEN — 30/10/2026 (32 ações)",
+  "gate": true
+ },
+ "carteira-acoes-2026": {
+  "host": "carteira-acoes-2026.vercel.app",
+  "code": "200",
+  "title": "Carteira de ações — snapshot de 30/10/2026",
+  "gate": false
+ },
+ "ritjpe-dashboard": {
+  "host": "ritjpe-dashboard.vercel.app",
+  "code": "200",
+  "title": "RITJPE Navegável — Regimento Interno do TJPE (Resolução 395/2017)",
+  "gate": false
+ },
+ "vade-mecum-digital": {
+  "host": "vade-mecum-digital.vercel.app",
+  "code": "200",
+  "title": "Vade Mecum Digital — Índice de Painéis Navegáveis",
+  "gate": false
+ },
+ "csmp-votos-2026": {
+  "host": "csmp-votos-2026.vercel.app",
+  "code": "200",
+  "title": "⚖️ Votos — CSMP · Sessão de 04/11/2026",
+  "gate": true
+ },
+ "carta-flavio-bolsonaro-2026": {
+  "host": "carta-flavio-bolsonaro-2026.vercel.app",
+  "code": "200",
+  "title": "Carta ao povo brasileiro e à comunidade internacional — Flávio Bolsonaro",
+  "gate": false
+ },
+ "analise-sentenca-sulamerica-2026": {
+  "host": "analise-sentenca-sulamerica-2026.vercel.app",
+  "code": "200",
+  "title": "Análise da sentença — ACP 0049286-36.2025.8.17.2001",
+  "gate": false
+ },
+ "abstencao-estados-2026": {
+  "host": "abstencao-estados-2026.vercel.app",
+  "code": "200",
+  "title": "Abstenção nos estados — 1º vs 2º turno · presidente 2026",
+  "gate": false
+ },
+ "abstencao-capitais-2026": {
+  "host": "abstencao-capitais-2026.vercel.app",
+  "code": "200",
+  "title": "Abstenção nas capitais — 1º vs 2º turno · presidente 2026",
+  "gate": false
+ },
+ "pesquisas-2turno-2026": {
+  "host": "pesquisas-2turno-2026.vercel.app",
+  "code": "200",
+  "title": "Calendário de pesquisas — 2º turno presidencial 2026",
+  "gate": false
+ },
+ "clima-pe": {
+  "host": "clima-pe.vercel.app",
+  "code": "200",
+  "title": "Clima PE — acompanhamento meteorológico de Pernambuco",
+  "gate": false
+ },
+ "relatorio-hub-macmini-m4": {
+  "host": "relatorio-hub-macmini-m4.vercel.app",
+  "code": "200",
+  "title": "Viabilidade — hub e dock Thunderbolt com SSD NVMe para o Mac mini M4 (v3)",
+  "gate": false
+ },
+ "economist-ia-1710": {
+  "host": "economist-ia-1710.vercel.app",
+  "code": "200",
+  "title": "IA em foco — The Economist, 17 out. 2026",
+  "gate": false
+ },
+ "pulwtop-mac-mini": {
+  "host": "pulwtop-mac-mini.vercel.app",
+  "code": "200",
+  "title": "PULWTOP | Dashboard Mac Mini M4",
+  "gate": false
+ },
+ "improbidade-dashboard": {
+  "host": "improbidade-dashboard.vercel.app",
+  "code": "200",
+  "title": "Improbidade Navegável — Lei nº 8.429/1992 (Lei de Improbidade Administrativa)",
+  "gate": false
+ },
+ "mppe-designacoes-cgmp-ativas": {
+  "host": "mppe-designacoes-cgmp-ativas.vercel.app",
+  "code": "200",
+  "title": "Designações por membro · CGMP/MPPE 2023–2026",
+  "gate": false
+ },
+ "pronunciamentos-civel": {
+  "host": "pronunciamentos-civel.vercel.app",
+  "code": "200",
+  "title": "Pronunciamentos Cíveis — MPPE (Ementas CNJ)",
+  "gate": false
+ },
+ "secoes-alteradas-2turno-2026": {
+  "host": "secoes-alteradas-2turno-2026.vercel.app",
+  "code": "200",
+  "title": "Consulta de Seções Eleitorais Alteradas — 2º Turno 2026",
+  "gate": false
+ },
+ "quadro-membros-mppe": {
+  "host": "quadro-membros-mppe.vercel.app",
+  "code": "200",
+  "title": "Quadro Geral de Membros — MPPE · Conjunto A",
+  "gate": true
+ },
+ "cf-dashboard": {
+  "host": "cf-dashboard-lac.vercel.app",
+  "code": "200",
+  "title": "Constituição Federal Navegável — CF/1988 e ADCT",
+  "gate": false
+ },
+ "vestigios-da-noite": {
+  "host": "vestigios-da-noite.vercel.app",
+  "code": "200",
+  "title": "Os vestígios da noite — dossiê navegável",
+  "gate": false
+ },
+ "l9656-dashboard": {
+  "host": "l9656-dashboard.vercel.app",
+  "code": "200",
+  "title": "Lei dos Planos de Saúde Navegável — Lei nº 9.656/1998",
+  "gate": false
+ },
+ "temas-stj-saude": {
+  "host": "temas-stj-saude.vercel.app",
+  "code": "200",
+  "title": "Temas repetitivos do STJ — saúde e planos de saúde",
+  "gate": false
+ },
+ "bioimpedancia-charles": {
+  "host": "bioimpedancia-charles.vercel.app",
+  "code": "200",
+  "title": "Composição Corporal — Charles · InBody 120",
+  "gate": true
+ },
+ "ms-dashboard": {
+  "host": "ms-dashboard-eight.vercel.app",
+  "code": "200",
+  "title": "Mandado de Segurança Navegável — Lei nº 12.016/2009",
+  "gate": false
+ },
+ "constituicao-e-o-supremo": {
+  "host": "constituicao-e-o-supremo.vercel.app",
+  "code": "200",
+  "title": "Constituição e o Supremo — CF/88 anotada pelo STF",
+  "gate": false
+ },
+ "papj-estudo-qualitativo": {
+  "host": "papj-estudo-qualitativo.vercel.app",
+  "code": "200",
+  "title": "Estudo Qualitativo do PAPJ — MPPE",
+  "gate": true
+ },
+ "oqueestaemjogo-celular": {
+  "host": "oqueestaemjogo-celular.vercel.app",
+  "code": "200",
+  "title": "O que está em jogo na sua cidade",
+  "gate": false
+ },
+ "movimentacoes-carreira-mppe": {
+  "host": "movimentacoes-carreira-mppe.vercel.app",
+  "code": "200",
+  "title": "MPPE · Movimentações de Carreira",
+  "gate": true
+ },
+ "procuradoria-caruaru-criminal": {
+  "host": "procuradoria-caruaru-criminal.vercel.app",
+  "code": "200",
+  "title": "Procuradoria de Justiça Regional de Caruaru — Criminal · MPPE | Estatísticas",
+  "gate": false
+ },
+ "procuradoria-caruaru-civel": {
+  "host": "procuradoria-caruaru-civel.vercel.app",
+  "code": "200",
+  "title": "Procuradoria de Justiça Regional de Caruaru — Cível · MPPE | Estatísticas",
+  "gate": false
+ },
+ "procuradoria-civel-estatisticas": {
+  "host": "procuradoria-civel-estatisticas.vercel.app",
+  "code": "200",
+  "title": "Procuradoria de Justiça Cível — MPPE | Estatísticas",
+  "gate": false
+ },
+ "guia-judicializacao-saude": {
+  "host": "guia-judicializacao-saude.vercel.app",
+  "code": "200",
+  "title": "Judicialização da Saúde — Guia Interativo",
+  "gate": false
+ },
+ "cdc-dashboard": {
+  "host": "cdc-dashboard-self.vercel.app",
+  "code": "200",
+  "title": "Código de Defesa do Consumidor Navegável — Lei nº 8.078/1990",
+  "gate": false
+ },
+ "eca-dashboard": {
+  "host": "eca-dashboard-indol.vercel.app",
+  "code": "200",
+  "title": "ECA Navegável — Estatuto da Criança e do Adolescente (Lei 8.069/1990)",
+  "gate": false
+ },
+ "circunscricoes-ministeriais-mppe": {
+  "host": "circunscricoes-ministeriais-mppe.vercel.app",
+  "code": "200",
+  "title": "Circunscrições Ministeriais do MPPE — Mapa de Pernambuco",
+  "gate": false
+ },
+ "lacp-dashboard": {
+  "host": "lacp-dashboard-rho.vercel.app",
+  "code": "200",
+  "title": "Lei de Ação Civil Pública Navegável — Lei nº 7.347/1985",
+  "gate": false
+ },
+ "alimentos-dashboard": {
+  "host": "alimentos-dashboard-chi.vercel.app",
+  "code": "200",
+  "title": "Lei de Alimentos Navegável — Lei nº 5.478/1968",
+  "gate": false
+ },
+ "camara-regional-caruaru": {
+  "host": "camara-regional-caruaru.vercel.app",
+  "code": "200",
+  "title": "Circunscrições Judiciárias do TJPE · Câmara Regional de Caruaru",
+  "gate": true
+ },
+ "recorte-cjf-mppe": {
+  "host": "recorte-cjf-mppe.vercel.app",
+  "code": "200",
+  "title": "Recorte CJF — Promotorias abaixo da mediana · MPPE",
+  "gate": true
+ },
+ "ancora-judicializacao-saude": {
+  "host": "ancora-judicializacao-saude.vercel.app",
+  "code": "200",
+  "title": "Dashboard Âncora — Judicialização da Saúde",
+  "gate": false
+ },
+ "habitacao-urbanismo-mppe": {
+  "host": "habitacao-urbanismo-mppe.vercel.app",
+  "code": "200",
+  "title": "Promotores de Justiça — Habitação e Urbanismo | MPPE",
+  "gate": true
+ },
+ "cpj-2a-sessao-2026": {
+  "host": "cpj-2a-sessao-2026.vercel.app",
+  "code": "200",
+  "title": "MPPE · CPJ — 2ª Sessão Ordinária de 2026",
+  "gate": true
+ },
+ "okinawa-vanekairi": {
+  "host": "okinawa-vanekairi.vercel.app",
+  "code": "200",
+  "title": "Okinawa Navegável — Caderno de Viagem (OMO5 Naha &amp; Hoshino Resorts)",
+  "gate": false
+ },
+ "cc-dashboard": {
+  "host": "cc-dashboard-woad.vercel.app",
+  "code": "200",
+  "title": "Código Civil Navegável — Lei 10.406/2002",
+  "gate": false
+ },
+ "cpc-dashboard": {
+  "host": "cpc-dashboard-tan.vercel.app",
+  "code": "200",
+  "title": "CPC Navegável — Código de Processo Civil (Lei 13.105/2015)",
+  "gate": false
+ },
+ "vault-grapho-chlima123": {
+  "host": "vault-grapho-chlima123.vercel.app",
+  "code": "200",
+  "title": "Grafo do Vault · chlima123",
+  "gate": true
+ },
+ "huntington-choque-civilizacoes": {
+  "host": "huntington-choque-civilizacoes.vercel.app",
+  "code": "200",
+  "title": "O Choque das Civilizações — Samuel P. Huntington | Guia Interativo",
+  "gate": true
+ },
+ "gramsci-coutinho": {
+  "host": "gramsci-coutinho.vercel.app",
+  "code": "200",
+  "title": "Gramsci: Um Estudo Sobre Seu Pensamento Político — Guia Interativo · Carlos Nelson Coutinho",
+  "gate": true
+ },
+ "tao-da-fisica": {
+  "host": "tao-da-fisica.vercel.app",
+  "code": "200",
+  "title": "O Tao da Física — Guia Interativo e Compreensivo (Fritjof Capra)",
+  "gate": false
+ },
+ "manual-portugues-redacao-juridica": {
+  "host": "manual-portugues-redacao-juridica.vercel.app",
+  "code": "200",
+  "title": "Manual de Português e Redação Jurídica — Guia Interativo",
+  "gate": true
+ },
+ "condicao-humana": {
+  "host": "condicao-humana.vercel.app",
+  "code": "200",
+  "title": "A Condição Humana — Hannah Arendt | Guia Interativo",
+  "gate": true
+ },
+ "guia-poetica": {
+  "host": "guia-poetica.vercel.app",
+  "code": "200",
+  "title": "Poética — Guia Interativo",
+  "gate": false
+ },
+ "guia-metafisica": {
+  "host": "guia-metafisica.vercel.app",
+  "code": "200",
+  "title": "Metafísica — Guia Interativo",
+  "gate": false
+ },
+ "guia-sobre-a-alma": {
+  "host": "guia-sobre-a-alma.vercel.app",
+  "code": "200",
+  "title": "Sobre a Alma — Guia Interativo",
+  "gate": false
+ },
+ "lyra-promotoria-publica": {
+  "host": "lyra-promotoria-publica.vercel.app",
+  "code": "200",
+  "title": "Teoria e Prática da Promotoria Pública — Guia Interativo",
+  "gate": false
+ },
+ "kant-metafisica-costumes": {
+  "host": "kant-metafisica-costumes.vercel.app",
+  "code": "200",
+  "title": "A Metafísica dos Costumes — Guia Interativo",
+  "gate": true
+ },
+ "guia-organon": {
+  "host": "guia-organon.vercel.app",
+  "code": "200",
+  "title": "Órganon — Guia Interativo",
+  "gate": false
+ },
+ "guia-etica-nicomaco": {
+  "host": "guia-etica-nicomaco.vercel.app",
+  "code": "200",
+  "title": "Ética a Nicômaco — Guia Interativo",
+  "gate": false
+ },
+ "guia-politica": {
+  "host": "guia-politica.vercel.app",
+  "code": "200",
+  "title": "Política — Guia Interativo",
+  "gate": false
+ },
+ "roteiro-construir-sertao": {
+  "host": "roteiro-construir-sertao.vercel.app",
+  "code": "200",
+  "title": "Roteiro para construir no Sertão · Guia Interativo",
+  "gate": true
+ },
+ "obsidian-guia-interativo": {
+  "host": "obsidian-guia-interativo.vercel.app",
+  "code": "200",
+  "title": "Obsidian desde cero — Guia Interativo",
+  "gate": true
+ },
+ "exames-joemia-2026": {
+  "host": "exames-joemia-2026.vercel.app",
+  "code": "200",
+  "title": "Exames Ana Joêmia — 25/08/2026",
+  "gate": true
+ },
+ "hermes-bots-guide": {
+  "host": "hermes-bots-guide.vercel.app",
+  "code": "200",
+  "title": "Hermes Bots — Dashboard do Guia",
+  "gate": true
+ },
+ "guia-aristoteles": {
+  "host": "guia-aristoteles.vercel.app",
+  "code": "200",
+  "title": "Guias Interativos — Aristóteles",
+  "gate": false
+ },
+ "mppe-cargos-atribuicoes": {
+  "host": "mppe-cargos-atribuicoes.vercel.app",
+  "code": "200",
+  "title": "MPPE — Cargos e Atribuições (Promotorias) · Demonstrativo consolidado",
+  "gate": false
+ },
+ "item8-correicoes-pjdc-cidadania": {
+  "host": "item8-correicoes-pjdc-cidadania.vercel.app",
+  "code": "200",
+  "title": "Síntese das Atividades Funcionais — Item 8 · Correições PJDC Caruaru e Jaboatão",
+  "gate": true
  },
  "vitaliciamento-csmp-2109": {
   "host": "vitaliciamento-csmp-2109.vercel.app",
   "code": "200",
   "title": "Vitaliciamento — CSMP 21/09/2026",
-  "gate": true,
-  "bytes": 152795
+  "gate": true
  },
  "guia-teste": {
   "host": "guia-teste-seven.vercel.app",
   "code": "200",
   "title": "Obra de Teste — Guia Interativo",
-  "gate": false,
-  "bytes": 26836
+  "gate": false
  },
  "proporcional-razoavel": {
   "host": "proporcional-razoavel.vercel.app",
   "code": "200",
   "title": "O proporcional e o razoável — Virgílio Afonso da Silva",
-  "gate": false,
-  "bytes": 370830
+  "gate": false
  },
  "ementario-cnmp": {
   "host": "ementario-cnmp.vercel.app",
   "code": "200",
   "title": "Ementário CNMP — Julgados do Conselho Nacional do Ministério Público",
-  "gate": false,
-  "bytes": 16948563
+  "gate": false
  },
  "ementario-cgmp-rs": {
   "host": "ementario-cgmp-rs.vercel.app",
   "code": "200",
   "title": "Ementário CGMP-RS — Corregedoria-Geral do Ministério Público do RS",
-  "gate": true,
-  "bytes": 172353
+  "gate": true
  },
  "dashboard-processos-sim-2026": {
   "host": "dashboard-processos-sim-2026.vercel.app",
   "code": "200",
   "title": "SIM · Painel de Processos — Conselho Superior do MPPE",
-  "gate": true,
-  "bytes": 953807
+  "gate": true
  },
  "tjpe-circunscricoes-judiciarias": {
   "host": "tjpe-circunscricoes-judiciarias.vercel.app",
   "code": "200",
   "title": "Circunscrições Judiciárias do TJPE — Atlas das Comarcas e Termos",
-  "gate": true,
-  "bytes": 18308
+  "gate": true
  },
  "tesouro-direto-dashboard": {
   "host": "tesouro-direto-dashboard-gamma.vercel.app",
   "code": "200",
   "title": "Tesouro Direto — Painel de Cotações & Títulos Públicos",
-  "gate": true,
-  "bytes": 67983
+  "gate": true
  },
  "mppe-transparencia-guia": {
   "host": "mppe-transparencia-guia.vercel.app",
   "code": "200",
   "title": "Portal da Transparência MPPE — Guia Interativo",
-  "gate": true,
-  "bytes": 26166
+  "gate": true
  },
  "judicializacao-planos-saude": {
   "host": "judicializacao-planos-saude.vercel.app",
   "code": "200",
   "title": "Judicialização de Planos de Saúde — Relatório 2026",
-  "gate": true,
-  "bytes": 29810
+  "gate": true
  },
  "adi-6606-teto-remuneratorio": {
   "host": "adi-6606-teto-remuneratorio.vercel.app",
   "code": "200",
   "title": "Acórdão ADI 6606 STF · Teto Constitucional e Regime Remuneratório",
-  "gate": true,
-  "bytes": 135905
+  "gate": true
  },
  "ritjpe-titulo-vi-julgamento": {
   "host": "ritjpe-titulo-vi-julgamento.vercel.app",
   "code": "200",
   "title": "Do Julgamento — RITJPE · Guia Artigo a Artigo",
-  "gate": false,
-  "bytes": 86423
+  "gate": false
  },
  "vault-chlima123": {
   "host": "vault-chlima123.vercel.app",
   "code": "200",
   "title": "Dashboard do Vault — chlima123",
-  "gate": true,
-  "bytes": 618695
+  "gate": true
  },
  "relevancia-questao-federal": {
   "host": "relevancia-questao-federal.vercel.app",
   "code": "200",
   "title": "Relevância da Questão Federal no REsp — Guia Interativo",
-  "gate": false,
-  "bytes": 14700
+  "gate": false
  },
  "mppe-idade-procuradores": {
   "host": "mppe-idade-procuradores.vercel.app",
   "code": "200",
   "title": "Idade dos Procuradores de Justiça — MPPE",
-  "gate": true,
-  "bytes": 22001
+  "gate": true
  },
  "watchlist-ti-dashboard": {
   "host": "watchlist-ti-dashboard.vercel.app",
   "code": "200",
   "title": "Watchlist — Tecnologia da Informação",
-  "gate": true,
-  "bytes": 58339
+  "gate": true
  },
  "antiguidade-2inst-analise": {
   "host": "antiguidade-2inst-analise.vercel.app",
   "code": "200",
   "title": "",
-  "gate": true,
-  "bytes": 14637
+  "gate": true
  },
  "procuradoria-civel": {
   "host": "procuradoria-civel.vercel.app",
   "code": "200",
   "title": "Procuradoria de Justiça em Matéria Cível — Movimentação de Processos",
-  "gate": true,
-  "bytes": 73230
+  "gate": true
  },
  "correicoes-mppe": {
   "host": "correicoes-mppe.vercel.app",
   "code": "200",
   "title": "Registro de Correições — CGMP/MPPE",
-  "gate": true,
-  "bytes": 886620
+  "gate": true
  }
 }
