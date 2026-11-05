@@ -62,7 +62,7 @@ ITENS = [
     ("item8-correicoes-pjdc-cidadania", "mppe", "Correições PJDC Caruaru e Jaboatão · item 8"),
     ("cnmp-processos-mppe", "mppe", "Processos do MP/PE em tramitação no CNMP (ELO)"),
     ("resolucao-residencia-mppe-2026", "mppe", "Minuta da resolução de residência na comarca"),
-    ("membros-fora-titularidade-2026", "mppe", "118 membros que residem fora da comarca de titularidade (excl. RMR)"),
+    ("membros-fora-titularidade-2026", "mppe", "117 membros que residem fora da comarca de titularidade (excl. RMR) · com distância em km"),
     ("mppe-transparencia-guia", "mppe", "Guia do Portal da Transparência do MPPE"),
     ("camara-regional-caruaru", "mppe", "Circunscrições judiciárias do TJPE em Caruaru"),
     ("tjpe-circunscricoes-judiciarias", "mppe", "Atlas das comarcas e termos do TJPE"),
