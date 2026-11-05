@@ -19,17 +19,18 @@ CACHE = os.path.join(HERE, "inventario.json")
 
 # ---------------------------------------------------------------- catálogo
 # (projeto Vercel, categoria, descrição curta)
+# categoria: (título da seção, rótulo curto do chip)
 CAT = {
-    "mppe": ("MPPE e Judiciário", "Trabalho, carreira e comarcas"),
-    "lei": ("Legislação navegável", "Lei artigo a artigo"),
-    "juris": ("Jurisprudência e doutrina", "Precedentes e análise"),
-    "livro": ("Guias de livros e estudo", "Leitura guiada"),
-    "economia": ("Economia, mercado e finanças", "Números e carteira"),
-    "politica": ("Política e eleições 2026", "Pesquisa e apuração"),
-    "saude": ("Saúde", "Exames, planos e judicialização"),
-    "imprensa": ("Imprensa e dossiês", "Leitura de terceiros"),
-    "tech": ("Tecnologia e ferramentas", "Hardware e bastidores"),
-    "pessoal": ("Vida pessoal e rotina", "Vault, clima, viagem"),
+    "mppe": ("MPPE e Judiciário", "MPPE"),
+    "lei": ("Legislação navegável", "Legislação"),
+    "juris": ("Jurisprudência e doutrina", "Jurisprudência"),
+    "livro": ("Guias de livros e estudo", "Livros"),
+    "economia": ("Economia, mercado e finanças", "Economia"),
+    "politica": ("Política e eleições 2026", "Política"),
+    "saude": ("Saúde", "Saúde"),
+    "imprensa": ("Imprensa e dossiês", "Imprensa"),
+    "tech": ("Tecnologia e ferramentas", "Tecnologia"),
+    "pessoal": ("Vida pessoal e rotina", "Pessoal"),
 }
 
 ITENS = [
@@ -431,7 +432,7 @@ TEMPLATE = r"""<!DOCTYPE html>
   }
   .chips-wrap{ max-width: var(--maxw); margin: 0 auto; padding: 10px 20px 12px; }
   .chips{
-    position:relative; display:flex; gap:6px; overflow-x:auto; scrollbar-width:none;
+    position:relative; display:flex; gap:4px; overflow-x:auto; scrollbar-width:none;
     padding: 5px; border-radius:15px; background: var(--chip);
     -webkit-overflow-scrolling: touch;
   }
@@ -445,8 +446,8 @@ TEMPLATE = r"""<!DOCTYPE html>
   .chip{
     -webkit-appearance:none; appearance:none; cursor:pointer; position:relative; z-index:1;
     flex:0 0 auto; border:0; background:transparent; color: var(--chip-ink);
-    font: 500 14px/1 inherit; letter-spacing:-0.005em;
-    padding: 9px 14px; border-radius:11px; white-space:nowrap;
+    font: 500 13.5px/1 inherit; letter-spacing:-0.008em;
+    padding: 9px 11px; border-radius:11px; white-space:nowrap;
     transition: color 200ms ease, transform 110ms ease-out;
   }
   .chip:hover{ color: var(--ink); }
@@ -763,6 +764,12 @@ TEMPLATE = r"""<!DOCTYPE html>
       c.tabIndex = c.dataset.cat === cat ? 0 : -1;
     });
     posicionarPill(chipAtivo(), animar !== false);
+    var ativo = chipAtivo();
+    if (ativo){                                  /* traz o chip escolhido à vista */
+      var r = ativo.getBoundingClientRect(), box = chipsBox.getBoundingClientRect();
+      if (r.left < box.left + 5) chipsBox.scrollLeft -= (box.left + 5 - r.left);
+      else if (r.right > box.right - 5) chipsBox.scrollLeft += (r.right - box.right + 5);
+    }
     aplicar(true);
   }
 
@@ -879,7 +886,7 @@ def build():
     for cat in ordem:
         chips.append('<button class="chip" role="tab" data-cat="%s" aria-selected="false">'
                      '%s<span class="n">%d</span></button>'
-                     % (cat, CAT[cat][0], contagem.get(cat, 0)))
+                     % (cat, CAT[cat][1], contagem.get(cat, 0)))
 
     grupos = []
     for cat in ordem:

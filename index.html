@@ -209,7 +209,7 @@
   }
   .chips-wrap{ max-width: var(--maxw); margin: 0 auto; padding: 10px 20px 12px; }
   .chips{
-    position:relative; display:flex; gap:6px; overflow-x:auto; scrollbar-width:none;
+    position:relative; display:flex; gap:4px; overflow-x:auto; scrollbar-width:none;
     padding: 5px; border-radius:15px; background: var(--chip);
     -webkit-overflow-scrolling: touch;
   }
@@ -223,8 +223,8 @@
   .chip{
     -webkit-appearance:none; appearance:none; cursor:pointer; position:relative; z-index:1;
     flex:0 0 auto; border:0; background:transparent; color: var(--chip-ink);
-    font: 500 14px/1 inherit; letter-spacing:-0.005em;
-    padding: 9px 14px; border-radius:11px; white-space:nowrap;
+    font: 500 13.5px/1 inherit; letter-spacing:-0.008em;
+    padding: 9px 11px; border-radius:11px; white-space:nowrap;
     transition: color 200ms ease, transform 110ms ease-out;
   }
   .chip:hover{ color: var(--ink); }
@@ -397,7 +397,7 @@
   <div class="chips-wrap">
     <div class="chips" role="tablist" aria-label="Filtrar por assunto">
       <div id="pill" aria-hidden="true"></div>
-      <button class="chip" role="tab" data-cat="all" aria-selected="true">Todos<span class="n">98</span></button><button class="chip" role="tab" data-cat="mppe" aria-selected="false">MPPE e Judiciário<span class="n">30</span></button><button class="chip" role="tab" data-cat="lei" aria-selected="false">Legislação navegável<span class="n">14</span></button><button class="chip" role="tab" data-cat="juris" aria-selected="false">Jurisprudência e doutrina<span class="n">7</span></button><button class="chip" role="tab" data-cat="livro" aria-selected="false">Guias de livros e estudo<span class="n">15</span></button><button class="chip" role="tab" data-cat="economia" aria-selected="false">Economia, mercado e finanças<span class="n">8</span></button><button class="chip" role="tab" data-cat="politica" aria-selected="false">Política e eleições 2026<span class="n">7</span></button><button class="chip" role="tab" data-cat="saude" aria-selected="false">Saúde<span class="n">5</span></button><button class="chip" role="tab" data-cat="imprensa" aria-selected="false">Imprensa e dossiês<span class="n">2</span></button><button class="chip" role="tab" data-cat="tech" aria-selected="false">Tecnologia e ferramentas<span class="n">5</span></button><button class="chip" role="tab" data-cat="pessoal" aria-selected="false">Vida pessoal e rotina<span class="n">5</span></button>
+      <button class="chip" role="tab" data-cat="all" aria-selected="true">Todos<span class="n">98</span></button><button class="chip" role="tab" data-cat="mppe" aria-selected="false">MPPE<span class="n">30</span></button><button class="chip" role="tab" data-cat="lei" aria-selected="false">Legislação<span class="n">14</span></button><button class="chip" role="tab" data-cat="juris" aria-selected="false">Jurisprudência<span class="n">7</span></button><button class="chip" role="tab" data-cat="livro" aria-selected="false">Livros<span class="n">15</span></button><button class="chip" role="tab" data-cat="economia" aria-selected="false">Economia<span class="n">8</span></button><button class="chip" role="tab" data-cat="politica" aria-selected="false">Política<span class="n">7</span></button><button class="chip" role="tab" data-cat="saude" aria-selected="false">Saúde<span class="n">5</span></button><button class="chip" role="tab" data-cat="imprensa" aria-selected="false">Imprensa<span class="n">2</span></button><button class="chip" role="tab" data-cat="tech" aria-selected="false">Tecnologia<span class="n">5</span></button><button class="chip" role="tab" data-cat="pessoal" aria-selected="false">Pessoal<span class="n">5</span></button>
     </div>
   </div>
 </div>
@@ -541,6 +541,12 @@
       c.tabIndex = c.dataset.cat === cat ? 0 : -1;
     });
     posicionarPill(chipAtivo(), animar !== false);
+    var ativo = chipAtivo();
+    if (ativo){                                  /* traz o chip escolhido à vista */
+      var r = ativo.getBoundingClientRect(), box = chipsBox.getBoundingClientRect();
+      if (r.left < box.left + 5) chipsBox.scrollLeft -= (box.left + 5 - r.left);
+      else if (r.right > box.right - 5) chipsBox.scrollLeft += (r.right - box.right + 5);
+    }
     aplicar(true);
   }
 
