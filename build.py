@@ -65,6 +65,7 @@ ITENS = [
     ("membros-fora-titularidade-2026", "mppe", "113 membros que residem fora da comarca de titularidade (excl. RMR) · endereço residencial completo e distância em km"),
     ("mppe-transparencia-guia", "mppe", "Guia do Portal da Transparência do MPPE"),
     ("camara-regional-caruaru", "mppe", "Circunscrições judiciárias do TJPE em Caruaru"),
+    ("camara-regional-caruaru-mapa", "mppe", "Mapa da competência territorial da Câmara Regional de Caruaru"),
     ("tjpe-circunscricoes-judiciarias", "mppe", "Atlas das comarcas e termos do TJPE"),
     # ---------------- Legislação
     ("vade-mecum-digital", "lei", "Índice-mãe dos 8 painéis de lei · 4.153 dispositivos"),

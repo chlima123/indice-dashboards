@@ -1,15 +1,27 @@
 {
+ "distribuicao-caruaru": {
+  "host": "distribuicao-caruaru.vercel.app",
+  "code": "200",
+  "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
+  "gate": true
+ },
  "membros-fora-titularidade-2026": {
   "host": "membros-fora-titularidade-2026.vercel.app",
   "code": "200",
   "title": "Membros do MPPE que residem fora da comarca de titularidade",
   "gate": true
  },
- "distribuicao-caruaru": {
-  "host": "distribuicao-caruaru.vercel.app",
+ "dashboard-long-short": {
+  "host": "dashboard-long-short.vercel.app",
   "code": "200",
-  "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
+  "title": "Dashboard Long/Short — Operações",
   "gate": true
+ },
+ "camara-regional-caruaru-mapa": {
+  "host": "camara-regional-caruaru-mapa.vercel.app",
+  "code": "200",
+  "title": "Câmara Regional de Caruaru — competência territorial (TJPE)",
+  "gate": false
  },
  "resolucao-residencia-mppe-2026": {
   "host": "resolucao-residencia-mppe-2026.vercel.app",
@@ -34,12 +46,6 @@
   "code": "200",
   "title": "Senado dos EUA 2026 — Apuração e mapa",
   "gate": false
- },
- "dashboard-long-short": {
-  "host": "dashboard-long-short.vercel.app",
-  "code": "200",
-  "title": "Dashboard Long/Short — Operações",
-  "gate": true
  },
  "consolidado-supermercado": {
   "host": "consolidado-supermercado.vercel.app",
