@@ -106,6 +106,8 @@ ITENS = [
     ("guia-metafisica", "livro", "Metafísica, de Aristóteles"),
     ("guia-sobre-a-alma", "livro", "Sobre a Alma (De Anima), de Aristóteles"),
     ("guia-organon", "livro", "Órganon, de Aristóteles"),
+    ("buendia-macondo", "livro", "Cem Anos de Solidão: a estirpe dos Buendía, geração a geração"),
+    ("unicap-medicina-2027", "livro", "Medicina UNICAP 2027.1: o que a prova cobra e o que o curso ensina"),
     # ---------------- Economia
     ("mercado-analitico", "economia", "Fechamento do pregão de 03/11 · 45 ativos, 8 classes"),
     ("carteira-acoes-2026", "economia", "As 33 empresas da carteira: topo, dia, alertas"),
@@ -129,6 +131,9 @@ ITENS = [
     ("judicializacao-planos-saude", "saude", "Relatório 2026 da judicialização de planos de saúde"),
     ("guia-judicializacao-saude", "saude", "Guia interativo da judicialização da saúde"),
     ("ancora-judicializacao-saude", "saude", "Âncora do acervo audiovisual sobre judicialização"),
+    ("genetica-medica-carreiras-2026", "saude", "Geneticista médico × não-médico: pisos e tetos de remuneração"),
+    ("mounjaro", "saude", "Diário do Mounjaro: doses semanais, peso e efeitos"),
+    ("panturrilha", "saude", "Monitoramento da panturrilha direita: medidas e evolução"),
     # ---------------- Imprensa
     ("economist-ia-1710", "imprensa", "The Economist, edição de IA de 17/10/2026"),
     ("vestigios-da-noite", "imprensa", "Dossiê da piauí: 125 mensagens de Daniel Vorcaro"),

@@ -1,20 +1,62 @@
 {
+ "unicap-medicina-2027": {
+  "host": "unicap-medicina-2027.vercel.app",
+  "code": "200",
+  "title": "Medicina UNICAP — Vestibular 2027.1: prova e programa",
+  "gate": false
+ },
+ "carteira-acoes-2026": {
+  "host": "carteira-acoes-2026.vercel.app",
+  "code": "200",
+  "title": "Carteira de ações — snapshot de 30/10/2026",
+  "gate": false
+ },
+ "genetica-medica-carreiras-2026": {
+  "host": "genetica-medica-carreiras-2026.vercel.app",
+  "code": "200",
+  "title": "Geneticista: rotas de carreira e remuneração (2026)",
+  "gate": false
+ },
+ "buendia-macondo": {
+  "host": "buendia-macondo.vercel.app",
+  "code": "200",
+  "title": "A estirpe dos Buendía — árvore genealógica de Cem Anos de Solidão",
+  "gate": false
+ },
  "distribuicao-caruaru": {
   "host": "distribuicao-caruaru.vercel.app",
   "code": "200",
   "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
   "gate": true
  },
- "membros-fora-titularidade-2026": {
-  "host": "membros-fora-titularidade-2026.vercel.app",
+ "mounjaro": {
+  "host": "mounjaro-charles.vercel.app",
   "code": "200",
-  "title": "Membros do MPPE que residem fora da comarca de titularidade",
-  "gate": true
+  "title": "Mounjaro · Diário",
+  "gate": false
+ },
+ "panturrilha": {
+  "host": "panturrilha.vercel.app",
+  "code": "200",
+  "title": "Panturrilha · Diário",
+  "gate": false
  },
  "dashboard-long-short": {
   "host": "dashboard-long-short.vercel.app",
   "code": "200",
   "title": "Dashboard Long/Short — Operações",
+  "gate": true
+ },
+ "circunscricoes-ministeriais-mppe": {
+  "host": "circunscricoes-ministeriais-mppe.vercel.app",
+  "code": "200",
+  "title": "Circunscrições Ministeriais do MPPE — Mapa de Pernambuco",
+  "gate": false
+ },
+ "membros-fora-titularidade-2026": {
+  "host": "membros-fora-titularidade-2026.vercel.app",
+  "code": "200",
+  "title": "Membros do MPPE que residem fora da comarca de titularidade",
   "gate": true
  },
  "camara-regional-caruaru-mapa": {
@@ -88,12 +130,6 @@
   "code": "200",
   "title": "Achados do DJEN — 30/10/2026 (32 ações)",
   "gate": true
- },
- "carteira-acoes-2026": {
-  "host": "carteira-acoes-2026.vercel.app",
-  "code": "200",
-  "title": "Carteira de ações — snapshot de 30/10/2026",
-  "gate": false
  },
  "ritjpe-dashboard": {
   "host": "ritjpe-dashboard.vercel.app",
@@ -291,12 +327,6 @@
   "host": "eca-dashboard-indol.vercel.app",
   "code": "200",
   "title": "ECA Navegável — Estatuto da Criança e do Adolescente (Lei 8.069/1990)",
-  "gate": false
- },
- "circunscricoes-ministeriais-mppe": {
-  "host": "circunscricoes-ministeriais-mppe.vercel.app",
-  "code": "200",
-  "title": "Circunscrições Ministeriais do MPPE — Mapa de Pernambuco",
   "gate": false
  },
  "lacp-dashboard": {
