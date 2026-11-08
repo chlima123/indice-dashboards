@@ -108,6 +108,8 @@ ITENS = [
     ("guia-organon", "livro", "Órganon, de Aristóteles"),
     ("buendia-macondo", "livro", "Cem Anos de Solidão: a estirpe dos Buendía, geração a geração"),
     ("unicap-medicina-2027", "livro", "Medicina UNICAP 2027.1: o que a prova cobra e o que o curso ensina"),
+    ("fps-medicina-2027", "livro", "Medicina FPS 2027.1: a prova, o conteúdo e o curso"),
+    ("enem-redacao-guia", "livro", "Redação ENEM: repertório, leis e temas prováveis"),
     # ---------------- Economia
     ("mercado-analitico", "economia", "Fechamento do pregão de 03/11 · 45 ativos, 8 classes"),
     ("carteira-acoes-2026", "economia", "As 33 empresas da carteira: topo, dia, alertas"),

@@ -1,4 +1,34 @@
 {
+ "dashboard-long-short": {
+  "host": "dashboard-long-short.vercel.app",
+  "code": "200",
+  "title": "Dashboard Long/Short — Operações",
+  "gate": true
+ },
+ "enem-redacao-guia": {
+  "host": "enem-redacao-guia.vercel.app",
+  "code": "200",
+  "title": "Redação ENEM — Guia de Repertório",
+  "gate": false
+ },
+ "distribuicao-caruaru": {
+  "host": "distribuicao-caruaru.vercel.app",
+  "code": "200",
+  "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
+  "gate": false
+ },
+ "tesouro-direto-dashboard": {
+  "host": "tesouro-direto-dashboard-gamma.vercel.app",
+  "code": "200",
+  "title": "Tesouro Direto — Painel de Cotações & Títulos Públicos",
+  "gate": true
+ },
+ "fps-medicina-2027": {
+  "host": "fps-medicina-2027.vercel.app",
+  "code": "200",
+  "title": "Medicina FPS — Vestibular 2027.1: prova, programa e curso",
+  "gate": false
+ },
  "unicap-medicina-2027": {
   "host": "unicap-medicina-2027.vercel.app",
   "code": "200",
@@ -23,12 +53,6 @@
   "title": "A estirpe dos Buendía — árvore genealógica de Cem Anos de Solidão",
   "gate": false
  },
- "distribuicao-caruaru": {
-  "host": "distribuicao-caruaru.vercel.app",
-  "code": "200",
-  "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
-  "gate": true
- },
  "mounjaro": {
   "host": "mounjaro-charles.vercel.app",
   "code": "200",
@@ -40,12 +64,6 @@
   "code": "200",
   "title": "Panturrilha · Diário",
   "gate": false
- },
- "dashboard-long-short": {
-  "host": "dashboard-long-short.vercel.app",
-  "code": "200",
-  "title": "Dashboard Long/Short — Operações",
-  "gate": true
  },
  "circunscricoes-ministeriais-mppe": {
   "host": "circunscricoes-ministeriais-mppe.vercel.app",
@@ -555,12 +573,6 @@
   "host": "tjpe-circunscricoes-judiciarias.vercel.app",
   "code": "200",
   "title": "Circunscrições Judiciárias do TJPE — Atlas das Comarcas e Termos",
-  "gate": true
- },
- "tesouro-direto-dashboard": {
-  "host": "tesouro-direto-dashboard-gamma.vercel.app",
-  "code": "200",
-  "title": "Tesouro Direto — Painel de Cotações & Títulos Públicos",
   "gate": true
  },
  "mppe-transparencia-guia": {
