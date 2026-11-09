@@ -98,6 +98,7 @@ ITENS = [
     ("tao-da-fisica", "livro", "O Tao da Física, de Fritjof Capra"),
     ("lyra-promotoria-publica", "livro", "Teoria e Prática da Promotoria Pública"),
     ("manual-portugues-redacao-juridica", "livro", "Manual de Português e Redação Jurídica"),
+    ("alem-do-direito", "livro", "Além do Direito, de Vilela: painel em duas versões (analítica e sintética)"),
     ("roteiro-construir-sertao", "livro", "Roteiro para construir no Sertão do Araripe"),
     ("guia-aristoteles", "livro", "Hub dos guias de Aristóteles"),
     ("guia-etica-nicomaco", "livro", "Ética a Nicômaco, guia interativo"),
@@ -119,6 +120,7 @@ ITENS = [
     ("fisher-resende-brazil", "economia", "Resposta de Cochrane: juros, dívida e o teste da teoria"),
     ("horta-tirania-dos-juros", "economia", "15 posts conferidos contra as séries do BCB e do BCE"),
     ("watchlist-ti-dashboard", "economia", "Watchlist de ações de tecnologia da informação"),
+    ("lft-medo-cambio", "economia", "Quanto da LFT pode virar dólar? Painel analítico"),
     # ---------------- Política
     ("pesquisas-2turno-2026", "politica", "Calendário das pesquisas do 2º turno presidencial"),
     ("abstencao-capitais-2026", "politica", "Abstenção nas capitais: 1º contra 2º turno"),

@@ -1,20 +1,38 @@
 {
+ "alem-do-direito": {
+  "host": "alem-do-direito.vercel.app",
+  "code": "200",
+  "title": "Além do Direito — duas versões do painel",
+  "gate": false
+ },
+ "carteira-acoes-2026": {
+  "host": "carteira-acoes-2026.vercel.app",
+  "code": "200",
+  "title": "Carteira de ações — snapshot de 30/10/2026",
+  "gate": false
+ },
  "dashboard-long-short": {
   "host": "dashboard-long-short.vercel.app",
   "code": "200",
   "title": "Dashboard Long/Short — Operações",
   "gate": true
  },
- "enem-redacao-guia": {
-  "host": "enem-redacao-guia.vercel.app",
-  "code": "200",
-  "title": "Redação ENEM — Guia de Repertório",
-  "gate": false
- },
  "distribuicao-caruaru": {
   "host": "distribuicao-caruaru.vercel.app",
   "code": "200",
   "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
+  "gate": false
+ },
+ "lft-medo-cambio": {
+  "host": "lft-medo-cambio.vercel.app",
+  "code": "200",
+  "title": "Quanto da LFT pode virar dólar? — Dashboard Analítico",
+  "gate": false
+ },
+ "enem-redacao-guia": {
+  "host": "enem-redacao-guia.vercel.app",
+  "code": "200",
+  "title": "Redação ENEM — Guia de Repertório",
   "gate": false
  },
  "tesouro-direto-dashboard": {
@@ -33,12 +51,6 @@
   "host": "unicap-medicina-2027.vercel.app",
   "code": "200",
   "title": "Medicina UNICAP — Vestibular 2027.1: prova e programa",
-  "gate": false
- },
- "carteira-acoes-2026": {
-  "host": "carteira-acoes-2026.vercel.app",
-  "code": "200",
-  "title": "Carteira de ações — snapshot de 30/10/2026",
   "gate": false
  },
  "genetica-medica-carreiras-2026": {
