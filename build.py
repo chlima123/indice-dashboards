@@ -68,6 +68,7 @@ ITENS = [
     ("camara-regional-caruaru-mapa", "mppe", "Mapa da competência territorial da Câmara Regional de Caruaru"),
     ("tjpe-circunscricoes-judiciarias", "mppe", "Atlas das comarcas e termos do TJPE"),
     ("nf-066-2025-cgmp", "mppe", "NF 066/2025 — arquivamento e recurso ao OECPJ (análise)"),
+    ("cnmp-correicoes-integradas", "mppe", "Modelo de Correções Integradas — CNMP/Corregedoria Nacional (deck)"),
     # ---------------- Legislação
     ("vade-mecum-digital", "lei", "Índice-mãe dos 8 painéis de lei · 4.153 dispositivos"),
     ("cf-dashboard", "lei", "CF/1988 + ADCT artigo a artigo · 425 dispositivos"),

@@ -1,4 +1,10 @@
 {
+ "cnmp-correicoes-integradas": {
+  "host": "cnmp-correicoes-integradas.vercel.app",
+  "code": "200",
+  "title": "Modelo de Correições Integradas — CNMP/Corregedoria Nacional",
+  "gate": false
+ },
  "salas-vip-cartoes": {
   "host": "salas-vip-cartoes.vercel.app",
   "code": "200",
