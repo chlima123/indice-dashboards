@@ -1,9 +1,9 @@
 {
- "consolidado-supermercado": {
-  "host": "consolidado-supermercado.vercel.app",
+ "nf-066-2025-cgmp": {
+  "host": "nf-066-2025-cgmp.vercel.app",
   "code": "200",
-  "title": "🛒 Consolidado de Itens de Supermercado — 2026",
-  "gate": false
+  "title": "NF 066/2025 · Pronunciamento 324/2025 e Despacho 15/2026 — CGMP/MPPE",
+  "gate": true
  },
  "carteira-acoes-2026": {
   "host": "carteira-acoes-2026.vercel.app",
@@ -11,17 +11,23 @@
   "title": "Carteira de ações — snapshot de 30/10/2026",
   "gate": false
  },
- "dashboard-long-short": {
-  "host": "dashboard-long-short.vercel.app",
-  "code": "200",
-  "title": "Dashboard Long/Short — Operações",
-  "gate": true
- },
  "distribuicao-caruaru": {
   "host": "distribuicao-caruaru.vercel.app",
   "code": "200",
   "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
   "gate": false
+ },
+ "consolidado-supermercado": {
+  "host": "consolidado-supermercado.vercel.app",
+  "code": "200",
+  "title": "🛒 Consolidado de Itens de Supermercado — 2026",
+  "gate": false
+ },
+ "dashboard-long-short": {
+  "host": "dashboard-long-short.vercel.app",
+  "code": "200",
+  "title": "Dashboard Long/Short — Operações",
+  "gate": true
  },
  "alem-do-direito": {
   "host": "alem-do-direito.vercel.app",
@@ -643,9 +649,9 @@
  },
  "procuradoria-civel": {
   "host": "procuradoria-civel.vercel.app",
-  "code": "0",
-  "title": "",
-  "gate": false
+  "code": "200",
+  "title": "Procuradoria de Justiça em Matéria Cível — Movimentação de Processos",
+  "gate": true
  },
  "correicoes-mppe": {
   "host": "correicoes-mppe.vercel.app",
