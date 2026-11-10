@@ -122,6 +122,7 @@ ITENS = [
     ("horta-tirania-dos-juros", "economia", "15 posts conferidos contra as séries do BCB e do BCE"),
     ("watchlist-ti-dashboard", "economia", "Watchlist de ações de tecnologia da informação"),
     ("lft-medo-cambio", "economia", "Quanto da LFT pode virar dólar? Painel analítico"),
+    ("salas-vip-cartoes", "economia", "Salas VIP por cartão: cotas, gasto mínimo e as salas de REC, CGH, BSB e MAD"),
     # ---------------- Política
     ("pesquisas-2turno-2026", "politica", "Calendário das pesquisas do 2º turno presidencial"),
     ("abstencao-capitais-2026", "politica", "Abstenção nas capitais: 1º contra 2º turno"),

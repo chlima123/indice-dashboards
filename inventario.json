@@ -1,8 +1,20 @@
 {
+ "salas-vip-cartoes": {
+  "host": "salas-vip-cartoes.vercel.app",
+  "code": "200",
+  "title": "Salas VIP com os meus cartões — REC · CGH · BSB · MAD",
+  "gate": false
+ },
  "nf-066-2025-cgmp": {
   "host": "nf-066-2025-cgmp.vercel.app",
   "code": "200",
-  "title": "NF 066/2025 · Pronunciamento 324/2025 e Despacho 15/2026 — CGMP/MPPE",
+  "title": "NF 066/2025 · Pronunciamento 324/2025, recurso e Despacho 15/2026 — CGMP/MPPE",
+  "gate": false
+ },
+ "dashboard-long-short": {
+  "host": "dashboard-long-short.vercel.app",
+  "code": "200",
+  "title": "Dashboard Long/Short — Operações",
   "gate": true
  },
  "carteira-acoes-2026": {
@@ -22,12 +34,6 @@
   "code": "200",
   "title": "🛒 Consolidado de Itens de Supermercado — 2026",
   "gate": false
- },
- "dashboard-long-short": {
-  "host": "dashboard-long-short.vercel.app",
-  "code": "200",
-  "title": "Dashboard Long/Short — Operações",
-  "gate": true
  },
  "alem-do-direito": {
   "host": "alem-do-direito.vercel.app",
