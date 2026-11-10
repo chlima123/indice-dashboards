@@ -1,8 +1,8 @@
 {
- "alem-do-direito": {
-  "host": "alem-do-direito.vercel.app",
+ "consolidado-supermercado": {
+  "host": "consolidado-supermercado.vercel.app",
   "code": "200",
-  "title": "Além do Direito — duas versões do painel",
+  "title": "🛒 Consolidado de Itens de Supermercado — 2026",
   "gate": false
  },
  "carteira-acoes-2026": {
@@ -21,6 +21,12 @@
   "host": "distribuicao-caruaru.vercel.app",
   "code": "200",
   "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
+  "gate": false
+ },
+ "alem-do-direito": {
+  "host": "alem-do-direito.vercel.app",
+  "code": "200",
+  "title": "Além do Direito — duas versões do painel",
   "gate": false
  },
  "lft-medo-cambio": {
@@ -117,12 +123,6 @@
   "host": "senado-eua-2026.vercel.app",
   "code": "200",
   "title": "Senado dos EUA 2026 — Apuração e mapa",
-  "gate": false
- },
- "consolidado-supermercado": {
-  "host": "consolidado-supermercado.vercel.app",
-  "code": "200",
-  "title": "🛒 Consolidado de Itens de Supermercado — 2026",
   "gate": false
  },
  "mercado-analitico": {
@@ -643,9 +643,9 @@
  },
  "procuradoria-civel": {
   "host": "procuradoria-civel.vercel.app",
-  "code": "200",
-  "title": "Procuradoria de Justiça em Matéria Cível — Movimentação de Processos",
-  "gate": true
+  "code": "0",
+  "title": "",
+  "gate": false
  },
  "correicoes-mppe": {
   "host": "correicoes-mppe.vercel.app",
