@@ -1,14 +1,14 @@
 {
+ "form-10k-tech-2026": {
+  "host": "form-10k-tech-2026.vercel.app",
+  "code": "200",
+  "title": "Form 10-K · Tech — Doze relatórios anuais, lidos em números",
+  "gate": false
+ },
  "enem-metas-2026": {
   "host": "enem-metas-2026.vercel.app",
   "code": "200",
   "title": "ENEM 2026 — metas de acertos · painel navegável",
-  "gate": false
- },
- "form-10k-tech-2026": {
-  "host": "form-10k-tech-2026.vercel.app",
-  "code": "200",
-  "title": "",
   "gate": false
  },
  "mercado-analitico": {
