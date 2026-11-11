@@ -158,6 +158,23 @@ ITENS = [
     ("consolidado-supermercado", "pessoal", "Consolidado de preços de supermercado 2026"),
 ]
 
+# ---------------------------------------------------------------- externos
+# Painéis que NÃO vivem na Vercel (Streamlit Community Cloud, GitHub Pages
+# sem projeto Vercel etc.). Entram à mão: a API do Vercel não os enxerga.
+# Chaves: n (id), cat, t (título), d (descrição), host, url, lock, locklabel.
+EXTERNOS = [
+    {
+        "n": "enem-nota-simulator",
+        "cat": "livro",
+        "t": "Simulador de nota ENEM — faixas TRI por acertos",
+        "d": "Projeta a nota TRI de cada área pelo nº de acertos (microdados ENEM 2025, INEP) e calcula a nota final ponderada de 109 cursos da UFPE no SiSU 2026, com as notas mínimas eliminatórias de cada prova",
+        "host": "enem-nota-simulator.streamlit.app",
+        "url": "https://enem-nota-simulator-bhtvpbuxhuvargfhumbtxn.streamlit.app/",
+        "lock": True,
+        "locklabel": "Login",
+    },
+]
+
 
 # títulos de reserva para painéis cujo <title> não é útil
 TITULO_RESERVA = {
@@ -625,7 +642,7 @@ TEMPLATE = r"""<!DOCTYPE html>
   <div class="stats">
     <div class="stat"><b>__TOTAL__</b><span>painéis</span></div>
     <div class="stat"><b>__NCAT__</b><span>assuntos</span></div>
-    <div class="stat"><b>__GATED__</b><span>com senha</span></div>
+    <div class="stat"><b>__GATED__</b><span>com senha/login</span></div>
     <div class="stat"><b>__ABERTOS__</b><span>abertos</span></div>
   </div>
 </header>
@@ -648,7 +665,7 @@ TEMPLATE = r"""<!DOCTYPE html>
 </main>
 
 <footer>
-  <p><b>Índice gerado a partir da API do Vercel</b> — <span id="stamp">__STAMP__</span> · __TOTAL__ projetos, um card cada.</p>
+  <p><b>Índice gerado a partir da API do Vercel</b> — <span id="stamp">__STAMP__</span> · __TOTAL__ painéis, um card cada. Painéis fora da Vercel (Streamlit Cloud) entram por lista manual no <code>build.py</code>.</p>
   <p>As senhas dos painéis fechados não ficam nesta página: estão na nota <i>Projetos Vercel</i> do vault (<code>015_HERMES/vercel/</code>). Os links abrem no alias estável <code>&lt;projeto&gt;.vercel.app</code>.</p>
   <p><a href="https://vercel.com/dashboard" target="_blank" rel="noopener">vercel.com/dashboard</a></p>
 </footer>
@@ -887,6 +904,19 @@ def build():
             "lock": bool(info.get("gate")),
         })
 
+    for ex in EXTERNOS:
+        itens.append({
+            "n": ex["n"],
+            "cat": ex["cat"],
+            "catT": CAT[ex["cat"]][0],
+            "t": ex["t"],
+            "d": ex["d"],
+            "host": ex["host"],
+            "url": ex["url"],
+            "lock": bool(ex.get("lock")),
+            "locklabel": ex.get("locklabel", "Senha"),
+        })
+
     ordem = ["mppe", "lei", "juris", "livro", "economia",
              "politica", "saude", "imprensa", "tech", "pessoal"]
     itens.sort(key=lambda x: (ordem.index(x["cat"]), x["t"].lower()))
@@ -909,11 +939,13 @@ def build():
             continue
         cards = []
         for i in doGrupo:
-            cadeado = ('<span class="lock" title="Protegido por senha">'
+            cadeado = ('<span class="lock" title="%s">' % (
+                           "Acesso com login Google (Streamlit Cloud)" if i.get("locklabel") == "Login"
+                           else "Protegido por senha") +
                        '<svg viewBox="0 0 12 12" fill="none" stroke="currentColor" '
                        'stroke-width="1.5"><rect x="2.2" y="5.2" width="7.6" height="5.4" '
                        'rx="1.3"></rect><path d="M4 5.2V3.9a2 2 0 014 0v1.3" stroke-linecap="round">'
-                       '</path></svg>Senha</span>') if i["lock"] else ''
+                       '</path></svg>%s</span>' % i.get("locklabel", "Senha")) if i["lock"] else ''
             cards.append(
                 '<a class="card" href="{url}" target="_blank" rel="noopener" data-n="{n}">'
                 '{lock}<h3>{t}</h3><p>{d}</p>'
