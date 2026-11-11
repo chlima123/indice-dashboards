@@ -25,6 +25,7 @@ CAT = {
     "lei": ("Legislação navegável", "Legislação"),
     "juris": ("Jurisprudência e doutrina", "Jurisprudência"),
     "livro": ("Guias de livros e estudo", "Livros"),
+    "vestibular": ("Vestibular e ENEM", "Vestibular"),
     "economia": ("Economia, mercado e finanças", "Economia"),
     "politica": ("Política e eleições 2026", "Política"),
     "saude": ("Saúde", "Saúde"),
@@ -110,9 +111,10 @@ ITENS = [
     ("guia-sobre-a-alma", "livro", "Sobre a Alma (De Anima), de Aristóteles"),
     ("guia-organon", "livro", "Órganon, de Aristóteles"),
     ("buendia-macondo", "livro", "Cem Anos de Solidão: a estirpe dos Buendía, geração a geração"),
-    ("unicap-medicina-2027", "livro", "Medicina UNICAP 2027.1: o que a prova cobra e o que o curso ensina"),
-    ("fps-medicina-2027", "livro", "Medicina FPS 2027.1: a prova, o conteúdo e o curso"),
-    ("enem-redacao-guia", "livro", "Redação ENEM: repertório, leis e temas prováveis"),
+    # ---------------- Vestibular
+    ("unicap-medicina-2027", "vestibular", "Medicina UNICAP 2027.1: o que a prova cobra e o que o curso ensina"),
+    ("fps-medicina-2027", "vestibular", "Medicina FPS 2027.1: a prova, o conteúdo e o curso"),
+    ("enem-redacao-guia", "vestibular", "Redação ENEM: repertório, leis e temas prováveis"),
     # ---------------- Economia
     ("mercado-analitico", "economia", "Fechamento do pregão de 03/11 · 45 ativos, 8 classes"),
     ("carteira-acoes-2026", "economia", "As 33 empresas da carteira: topo, dia, alertas"),
@@ -165,7 +167,7 @@ ITENS = [
 EXTERNOS = [
     {
         "n": "enem-nota-simulator",
-        "cat": "livro",
+        "cat": "vestibular",
         "t": "Simulador de nota ENEM — faixas TRI por acertos",
         "d": "Projeta a nota TRI de cada área pelo nº de acertos (microdados ENEM 2025, INEP) e calcula a nota final ponderada de 109 cursos da UFPE no SiSU 2026, com as notas mínimas eliminatórias de cada prova",
         "host": "enem-nota-simulator.streamlit.app",
@@ -638,7 +640,7 @@ TEMPLATE = r"""<!DOCTYPE html>
 <header class="hero" id="top">
   <div class="eyebrow"><span class="pip"></span>Conta Vercel · sherpachsl</div>
   <h1>__TOTAL__ dashboards, por assunto.</h1>
-  <p class="dek">Todo painel estático publicado na conta Vercel, agrupado por tema — trabalho no MPPE, leis artigo a artigo, guias de livros, mercado, eleições, saúde e o resto. Os painéis marcados com cadeado pedem senha na entrada.</p>
+  <p class="dek">Todo painel estático publicado na conta Vercel, agrupado por tema — trabalho no MPPE, leis artigo a artigo, guias de livros, vestibular e ENEM, mercado, eleições, saúde e o resto. Os painéis marcados com cadeado pedem senha na entrada.</p>
   <div class="stats">
     <div class="stat"><b>__TOTAL__</b><span>painéis</span></div>
     <div class="stat"><b>__NCAT__</b><span>assuntos</span></div>
@@ -917,7 +919,7 @@ def build():
             "locklabel": ex.get("locklabel", "Senha"),
         })
 
-    ordem = ["mppe", "lei", "juris", "livro", "economia",
+    ordem = ["mppe", "lei", "juris", "livro", "vestibular", "economia",
              "politica", "saude", "imprensa", "tech", "pessoal"]
     itens.sort(key=lambda x: (ordem.index(x["cat"]), x["t"].lower()))
 
