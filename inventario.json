@@ -1,4 +1,34 @@
 {
+ "enem-metas-2026": {
+  "host": "enem-metas-2026.vercel.app",
+  "code": "200",
+  "title": "ENEM 2026 — metas de acertos · painel navegável",
+  "gate": false
+ },
+ "form-10k-tech-2026": {
+  "host": "form-10k-tech-2026.vercel.app",
+  "code": "200",
+  "title": "",
+  "gate": false
+ },
+ "mercado-analitico": {
+  "host": "mercado-analitico.vercel.app",
+  "code": "200",
+  "title": "Dashboard Analítico de Mercado — pregão de 11/11/2026 (14:00)",
+  "gate": false
+ },
+ "distribuicao-caruaru": {
+  "host": "distribuicao-caruaru.vercel.app",
+  "code": "200",
+  "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
+  "gate": false
+ },
+ "carteira-acoes-2026": {
+  "host": "carteira-acoes-2026.vercel.app",
+  "code": "200",
+  "title": "Carteira de ações — snapshot de 30/10/2026",
+  "gate": false
+ },
  "cnmp-correicoes-integradas": {
   "host": "cnmp-correicoes-integradas.vercel.app",
   "code": "200",
@@ -22,18 +52,6 @@
   "code": "200",
   "title": "Dashboard Long/Short — Operações",
   "gate": true
- },
- "carteira-acoes-2026": {
-  "host": "carteira-acoes-2026.vercel.app",
-  "code": "200",
-  "title": "Carteira de ações — snapshot de 30/10/2026",
-  "gate": false
- },
- "distribuicao-caruaru": {
-  "host": "distribuicao-caruaru.vercel.app",
-  "code": "200",
-  "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
-  "gate": false
  },
  "consolidado-supermercado": {
   "host": "consolidado-supermercado.vercel.app",
@@ -141,12 +159,6 @@
   "host": "senado-eua-2026.vercel.app",
   "code": "200",
   "title": "Senado dos EUA 2026 — Apuração e mapa",
-  "gate": false
- },
- "mercado-analitico": {
-  "host": "mercado-analitico.vercel.app",
-  "code": "200",
-  "title": "Dashboard Analítico de Mercado — fechamento de 03/11/2026",
   "gate": false
  },
  "fisher-resende-brazil": {

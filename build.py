@@ -115,8 +115,10 @@ ITENS = [
     ("unicap-medicina-2027", "vestibular", "Medicina UNICAP 2027.1: o que a prova cobra e o que o curso ensina"),
     ("fps-medicina-2027", "vestibular", "Medicina FPS 2027.1: a prova, o conteúdo e o curso"),
     ("enem-redacao-guia", "vestibular", "Redação ENEM: repertório, leis e temas prováveis"),
+    ("enem-metas-2026", "vestibular", "ENEM 2026: metas de acertos por curso — simulador, TRI e mapa de raridade"),
     # ---------------- Economia
     ("mercado-analitico", "economia", "Fechamento do pregão de 03/11 · 45 ativos, 8 classes"),
+    ("form-10k-tech-2026", "economia", "Form 10-K · tech: relatórios anuais das big techs (em preparação)"),
     ("carteira-acoes-2026", "economia", "As 33 empresas da carteira: topo, dia, alertas"),
     ("tesouro-direto-dashboard", "economia", "Cotações e títulos públicos do Tesouro Direto"),
     ("dashboard-long-short", "economia", "Operações long/short do dia, variação e calculadora"),
