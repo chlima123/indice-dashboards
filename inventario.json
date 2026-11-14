@@ -1,21 +1,27 @@
 {
- "form-10k-tech-2026": {
-  "host": "form-10k-tech-2026.vercel.app",
+ "wapo-tdah-esportes": {
+  "host": "wapo-tdah-esportes.vercel.app",
   "code": "200",
-  "title": "Form 10-K · Tech — Doze relatórios anuais, lidos em números",
-  "gate": false
- },
- "enem-metas-2026": {
-  "host": "enem-metas-2026.vercel.app",
-  "code": "200",
-  "title": "ENEM 2026 — metas de acertos · painel navegável",
+  "title": "Esportes “mais cerebrais” e TDAH — Washington Post, 12/11/2026",
   "gate": false
  },
  "mercado-analitico": {
   "host": "mercado-analitico.vercel.app",
   "code": "200",
-  "title": "Dashboard Analítico de Mercado — pregão de 11/11/2026 (14:00)",
+  "title": "Dashboard Analítico de Mercado — pregão de 13/11/2026 (18:00)",
   "gate": false
+ },
+ "carteira-acoes-2026": {
+  "host": "carteira-acoes-2026.vercel.app",
+  "code": "200",
+  "title": "Carteira de ações — snapshot de 30/10/2026",
+  "gate": false
+ },
+ "dashboard-long-short": {
+  "host": "dashboard-long-short.vercel.app",
+  "code": "200",
+  "title": "Dashboard Long/Short — Operações",
+  "gate": true
  },
  "distribuicao-caruaru": {
   "host": "distribuicao-caruaru.vercel.app",
@@ -23,10 +29,58 @@
   "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
   "gate": false
  },
- "carteira-acoes-2026": {
-  "host": "carteira-acoes-2026.vercel.app",
+ "csmp-votos-2026": {
+  "host": "csmp-votos-2026.vercel.app",
   "code": "200",
-  "title": "Carteira de ações — snapshot de 30/10/2026",
+  "title": "⚖️ Votos — CSMP · 11ª Sessão Extraordinária · 18/11/2026",
+  "gate": true
+ },
+ "bioimpedancia-charles-v2": {
+  "host": "bioimpedancia-charles-v2.vercel.app",
+  "code": "200",
+  "title": "Composição Corporal — Charles · InBody 120",
+  "gate": true
+ },
+ "bioimpedancia-charles": {
+  "host": "bioimpedancia-charles.vercel.app",
+  "code": "200",
+  "title": "Composição Corporal — Charles · InBody 120",
+  "gate": true
+ },
+ "consolidado-supermercado": {
+  "host": "consolidado-supermercado.vercel.app",
+  "code": "200",
+  "title": "🛒 Consolidado de Itens de Supermercado — 2026",
+  "gate": false
+ },
+ "tao-da-fisica": {
+  "host": "tao-da-fisica.vercel.app",
+  "code": "200",
+  "title": "O Tao da Física — guia interativo",
+  "gate": false
+ },
+ "form-10k-tech-2026": {
+  "host": "form-10k-tech-2026.vercel.app",
+  "code": "200",
+  "title": "Form 10-K · Tech — Dezesseis relatórios anuais, lidos em números",
+  "gate": false
+ },
+ "resolucao-residencia-mppe-2026": {
+  "host": "resolucao-residencia-mppe-2026.vercel.app",
+  "code": "200",
+  "title": "Residência na comarca · Proposta de Resolução Conjunta PGJ–CGMP (MPPE, 2026)",
+  "gate": false
+ },
+ "china-20-dias": {
+  "host": "china-20-dias.vercel.app",
+  "code": "200",
+  "title": "China em 20 Dias — Roteiro com Mapa Interativo",
+  "gate": false
+ },
+ "enem-metas-2026": {
+  "host": "enem-metas-2026.vercel.app",
+  "code": "200",
+  "title": "ENEM 2026 — metas de acertos · painel navegável",
   "gate": false
  },
  "cnmp-correicoes-integradas": {
@@ -45,18 +99,6 @@
   "host": "nf-066-2025-cgmp.vercel.app",
   "code": "200",
   "title": "NF 066/2025 · Pronunciamento 324/2025, recurso e Despacho 15/2026 — CGMP/MPPE",
-  "gate": false
- },
- "dashboard-long-short": {
-  "host": "dashboard-long-short.vercel.app",
-  "code": "200",
-  "title": "Dashboard Long/Short — Operações",
-  "gate": true
- },
- "consolidado-supermercado": {
-  "host": "consolidado-supermercado.vercel.app",
-  "code": "200",
-  "title": "🛒 Consolidado de Itens de Supermercado — 2026",
   "gate": false
  },
  "alem-do-direito": {
@@ -137,12 +179,6 @@
   "title": "Câmara Regional de Caruaru — competência territorial (TJPE)",
   "gate": false
  },
- "resolucao-residencia-mppe-2026": {
-  "host": "resolucao-residencia-mppe-2026.vercel.app",
-  "code": "200",
-  "title": "Residência na comarca · Proposta de Resolução Conjunta PGJ–CGMP (MPPE, 2026)",
-  "gate": false
- },
  "gaju-mps-2026": {
   "host": "gaju-mps-2026.vercel.app",
   "code": "200",
@@ -202,12 +238,6 @@
   "code": "200",
   "title": "Vade Mecum Digital — Índice de Painéis Navegáveis",
   "gate": false
- },
- "csmp-votos-2026": {
-  "host": "csmp-votos-2026.vercel.app",
-  "code": "200",
-  "title": "⚖️ Votos — CSMP · Sessão de 04/11/2026",
-  "gate": true
  },
  "carta-flavio-bolsonaro-2026": {
   "host": "carta-flavio-bolsonaro-2026.vercel.app",
@@ -316,12 +346,6 @@
   "code": "200",
   "title": "Temas repetitivos do STJ — saúde e planos de saúde",
   "gate": false
- },
- "bioimpedancia-charles": {
-  "host": "bioimpedancia-charles.vercel.app",
-  "code": "200",
-  "title": "Composição Corporal — Charles · InBody 120",
-  "gate": true
  },
  "ms-dashboard": {
   "host": "ms-dashboard-eight.vercel.app",
@@ -466,12 +490,6 @@
   "code": "200",
   "title": "Gramsci: Um Estudo Sobre Seu Pensamento Político — Guia Interativo · Carlos Nelson Coutinho",
   "gate": true
- },
- "tao-da-fisica": {
-  "host": "tao-da-fisica.vercel.app",
-  "code": "200",
-  "title": "O Tao da Física — Guia Interativo e Compreensivo (Fritjof Capra)",
-  "gate": false
  },
  "manual-portugues-redacao-juridica": {
   "host": "manual-portugues-redacao-juridica.vercel.app",

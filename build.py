@@ -118,7 +118,7 @@ ITENS = [
     ("enem-metas-2026", "vestibular", "ENEM 2026: metas de acertos por curso — simulador, TRI e mapa de raridade"),
     # ---------------- Economia
     ("mercado-analitico", "economia", "Fechamento do pregão de 03/11 · 45 ativos, 8 classes"),
-    ("form-10k-tech-2026", "economia", "12 relatórios anuais: big techs, semicondutores e infraestrutura"),
+    ("form-10k-tech-2026", "economia", "14 relatórios anuais: big techs, semicondutores e infraestrutura"),
     ("carteira-acoes-2026", "economia", "As 33 empresas da carteira: topo, dia, alertas"),
     ("tesouro-direto-dashboard", "economia", "Cotações e títulos públicos do Tesouro Direto"),
     ("dashboard-long-short", "economia", "Operações long/short do dia, variação e calculadora"),
@@ -138,8 +138,11 @@ ITENS = [
     ("oqueestaemjogo-celular", "politica", "O que está em jogo na sua cidade, por CEP"),
     # ---------------- Saúde
     ("bioimpedancia-charles", "saude", "Composição corporal InBody 120 · 6 medições"),
+    ("bioimpedancia-charles-v2", "saude", "Composição corporal — Charles · InBody 120 (versão 2)"),
+    ("china-20-dias", "pessoal", "Roteiro de 20 dias pela China em 7 bases, com mapa interativo"),
     ("exames-joemia-2026", "saude", "Resultados de exames de Ana Joêmia · 25/08"),
     ("judicializacao-planos-saude", "saude", "Relatório 2026 da judicialização de planos de saúde"),
+    ("wapo-tdah-esportes", "saude", "TDAH e esporte: habilidade aberta × fechada, dose em MET-min e o que ainda é hipótese"),
     ("guia-judicializacao-saude", "saude", "Guia interativo da judicialização da saúde"),
     ("ancora-judicializacao-saude", "saude", "Âncora do acervo audiovisual sobre judicialização"),
     ("genetica-medica-carreiras-2026", "saude", "Geneticista médico × não-médico: pisos e tetos de remuneração"),
