@@ -1,4 +1,22 @@
 {
+ "dashboard-faturas-cartoes": {
+  "host": "dashboard-faturas-cartoes.vercel.app",
+  "code": "200",
+  "title": "Faturas de cartão · até outubro de 2026",
+  "gate": true
+ },
+ "dashboard-long-short": {
+  "host": "dashboard-long-short.vercel.app",
+  "code": "200",
+  "title": "Dashboard Long/Short — Operações",
+  "gate": true
+ },
+ "distribuicao-caruaru": {
+  "host": "distribuicao-caruaru.vercel.app",
+  "code": "200",
+  "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
+  "gate": false
+ },
  "wapo-tdah-esportes": {
   "host": "wapo-tdah-esportes.vercel.app",
   "code": "200",
@@ -15,18 +33,6 @@
   "host": "carteira-acoes-2026.vercel.app",
   "code": "200",
   "title": "Carteira de ações — snapshot de 30/10/2026",
-  "gate": false
- },
- "dashboard-long-short": {
-  "host": "dashboard-long-short.vercel.app",
-  "code": "200",
-  "title": "Dashboard Long/Short — Operações",
-  "gate": true
- },
- "distribuicao-caruaru": {
-  "host": "distribuicao-caruaru.vercel.app",
-  "code": "200",
-  "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
   "gate": false
  },
  "csmp-votos-2026": {
