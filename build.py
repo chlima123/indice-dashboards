@@ -111,6 +111,7 @@ ITENS = [
     ("guia-sobre-a-alma", "livro", "Sobre a Alma (De Anima), de Aristóteles"),
     ("guia-organon", "livro", "Órganon, de Aristóteles"),
     ("buendia-macondo", "livro", "Cem Anos de Solidão: a estirpe dos Buendía, geração a geração"),
+    ("leitura-ativa-metodo", "livro", "Como lembrar de tudo o que você lê: 8 heurísticas de leitura ativa"),
     # ---------------- Vestibular
     ("unicap-medicina-2027", "vestibular", "Medicina UNICAP 2027.1: o que a prova cobra e o que o curso ensina"),
     ("fps-medicina-2027", "vestibular", "Medicina FPS 2027.1: a prova, o conteúdo e o curso"),

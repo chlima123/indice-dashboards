@@ -1,8 +1,8 @@
 {
- "dashboard-faturas-cartoes": {
-  "host": "dashboard-faturas-cartoes.vercel.app",
+ "bioimpedancia-charles": {
+  "host": "bioimpedancia-charles.vercel.app",
   "code": "200",
-  "title": "Faturas de cartão · até outubro de 2026",
+  "title": "Composição Corporal — Charles · InBody 120",
   "gate": true
  },
  "dashboard-long-short": {
@@ -16,6 +16,18 @@
   "code": "200",
   "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
   "gate": false
+ },
+ "leitura-ativa-metodo": {
+  "host": "leitura-ativa-metodo.vercel.app",
+  "code": "200",
+  "title": "Como lembrar de tudo o que você lê — Leitura Ativa",
+  "gate": false
+ },
+ "dashboard-faturas-cartoes": {
+  "host": "dashboard-faturas-cartoes.vercel.app",
+  "code": "200",
+  "title": "Faturas de cartão · até outubro de 2026",
+  "gate": true
  },
  "wapo-tdah-esportes": {
   "host": "wapo-tdah-esportes.vercel.app",
@@ -43,12 +55,6 @@
  },
  "bioimpedancia-charles-v2": {
   "host": "bioimpedancia-charles-v2.vercel.app",
-  "code": "200",
-  "title": "Composição Corporal — Charles · InBody 120",
-  "gate": true
- },
- "bioimpedancia-charles": {
-  "host": "bioimpedancia-charles.vercel.app",
   "code": "200",
   "title": "Composição Corporal — Charles · InBody 120",
   "gate": true
