@@ -1,4 +1,16 @@
 {
+ "jardim-praca-saldanha": {
+  "host": "jardim-praca-saldanha.vercel.app",
+  "code": "200",
+  "title": "O Jardim e a Praça — Nelson Saldanha (1983) · o privado e o público lidos num painel",
+  "gate": false
+ },
+ "dashboard-long-short": {
+  "host": "dashboard-long-short.vercel.app",
+  "code": "200",
+  "title": "Dashboard Long/Short — Operações",
+  "gate": true
+ },
  "anpc-csmp-mppe": {
   "host": "anpc-csmp-mppe.vercel.app",
   "code": "200",
@@ -39,12 +51,6 @@
   "host": "bioimpedancia-charles.vercel.app",
   "code": "200",
   "title": "Composição Corporal — Charles · InBody 120",
-  "gate": true
- },
- "dashboard-long-short": {
-  "host": "dashboard-long-short.vercel.app",
-  "code": "200",
-  "title": "Dashboard Long/Short — Operações",
   "gate": true
  },
  "leitura-ativa-metodo": {

@@ -97,6 +97,7 @@ ITENS = [
     ("relevancia-questao-federal", "juris", "Relevância da questão federal no REsp"),
     # ---------------- Guias de livros
     ("gramsci-coutinho", "livro", "Gramsci: um estudo sobre seu pensamento político"),
+    ("jardim-praca-saldanha", "livro", "O Jardim e a Praça, de Nelson Saldanha (1983): privado × público, espectro e a dupla carência brasileira"),
     ("kant-metafisica-costumes", "livro", "A Metafísica dos Costumes, de Kant"),
     ("condicao-humana", "livro", "A Condição Humana, de Hannah Arendt"),
     ("huntington-choque-civilizacoes", "livro", "O Choque das Civilizações, de Huntington"),
