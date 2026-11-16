@@ -1,4 +1,16 @@
 {
+ "vade-mecum-digital": {
+  "host": "vade-mecum-digital.vercel.app",
+  "code": "200",
+  "title": "Vade Mecum Digital — Índice de Painéis Navegáveis",
+  "gate": false
+ },
+ "cpp-dashboard": {
+  "host": "cpp-dashboard-nine.vercel.app",
+  "code": "200",
+  "title": "CPP Navegável — Código de Processo Penal (Decreto-Lei 3.689/1941)",
+  "gate": false
+ },
  "bioimpedancia-charles": {
   "host": "bioimpedancia-charles.vercel.app",
   "code": "200",
@@ -243,12 +255,6 @@
   "host": "ritjpe-dashboard.vercel.app",
   "code": "200",
   "title": "RITJPE Navegável — Regimento Interno do TJPE (Resolução 395/2017)",
-  "gate": false
- },
- "vade-mecum-digital": {
-  "host": "vade-mecum-digital.vercel.app",
-  "code": "200",
-  "title": "Vade Mecum Digital — Índice de Painéis Navegáveis",
   "gate": false
  },
  "carta-flavio-bolsonaro-2026": {

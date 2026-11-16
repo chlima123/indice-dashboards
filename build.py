@@ -76,6 +76,7 @@ ITENS = [
     ("constituicao-e-o-supremo", "lei", "CF/88 anotada pelo STF · 8.888 julgados por artigo"),
     ("cc-dashboard", "lei", "Código Civil navegável · 2.083 dispositivos"),
     ("cpc-dashboard", "lei", "CPC navegável · 1.074 dispositivos"),
+    ("cpp-dashboard", "lei", "CPP navegável · 853 dispositivos (DL 3.689/1941)"),
     ("cdc-dashboard", "lei", "CDC 8.078/1990 artigo a artigo"),
     ("eca-dashboard", "lei", "ECA 8.069/1990 · 329 dispositivos"),
     ("lacp-dashboard", "lei", "Lei de Ação Civil Pública 7.347/1985"),
