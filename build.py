@@ -57,6 +57,7 @@ ITENS = [
     ("mppe-designacoes-cgmp-ativas", "mppe", "Designações por membro · CGMP 2023–2026"),
     ("vitaliciamento-csmp-2109", "mppe", "Vitaliciamento · sessão do CSMP de 21/09"),
     ("csmp-votos-2026", "mppe", "Votos da sessão do CSMP de 04/11/2026"),
+    ("anpc-csmp-mppe", "mppe", "ANPC no CSMP/MPPE — 19 casos apreciados, nenhum firmado judicialmente"),
     ("cpj-2a-sessao-2026", "mppe", "2ª Sessão do CPJ, com os 5 painéis embutidos"),
     ("gaju-mps-2026", "mppe", "GAJU/GECJAO nos Ministérios Públicos — Brasil 2026"),
     ("papj-estudo-qualitativo", "mppe", "Estudo qualitativo do PAPJ (oficina AMPEO)"),

@@ -1,14 +1,38 @@
 {
- "vade-mecum-digital": {
-  "host": "vade-mecum-digital.vercel.app",
+ "anpc-csmp-mppe": {
+  "host": "anpc-csmp-mppe.vercel.app",
   "code": "200",
-  "title": "Vade Mecum Digital — Índice de Painéis Navegáveis",
+  "title": "ANPC no CSMP/MPPE — 19 casos apreciados (2025–2026)",
+  "gate": true
+ },
+ "carteira-acoes-2026": {
+  "host": "carteira-acoes-2026.vercel.app",
+  "code": "200",
+  "title": "Carteira de ações — snapshot de 30/10/2026",
+  "gate": false
+ },
+ "mercado-analitico": {
+  "host": "mercado-analitico.vercel.app",
+  "code": "200",
+  "title": "Dashboard Analítico de Mercado — pregão de 16/11/2026 (16:01)",
+  "gate": false
+ },
+ "distribuicao-caruaru": {
+  "host": "distribuicao-caruaru.vercel.app",
+  "code": "200",
+  "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
   "gate": false
  },
  "cpp-dashboard": {
   "host": "cpp-dashboard-nine.vercel.app",
   "code": "200",
   "title": "CPP Navegável — Código de Processo Penal (Decreto-Lei 3.689/1941)",
+  "gate": false
+ },
+ "vade-mecum-digital": {
+  "host": "vade-mecum-digital.vercel.app",
+  "code": "200",
+  "title": "Vade Mecum Digital — Índice de Painéis Navegáveis",
   "gate": false
  },
  "bioimpedancia-charles": {
@@ -22,12 +46,6 @@
   "code": "200",
   "title": "Dashboard Long/Short — Operações",
   "gate": true
- },
- "distribuicao-caruaru": {
-  "host": "distribuicao-caruaru.vercel.app",
-  "code": "200",
-  "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
-  "gate": false
  },
  "leitura-ativa-metodo": {
   "host": "leitura-ativa-metodo.vercel.app",
@@ -45,18 +63,6 @@
   "host": "wapo-tdah-esportes.vercel.app",
   "code": "200",
   "title": "Esportes “mais cerebrais” e TDAH — Washington Post, 12/11/2026",
-  "gate": false
- },
- "mercado-analitico": {
-  "host": "mercado-analitico.vercel.app",
-  "code": "200",
-  "title": "Dashboard Analítico de Mercado — pregão de 13/11/2026 (18:00)",
-  "gate": false
- },
- "carteira-acoes-2026": {
-  "host": "carteira-acoes-2026.vercel.app",
-  "code": "200",
-  "title": "Carteira de ações — snapshot de 30/10/2026",
   "gate": false
  },
  "csmp-votos-2026": {
