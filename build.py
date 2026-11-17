@@ -119,6 +119,7 @@ ITENS = [
     ("unicap-medicina-2027", "vestibular", "Medicina UNICAP 2027.1: o que a prova cobra e o que o curso ensina"),
     ("fps-medicina-2027", "vestibular", "Medicina FPS 2027.1: a prova, o conteúdo e o curso"),
     ("fps-programa-vs-provas-2027", "vestibular", "Programa 2027.1 × 8 provas: recorrência dos 181 itens, classe A a D"),
+    ("fps-itens-videos", "vestibular", "Itens A/B/C do programa FPS 2027.1 ligados aos vídeos do canal Academia FB"),
     ("enem-redacao-guia", "vestibular", "Redação ENEM: repertório, leis e temas prováveis"),
     ("enem-metas-2026", "vestibular", "ENEM 2026: metas de acertos por curso — simulador, TRI e mapa de raridade"),
     # ---------------- Economia

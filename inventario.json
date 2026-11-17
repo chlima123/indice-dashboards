@@ -1,4 +1,10 @@
 {
+ "fps-itens-videos": {
+  "host": "fps-itens-videos.vercel.app",
+  "code": "200",
+  "title": "FPS 2027.1 · Itens A/B/C × vídeos da Academia FB",
+  "gate": false
+ },
  "fps-programa-vs-provas-2027": {
   "host": "fps-programa-vs-provas-2027.vercel.app",
   "code": "200",
