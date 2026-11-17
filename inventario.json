@@ -1,4 +1,16 @@
 {
+ "fps-programa-vs-provas-2027": {
+  "host": "fps-programa-vs-provas-2027.vercel.app",
+  "code": "200",
+  "title": "Programa 2027.1 × Provas FPS",
+  "gate": false
+ },
+ "mercado-analitico": {
+  "host": "mercado-analitico.vercel.app",
+  "code": "200",
+  "title": "Dashboard Analítico de Mercado — pregão de 16/11/2026 (18:01)",
+  "gate": false
+ },
  "jardim-praca-saldanha": {
   "host": "jardim-praca-saldanha.vercel.app",
   "code": "200",
@@ -21,12 +33,6 @@
   "host": "carteira-acoes-2026.vercel.app",
   "code": "200",
   "title": "Carteira de ações — snapshot de 30/10/2026",
-  "gate": false
- },
- "mercado-analitico": {
-  "host": "mercado-analitico.vercel.app",
-  "code": "200",
-  "title": "Dashboard Analítico de Mercado — pregão de 16/11/2026 (16:01)",
   "gate": false
  },
  "distribuicao-caruaru": {
