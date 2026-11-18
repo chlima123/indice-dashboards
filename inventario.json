@@ -1,4 +1,172 @@
 {
+ "cointeligencia": {
+  "host": "cointeligencia.vercel.app",
+  "code": "200",
+  "title": "Cointeligência — Ethan Mollick | Guia de leitura",
+  "gate": false
+ },
+ "quadro-membros-mppe": {
+  "host": "quadro-membros-mppe.vercel.app",
+  "code": "200",
+  "title": "Quadro Geral de Membros — MPPE · Conjunto A",
+  "gate": true
+ },
+ "carteira-acoes-2026": {
+  "host": "carteira-acoes-2026.vercel.app",
+  "code": "200",
+  "title": "Carteira de ações — snapshot de 30/10/2026",
+  "gate": false
+ },
+ "mercado-analitico": {
+  "host": "mercado-analitico.vercel.app",
+  "code": "200",
+  "title": "Dashboard Analítico de Mercado — pregão de 18/11/2026 (15:01)",
+  "gate": false
+ },
+ "distribuicao-caruaru": {
+  "host": "distribuicao-caruaru.vercel.app",
+  "code": "200",
+  "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
+  "gate": false
+ },
+ "vade-mecum-mobile": {
+  "host": "vade-mecum-mobile.vercel.app",
+  "code": "200",
+  "title": "Vade Mecum Digital — Índice Mobile",
+  "gate": false
+ },
+ "vade-mecum-digital": {
+  "host": "vade-mecum-digital.vercel.app",
+  "code": "200",
+  "title": "Vade Mecum Digital — Índice de Painéis Navegáveis",
+  "gate": false
+ },
+ "mci-dashboard": {
+  "host": "mci-dashboard-eight.vercel.app",
+  "code": "200",
+  "title": "Marco Civil da Internet Navegável — Lei nº 12.965/2014",
+  "gate": false
+ },
+ "era-da-ia": {
+  "host": "era-da-ia.vercel.app",
+  "code": "200",
+  "title": "A Era da IA — Kissinger, Schmidt, Huttenlocher | Guia de leitura",
+  "gate": false
+ },
+ "nvidia-3tri-2026": {
+  "host": "nvidia-3tri-2026.vercel.app",
+  "code": "200",
+  "title": "Nvidia · 3º trimestre de 2026 — receita dobrou, ação em queda",
+  "gate": false
+ },
+ "ft-ecb-ia-divida": {
+  "host": "ft-ecb-ia-divida.vercel.app",
+  "code": "200",
+  "title": "Farra de dívida da IA tem ‘paralelos históricos’ com a bolha subprime, diz BCE — FT, 18/11/2026",
+  "gate": false
+ },
+ "ritjpe-titulo-vi-julgamento": {
+  "host": "ritjpe-titulo-vi-julgamento.vercel.app",
+  "code": "200",
+  "title": "Do Julgamento — RITJPE · Guia Artigo a Artigo",
+  "gate": false
+ },
+ "ritjpe-dashboard": {
+  "host": "ritjpe-dashboard.vercel.app",
+  "code": "200",
+  "title": "Do Julgamento — RITJPE · Guia Artigo a Artigo",
+  "gate": false
+ },
+ "ms-dashboard": {
+  "host": "ms-dashboard-eight.vercel.app",
+  "code": "200",
+  "title": "Mandado de Segurança Navegável — Lei nº 12.016/2009",
+  "gate": false
+ },
+ "lacp-dashboard": {
+  "host": "lacp-dashboard-rho.vercel.app",
+  "code": "200",
+  "title": "Lei de Ação Civil Pública Navegável — Lei nº 7.347/1985",
+  "gate": false
+ },
+ "l9656-dashboard": {
+  "host": "l9656-dashboard.vercel.app",
+  "code": "200",
+  "title": "Lei dos Planos de Saúde Navegável — Lei nº 9.656/1998",
+  "gate": false
+ },
+ "l14133-dashboard": {
+  "host": "l14133-dashboard.vercel.app",
+  "code": "200",
+  "title": "Lei de Licitações e Contratos Navegável — Lei nº 14.133/2021",
+  "gate": false
+ },
+ "improbidade-dashboard": {
+  "host": "improbidade-dashboard.vercel.app",
+  "code": "200",
+  "title": "Improbidade Navegável — Lei nº 8.429/1992 (Lei de Improbidade Administrativa)",
+  "gate": false
+ },
+ "eca-dashboard": {
+  "host": "eca-dashboard-indol.vercel.app",
+  "code": "200",
+  "title": "ECA Navegável — Estatuto da Criança e do Adolescente (Lei 8.069/1990)",
+  "gate": false
+ },
+ "cpp-dashboard": {
+  "host": "cpp-dashboard-nine.vercel.app",
+  "code": "200",
+  "title": "CPP Navegável — Código de Processo Penal (Decreto-Lei 3.689/1941)",
+  "gate": false
+ },
+ "cpc-dashboard": {
+  "host": "cpc-dashboard-tan.vercel.app",
+  "code": "200",
+  "title": "CPC Navegável — Código de Processo Civil (Lei 13.105/2015)",
+  "gate": false
+ },
+ "cf-dashboard": {
+  "host": "cf-dashboard-lac.vercel.app",
+  "code": "200",
+  "title": "Constituição Federal Navegável — CF/1988 e ADCT",
+  "gate": false
+ },
+ "cdc-dashboard": {
+  "host": "cdc-dashboard-self.vercel.app",
+  "code": "200",
+  "title": "Código de Defesa do Consumidor Navegável — Lei nº 8.078/1990",
+  "gate": false
+ },
+ "cc-dashboard": {
+  "host": "cc-dashboard-woad.vercel.app",
+  "code": "200",
+  "title": "Código Civil Navegável — Lei 10.406/2002",
+  "gate": false
+ },
+ "alimentos-dashboard": {
+  "host": "alimentos-dashboard-chi.vercel.app",
+  "code": "200",
+  "title": "Lei de Alimentos Navegável — Lei nº 5.478/1968",
+  "gate": false
+ },
+ "lindb-dashboard": {
+  "host": "lindb-dashboard.vercel.app",
+  "code": "200",
+  "title": "LINDB Navegável — Lei de Introdução às Normas do Direito Brasileiro",
+  "gate": false
+ },
+ "dashboard-long-short": {
+  "host": "dashboard-long-short.vercel.app",
+  "code": "200",
+  "title": "Dashboard Long/Short — Operações",
+  "gate": true
+ },
+ "consolidado-supermercado": {
+  "host": "consolidado-supermercado.vercel.app",
+  "code": "200",
+  "title": "🛒 Consolidado de Itens de Supermercado — 2026",
+  "gate": false
+ },
  "fps-itens-videos": {
   "host": "fps-itens-videos.vercel.app",
   "code": "200",
@@ -11,53 +179,17 @@
   "title": "Programa 2027.1 × Provas FPS",
   "gate": false
  },
- "mercado-analitico": {
-  "host": "mercado-analitico.vercel.app",
-  "code": "200",
-  "title": "Dashboard Analítico de Mercado — pregão de 16/11/2026 (18:01)",
-  "gate": false
- },
  "jardim-praca-saldanha": {
   "host": "jardim-praca-saldanha.vercel.app",
   "code": "200",
   "title": "O Jardim e a Praça — Nelson Saldanha (1983) · o privado e o público lidos num painel",
   "gate": false
  },
- "dashboard-long-short": {
-  "host": "dashboard-long-short.vercel.app",
-  "code": "200",
-  "title": "Dashboard Long/Short — Operações",
-  "gate": true
- },
  "anpc-csmp-mppe": {
   "host": "anpc-csmp-mppe.vercel.app",
   "code": "200",
   "title": "ANPC no CSMP/MPPE — 19 casos apreciados (2025–2026)",
   "gate": true
- },
- "carteira-acoes-2026": {
-  "host": "carteira-acoes-2026.vercel.app",
-  "code": "200",
-  "title": "Carteira de ações — snapshot de 30/10/2026",
-  "gate": false
- },
- "distribuicao-caruaru": {
-  "host": "distribuicao-caruaru.vercel.app",
-  "code": "200",
-  "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
-  "gate": false
- },
- "cpp-dashboard": {
-  "host": "cpp-dashboard-nine.vercel.app",
-  "code": "200",
-  "title": "CPP Navegável — Código de Processo Penal (Decreto-Lei 3.689/1941)",
-  "gate": false
- },
- "vade-mecum-digital": {
-  "host": "vade-mecum-digital.vercel.app",
-  "code": "200",
-  "title": "Vade Mecum Digital — Índice de Painéis Navegáveis",
-  "gate": false
  },
  "bioimpedancia-charles": {
   "host": "bioimpedancia-charles.vercel.app",
@@ -94,12 +226,6 @@
   "code": "200",
   "title": "Composição Corporal — Charles · InBody 120",
   "gate": true
- },
- "consolidado-supermercado": {
-  "host": "consolidado-supermercado.vercel.app",
-  "code": "200",
-  "title": "🛒 Consolidado de Itens de Supermercado — 2026",
-  "gate": false
  },
  "tao-da-fisica": {
   "host": "tao-da-fisica.vercel.app",
@@ -275,12 +401,6 @@
   "title": "Achados do DJEN — 30/10/2026 (32 ações)",
   "gate": true
  },
- "ritjpe-dashboard": {
-  "host": "ritjpe-dashboard.vercel.app",
-  "code": "200",
-  "title": "RITJPE Navegável — Regimento Interno do TJPE (Resolução 395/2017)",
-  "gate": false
- },
  "carta-flavio-bolsonaro-2026": {
   "host": "carta-flavio-bolsonaro-2026.vercel.app",
   "code": "200",
@@ -335,12 +455,6 @@
   "title": "PULWTOP | Dashboard Mac Mini M4",
   "gate": false
  },
- "improbidade-dashboard": {
-  "host": "improbidade-dashboard.vercel.app",
-  "code": "200",
-  "title": "Improbidade Navegável — Lei nº 8.429/1992 (Lei de Improbidade Administrativa)",
-  "gate": false
- },
  "mppe-designacoes-cgmp-ativas": {
   "host": "mppe-designacoes-cgmp-ativas.vercel.app",
   "code": "200",
@@ -359,40 +473,16 @@
   "title": "Consulta de Seções Eleitorais Alteradas — 2º Turno 2026",
   "gate": false
  },
- "quadro-membros-mppe": {
-  "host": "quadro-membros-mppe.vercel.app",
-  "code": "200",
-  "title": "Quadro Geral de Membros — MPPE · Conjunto A",
-  "gate": true
- },
- "cf-dashboard": {
-  "host": "cf-dashboard-lac.vercel.app",
-  "code": "200",
-  "title": "Constituição Federal Navegável — CF/1988 e ADCT",
-  "gate": false
- },
  "vestigios-da-noite": {
   "host": "vestigios-da-noite.vercel.app",
   "code": "200",
   "title": "Os vestígios da noite — dossiê navegável",
   "gate": false
  },
- "l9656-dashboard": {
-  "host": "l9656-dashboard.vercel.app",
-  "code": "200",
-  "title": "Lei dos Planos de Saúde Navegável — Lei nº 9.656/1998",
-  "gate": false
- },
  "temas-stj-saude": {
   "host": "temas-stj-saude.vercel.app",
   "code": "200",
   "title": "Temas repetitivos do STJ — saúde e planos de saúde",
-  "gate": false
- },
- "ms-dashboard": {
-  "host": "ms-dashboard-eight.vercel.app",
-  "code": "200",
-  "title": "Mandado de Segurança Navegável — Lei nº 12.016/2009",
   "gate": false
  },
  "constituicao-e-o-supremo": {
@@ -443,30 +533,6 @@
   "title": "Judicialização da Saúde — Guia Interativo",
   "gate": false
  },
- "cdc-dashboard": {
-  "host": "cdc-dashboard-self.vercel.app",
-  "code": "200",
-  "title": "Código de Defesa do Consumidor Navegável — Lei nº 8.078/1990",
-  "gate": false
- },
- "eca-dashboard": {
-  "host": "eca-dashboard-indol.vercel.app",
-  "code": "200",
-  "title": "ECA Navegável — Estatuto da Criança e do Adolescente (Lei 8.069/1990)",
-  "gate": false
- },
- "lacp-dashboard": {
-  "host": "lacp-dashboard-rho.vercel.app",
-  "code": "200",
-  "title": "Lei de Ação Civil Pública Navegável — Lei nº 7.347/1985",
-  "gate": false
- },
- "alimentos-dashboard": {
-  "host": "alimentos-dashboard-chi.vercel.app",
-  "code": "200",
-  "title": "Lei de Alimentos Navegável — Lei nº 5.478/1968",
-  "gate": false
- },
  "camara-regional-caruaru": {
   "host": "camara-regional-caruaru.vercel.app",
   "code": "200",
@@ -501,18 +567,6 @@
   "host": "okinawa-vanekairi.vercel.app",
   "code": "200",
   "title": "Okinawa Navegável — Caderno de Viagem (OMO5 Naha &amp; Hoshino Resorts)",
-  "gate": false
- },
- "cc-dashboard": {
-  "host": "cc-dashboard-woad.vercel.app",
-  "code": "200",
-  "title": "Código Civil Navegável — Lei 10.406/2002",
-  "gate": false
- },
- "cpc-dashboard": {
-  "host": "cpc-dashboard-tan.vercel.app",
-  "code": "200",
-  "title": "CPC Navegável — Código de Processo Civil (Lei 13.105/2015)",
   "gate": false
  },
  "vault-grapho-chlima123": {
@@ -694,12 +748,6 @@
   "code": "200",
   "title": "Acórdão ADI 6606 STF · Teto Constitucional e Regime Remuneratório",
   "gate": true
- },
- "ritjpe-titulo-vi-julgamento": {
-  "host": "ritjpe-titulo-vi-julgamento.vercel.app",
-  "code": "200",
-  "title": "Do Julgamento — RITJPE · Guia Artigo a Artigo",
-  "gate": false
  },
  "vault-chlima123": {
   "host": "vault-chlima123.vercel.app",

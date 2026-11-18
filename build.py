@@ -87,6 +87,10 @@ ITENS = [
     ("improbidade-dashboard", "lei", "Lei de Improbidade Administrativa 8.429/1992"),
     ("ritjpe-dashboard", "lei", "Regimento Interno do TJPE navegável"),
     ("ritjpe-titulo-vi-julgamento", "lei", "RITJPE, Título VI — Do Julgamento, artigo a artigo"),
+    ("l14133-dashboard", "lei", "Lei de Licitações e Contratos 14.133/2021, artigo a artigo"),
+    ("lindb-dashboard", "lei", "LINDB (DL 4.657/1942) navegável, artigo a artigo"),
+    ("mci-dashboard", "lei", "Marco Civil da Internet 12.965/2014, artigo a artigo"),
+    ("vade-mecum-mobile", "lei", "Vade Mecum Digital — índice mobile dos 14 painéis · 5.354 dispositivos"),
     # ---------------- Jurisprudência
     ("ementario-cnmp", "juris", "Ementário do Conselho Nacional do Ministério Público"),
     ("ementario-cgmp-rs", "juris", "Ementário da Corregedoria-Geral do MP do RS"),
@@ -115,6 +119,8 @@ ITENS = [
     ("guia-organon", "livro", "Órganon, de Aristóteles"),
     ("buendia-macondo", "livro", "Cem Anos de Solidão: a estirpe dos Buendía, geração a geração"),
     ("leitura-ativa-metodo", "livro", "Como lembrar de tudo o que você lê: 8 heurísticas de leitura ativa"),
+    ("era-da-ia", "livro", "A Era da IA (Kissinger, Schmidt e Huttenlocher): argumento, 7 capítulos e linha do tempo"),
+    ("cointeligencia", "livro", "Cointeligência, de Ethan Mollick: guia de leitura em 19 views"),
     # ---------------- Vestibular
     ("unicap-medicina-2027", "vestibular", "Medicina UNICAP 2027.1: o que a prova cobra e o que o curso ensina"),
     ("fps-medicina-2027", "vestibular", "Medicina FPS 2027.1: a prova, o conteúdo e o curso"),
@@ -135,6 +141,7 @@ ITENS = [
     ("lft-medo-cambio", "economia", "Quanto da LFT pode virar dólar? Painel analítico"),
     ("salas-vip-cartoes", "economia", "Salas VIP por cartão: cotas, gasto mínimo e as salas de REC, CGH, BSB e MAD"),
     ("dashboard-faturas-cartoes", "economia", "Faturas de cartão de crédito, mês a mês (até out/2026)"),
+    ("nvidia-3tri-2026", "economia", "Nvidia no 3º tri/2026: receita de US$ 116 bi, ação em queda"),
     # ---------------- Política
     ("pesquisas-2turno-2026", "politica", "Calendário das pesquisas do 2º turno presidencial"),
     ("abstencao-capitais-2026", "politica", "Abstenção nas capitais: 1º contra 2º turno"),
@@ -158,6 +165,7 @@ ITENS = [
     # ---------------- Imprensa
     ("economist-ia-1710", "imprensa", "The Economist, edição de IA de 17/10/2026"),
     ("vestigios-da-noite", "imprensa", "Dossiê da piauí: 125 mensagens de Daniel Vorcaro"),
+    ("ft-ecb-ia-divida", "imprensa", "FT, 18/11/2026: BCE vê paralelo entre a dívida da IA e a bolha subprime"),
     # ---------------- Tecnologia
     ("pulwtop-mac-mini", "tech", "PULWTOP BD240A × BS212C, hubs para o Mac mini M4"),
     ("relatorio-hub-macmini-m4", "tech", "Hub USB contra dock Thunderbolt com SSD NVMe"),
@@ -520,8 +528,9 @@ TEMPLATE = r"""<!DOCTYPE html>
     display:grid; gap:12px;
     grid-template-columns: repeat(auto-fill, minmax(268px, 1fr));
   }
+  [hidden]{ display:none !important; }   /* display:flex nos cards vencia o hidden */
   .card{
-    position:relative; display:flex; flex-direction:column; gap:7px;
+    position:relative; display:flex; flex-direction:column; gap:7px; min-width:0;
     padding: 18px 18px 16px;
     border-radius: 18px;
     background: var(--card);
@@ -556,7 +565,7 @@ TEMPLATE = r"""<!DOCTYPE html>
     font: 500 11.5px/1 ui-monospace, SFMono-Regular, Menlo, monospace;
     color: var(--ink-3);
   }
-  .card .meta .host{ overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .card .meta .host{ min-width:0; flex:1 1 auto; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
   .lock{
     position:absolute; top:14px; right:14px;
     display:inline-flex; align-items:center; gap:4px;
