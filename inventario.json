@@ -1,4 +1,10 @@
 {
+ "lieberman-corpo-humano": {
+  "host": "lieberman-corpo-humano.vercel.app",
+  "code": "200",
+  "title": "A história do corpo humano — Daniel Lieberman | Guia de leitura",
+  "gate": false
+ },
  "sobre-a-china": {
   "host": "sobre-a-china.vercel.app",
   "code": "200",
