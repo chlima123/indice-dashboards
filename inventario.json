@@ -1,14 +1,20 @@
 {
- "doutrina-de-buda": {
-  "host": "doutrina-de-buda.vercel.app",
+ "era-da-ia": {
+  "host": "era-da-ia.vercel.app",
   "code": "200",
-  "title": "A doutrina de Buda — duas versões do painel",
+  "title": "A Era da IA — Kissinger, Schmidt, Huttenlocher | Guia de leitura",
   "gate": false
  },
  "lieberman-corpo-humano": {
   "host": "lieberman-corpo-humano.vercel.app",
   "code": "200",
   "title": "A história do corpo humano — Daniel Lieberman | Guia de leitura",
+  "gate": false
+ },
+ "doutrina-de-buda": {
+  "host": "doutrina-de-buda.vercel.app",
+  "code": "200",
+  "title": "A doutrina de Buda — duas versões do painel",
   "gate": false
  },
  "sobre-a-china": {
@@ -69,12 +75,6 @@
   "host": "mci-dashboard-eight.vercel.app",
   "code": "200",
   "title": "Marco Civil da Internet Navegável — Lei nº 12.965/2014",
-  "gate": false
- },
- "era-da-ia": {
-  "host": "era-da-ia.vercel.app",
-  "code": "200",
-  "title": "A Era da IA — Kissinger, Schmidt, Huttenlocher | Guia de leitura",
   "gate": false
  },
  "nvidia-3tri-2026": {
