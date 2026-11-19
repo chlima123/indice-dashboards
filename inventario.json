@@ -3,7 +3,7 @@
   "host": "cgmp-novos-pj-2026.vercel.app",
   "code": "200",
   "title": "Boas-vindas aos 11 novos Promotores de Justiça · CGMP/MPPE",
-  "gate": false
+  "gate": true
  },
  "carteira-acoes-2026": {
   "host": "carteira-acoes-2026.vercel.app",
