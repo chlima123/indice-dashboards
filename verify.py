@@ -34,6 +34,7 @@ BUSCAS = {
     "lindb": "lindb-dashboard",
     "licitações": "l14133-dashboard",
     "henry": "sobre-a-china",
+    "novos promotores": "cgmp-novos-pj-2026",
 }
 
 falhas = []

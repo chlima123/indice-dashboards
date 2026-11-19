@@ -55,6 +55,7 @@ ITENS = [
     ("antiguidade-2inst-analise", "mppe", "Antiguidade do 2º grau, lista analisada"),
     ("mppe-idade-procuradores", "mppe", "Idade dos Procuradores de Justiça"),
     ("mppe-designacoes-cgmp-ativas", "mppe", "Designações por membro · CGMP 2023–2026"),
+    ("cgmp-novos-pj-2026", "mppe", "Posse de 19/11/2026: as 11 Promotorias, mapa das 15 circunscrições, deveres e prazos CNMP"),
     ("vitaliciamento-csmp-2109", "mppe", "Vitaliciamento · sessão do CSMP de 21/09"),
     ("csmp-votos-2026", "mppe", "Votos da sessão do CSMP de 04/11/2026"),
     ("anpc-csmp-mppe", "mppe", "ANPC no CSMP/MPPE — 19 casos apreciados, nenhum firmado judicialmente"),
@@ -259,7 +260,8 @@ def refresh():
             "host": host,
             "code": "200" if body else "0",
             "title": re.sub(r"\s+", " ", title.group(1)).strip() if title else "",
-            "gate": bool(re.search(r"prompt\s*\(|pass\s*!==", body)),
+            # prompt() (dashboards antigos) ou overlay #gate com comparação de senha
+            "gate": bool(re.search(r"prompt\s*\(|pass\s*!==|value\s*===\s*PASS", body)),
         }
 
     inv = {}
