@@ -109,6 +109,7 @@ ITENS = [
     ("lyra-promotoria-publica", "livro", "Teoria e Prática da Promotoria Pública"),
     ("manual-portugues-redacao-juridica", "livro", "Manual de Português e Redação Jurídica"),
     ("alem-do-direito", "livro", "Além do Direito, de Vilela: painel em duas versões (analítica e sintética)"),
+    ("doutrina-de-buda", "livro", "A doutrina de Buda (Bukkyo Dendo Kyokai): painel em duas versões (analítica e sintética)"),
     ("roteiro-construir-sertao", "livro", "Roteiro para construir no Sertão do Araripe"),
     ("guia-aristoteles", "livro", "Hub dos guias de Aristóteles"),
     ("guia-etica-nicomaco", "livro", "Ética a Nicômaco, guia interativo"),

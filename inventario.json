@@ -1,4 +1,10 @@
 {
+ "doutrina-de-buda": {
+  "host": "doutrina-de-buda.vercel.app",
+  "code": "200",
+  "title": "A doutrina de Buda — duas versões do painel",
+  "gate": false
+ },
  "lieberman-corpo-humano": {
   "host": "lieberman-corpo-humano.vercel.app",
   "code": "200",
