@@ -121,6 +121,7 @@ ITENS = [
     ("leitura-ativa-metodo", "livro", "Como lembrar de tudo o que você lê: 8 heurísticas de leitura ativa"),
     ("era-da-ia", "livro", "A Era da IA (Kissinger, Schmidt e Huttenlocher): argumento, 7 capítulos e linha do tempo"),
     ("cointeligencia", "livro", "Cointeligência, de Ethan Mollick: guia de leitura em 19 views"),
+    ("sobre-a-china", "livro", "Sobre a China (Kissinger): guia em duas versões — síntese em 26 telas e análise em 14 seções"),
     # ---------------- Vestibular
     ("unicap-medicina-2027", "vestibular", "Medicina UNICAP 2027.1: o que a prova cobra e o que o curso ensina"),
     ("fps-medicina-2027", "vestibular", "Medicina FPS 2027.1: a prova, o conteúdo e o curso"),

@@ -33,6 +33,7 @@ BUSCAS = {
     "nvidia": "nvidia-3tri-2026",
     "lindb": "lindb-dashboard",
     "licitações": "l14133-dashboard",
+    "kissinger": "sobre-a-china",
 }
 
 falhas = []

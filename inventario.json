@@ -1,4 +1,28 @@
 {
+ "sobre-a-china": {
+  "host": "sobre-a-china.vercel.app",
+  "code": "200",
+  "title": "Sobre a China — Henry Kissinger | Guia de leitura",
+  "gate": false
+ },
+ "mercado-analitico": {
+  "host": "mercado-analitico.vercel.app",
+  "code": "200",
+  "title": "Dashboard Analítico de Mercado — pregão de 18/11/2026 (18:01)",
+  "gate": false
+ },
+ "carteira-acoes-2026": {
+  "host": "carteira-acoes-2026.vercel.app",
+  "code": "200",
+  "title": "Carteira de ações — snapshot de 30/10/2026",
+  "gate": false
+ },
+ "dashboard-long-short": {
+  "host": "dashboard-long-short.vercel.app",
+  "code": "200",
+  "title": "Dashboard Long/Short — Operações",
+  "gate": true
+ },
  "cointeligencia": {
   "host": "cointeligencia.vercel.app",
   "code": "200",
@@ -10,18 +34,6 @@
   "code": "200",
   "title": "Quadro Geral de Membros — MPPE · Conjunto A",
   "gate": true
- },
- "carteira-acoes-2026": {
-  "host": "carteira-acoes-2026.vercel.app",
-  "code": "200",
-  "title": "Carteira de ações — snapshot de 30/10/2026",
-  "gate": false
- },
- "mercado-analitico": {
-  "host": "mercado-analitico.vercel.app",
-  "code": "200",
-  "title": "Dashboard Analítico de Mercado — pregão de 18/11/2026 (15:01)",
-  "gate": false
  },
  "distribuicao-caruaru": {
   "host": "distribuicao-caruaru.vercel.app",
@@ -154,12 +166,6 @@
   "code": "200",
   "title": "LINDB Navegável — Lei de Introdução às Normas do Direito Brasileiro",
   "gate": false
- },
- "dashboard-long-short": {
-  "host": "dashboard-long-short.vercel.app",
-  "code": "200",
-  "title": "Dashboard Long/Short — Operações",
-  "gate": true
  },
  "consolidado-supermercado": {
   "host": "consolidado-supermercado.vercel.app",
