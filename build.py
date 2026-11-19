@@ -910,6 +910,10 @@ def build():
     extras = sorted({n for n, _, _ in ITENS} - set(inv))
     if extras:
         raise SystemExit("classificados que não existem na conta: " + ", ".join(extras))
+    nomes = [n for n, _, _ in ITENS]
+    repetidos = sorted({n for n in nomes if nomes.count(n) > 1})
+    if repetidos:
+        raise SystemExit("projetos repetidos em ITENS: " + ", ".join(repetidos))
 
     itens = []
     for nome, cat, desc in ITENS:
