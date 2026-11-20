@@ -133,6 +133,7 @@ ITENS = [
     ("fps-itens-videos", "vestibular", "Itens A/B/C do programa FPS 2027.1 ligados aos vídeos do canal Academia FB"),
     ("enem-redacao-guia", "vestibular", "Redação ENEM: repertório, leis e temas prováveis"),
     ("enem-metas-2026", "vestibular", "ENEM 2026: metas de acertos por curso — simulador, TRI e mapa de raridade"),
+    ("boletim-otavio-2026", "vestibular", "Boletim do 3º ano do EM: 13 disciplinas por unidade, 39 lançamentos e 18 sub-habilidades"),
     # ---------------- Economia
     ("mercado-analitico", "economia", "Fechamento do pregão de 03/11 · 45 ativos, 8 classes"),
     ("form-10k-tech-2026", "economia", "14 relatórios anuais: big techs, semicondutores e infraestrutura"),

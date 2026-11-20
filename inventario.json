@@ -5,6 +5,18 @@
   "title": "Carteira de ações — snapshot de 30/10/2026",
   "gate": false
  },
+ "boletim-otavio-2026": {
+  "host": "boletim-otavio-2026.vercel.app",
+  "code": "200",
+  "title": "Boletim 2026 · 3ª série do Ensino Médio — Otávio",
+  "gate": true
+ },
+ "distribuicao-caruaru": {
+  "host": "distribuicao-caruaru.vercel.app",
+  "code": "200",
+  "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
+  "gate": false
+ },
  "analise-sentenca-sulamerica-2026": {
   "host": "analise-sentenca-sulamerica-2026.vercel.app",
   "code": "200",
@@ -34,12 +46,6 @@
   "code": "200",
   "title": "Dashboard Long/Short — Operações",
   "gate": true
- },
- "distribuicao-caruaru": {
-  "host": "distribuicao-caruaru.vercel.app",
-  "code": "200",
-  "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
-  "gate": false
  },
  "era-da-ia": {
   "host": "era-da-ia.vercel.app",
