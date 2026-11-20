@@ -106,7 +106,6 @@ ITENS = [
     ("jardim-praca-saldanha", "livro", "O Jardim e a Praça, de Nelson Saldanha (1983): privado × público, espectro e a dupla carência brasileira"),
     ("kant-metafisica-costumes", "livro", "A Metafísica dos Costumes, de Kant"),
     ("condicao-humana", "livro", "A Condição Humana, de Hannah Arendt"),
-    ("lafer-hannah-arendt", "livro", "Hannah Arendt: pensamento, persuasão e poder (Celso Lafer): 19 ensaios em 21 textos, 129 subseções, 37 citações e 38 conceitos"),
     ("huntington-choque-civilizacoes", "livro", "O Choque das Civilizações, de Huntington"),
     ("tao-da-fisica", "livro", "O Tao da Física, de Fritjof Capra"),
     ("lyra-promotoria-publica", "livro", "Teoria e Prática da Promotoria Pública"),

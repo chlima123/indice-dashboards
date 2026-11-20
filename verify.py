@@ -33,7 +33,10 @@ BUSCAS = {
     "nvidia": "nvidia-3tri-2026",
     "lindb": "lindb-dashboard",
     "licitações": "l14133-dashboard",
-    "henry": "sobre-a-china",
+    # 'henry' casa os DOIS painéis do Kissinger (Diplomacia e Sobre a China desde a 3ª ed.):
+    # o termo exclusivo virou "sobre a china"
+    "sobre a china": "sobre-a-china",
+    "lafer": "lafer-hannah-arendt",
     "novos promotores": "cgmp-novos-pj-2026",
     "offline": "membros-mppe-app",
 }
