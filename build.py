@@ -175,6 +175,7 @@ ITENS = [
     ("relatorio-hub-macmini-m4", "tech", "Hub USB contra dock Thunderbolt com SSD NVMe"),
     ("obsidian-guia-interativo", "tech", "Guia do Obsidian, do zero ao grafo"),
     ("hermes-bots-guide", "tech", "Guia dos bots do Hermes"),
+    ("ollama-consumo", "tech", "Consumo de tokens no Ollama Cloud, por provedor e modelo"),
     ("guia-teste", "tech", "Obra de teste — modelo de guia interativo"),
     # ---------------- Pessoal
     ("clima-pe", "pessoal", "Acompanhamento meteorológico de Pernambuco"),
@@ -198,6 +199,15 @@ EXTERNOS = [
         "url": "https://enem-nota-simulator-bhtvpbuxhuvargfhumbtxn.streamlit.app/",
         "lock": True,
         "locklabel": "Login",
+    },
+    {
+        "n": "academia-fernandinho-2027",
+        "cat": "vestibular",
+        "t": "Academia Fernandinho Beltrão 2027 — planos, matriz e transição",
+        "d": "Painel de decisão do ciclo 2027: 5 modalidades de R$ 200 a R$ 1.500, matriz do que cada plano compra, 4 rotas de transição nov/jan, regras da casa e o cruzamento com os 127 acertos do ENEM 2026 · GitHub Pages, sem senha",
+        "host": "chlima123.github.io/academia-fernandinho-2027",
+        "url": "https://chlima123.github.io/academia-fernandinho-2027/",
+        "lock": False,
     },
 ]
 

@@ -1,27 +1,39 @@
 {
- "cgmp-novos-pj-2026": {
-  "host": "cgmp-novos-pj-2026.vercel.app",
-  "code": "200",
-  "title": "Boas-vindas aos 11 novos Promotores de Justiça · CGMP/MPPE",
-  "gate": true
- },
  "carteira-acoes-2026": {
   "host": "carteira-acoes-2026.vercel.app",
   "code": "200",
   "title": "Carteira de ações — snapshot de 30/10/2026",
   "gate": false
  },
+ "analise-sentenca-sulamerica-2026": {
+  "host": "analise-sentenca-sulamerica-2026.vercel.app",
+  "code": "200",
+  "title": "Análise da sentença — ACP 0049286-36.2025.8.17.2001",
+  "gate": false
+ },
+ "ollama-consumo": {
+  "host": "ollama-consumo.vercel.app",
+  "code": "200",
+  "title": "Consumo de tokens · Ollama Cloud",
+  "gate": false
+ },
+ "mercado-analitico": {
+  "host": "mercado-analitico.vercel.app",
+  "code": "200",
+  "title": "Dashboard Analítico de Mercado — pregão de 19/11/2026 (18:01)",
+  "gate": false
+ },
+ "cgmp-novos-pj-2026": {
+  "host": "cgmp-novos-pj-2026.vercel.app",
+  "code": "200",
+  "title": "Boas-vindas aos 11 novos Promotores de Justiça · CGMP/MPPE",
+  "gate": true
+ },
  "dashboard-long-short": {
   "host": "dashboard-long-short.vercel.app",
   "code": "200",
   "title": "Dashboard Long/Short — Operações",
   "gate": true
- },
- "mercado-analitico": {
-  "host": "mercado-analitico.vercel.app",
-  "code": "200",
-  "title": "Dashboard Analítico de Mercado — pregão de 19/11/2026 (17:01)",
-  "gate": false
  },
  "distribuicao-caruaru": {
   "host": "distribuicao-caruaru.vercel.app",
@@ -429,12 +441,6 @@
   "host": "carta-flavio-bolsonaro-2026.vercel.app",
   "code": "200",
   "title": "Carta ao povo brasileiro e à comunidade internacional — Flávio Bolsonaro",
-  "gate": false
- },
- "analise-sentenca-sulamerica-2026": {
-  "host": "analise-sentenca-sulamerica-2026.vercel.app",
-  "code": "200",
-  "title": "Análise da sentença — ACP 0049286-36.2025.8.17.2001",
   "gate": false
  },
  "abstencao-estados-2026": {
