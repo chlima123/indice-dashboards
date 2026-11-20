@@ -106,6 +106,7 @@ ITENS = [
     ("jardim-praca-saldanha", "livro", "O Jardim e a Praça, de Nelson Saldanha (1983): privado × público, espectro e a dupla carência brasileira"),
     ("kant-metafisica-costumes", "livro", "A Metafísica dos Costumes, de Kant"),
     ("condicao-humana", "livro", "A Condição Humana, de Hannah Arendt"),
+    ("lafer-hannah-arendt", "livro", "Hannah Arendt: pensamento, persuasão e poder (Celso Lafer): 19 ensaios em 21 textos, 129 subseções, 37 citações e 38 conceitos"),
     ("huntington-choque-civilizacoes", "livro", "O Choque das Civilizações, de Huntington"),
     ("tao-da-fisica", "livro", "O Tao da Física, de Fritjof Capra"),
     ("lyra-promotoria-publica", "livro", "Teoria e Prática da Promotoria Pública"),
@@ -126,6 +127,8 @@ ITENS = [
     ("cointeligencia", "livro", "Cointeligência, de Ethan Mollick: guia de leitura em 19 views"),
     ("lieberman-corpo-humano", "livro", "A história do corpo humano (Lieberman): síntese em 20 telas e análise em 9 seções"),
     ("sobre-a-china", "livro", "Sobre a China (Kissinger): guia em duas versões — síntese em 26 telas e análise em 14 seções"),
+    ("diplomacia", "livro", "Diplomacia (Kissinger): os 31 capítulos com tópicos e ideias-chave, 92 citações conferidas, 13 conceitos e a linha do tempo de 1648 a 1991"),
+    ("lafer-hannah-arendt", "livro", "Hannah Arendt por Celso Lafer (19 ensaios): pensamento, persuasão e poder — mapa do livro, 8 eixos e glossário de 38 conceitos"),
     # ---------------- Vestibular
     ("unicap-medicina-2027", "vestibular", "Medicina UNICAP 2027.1: o que a prova cobra e o que o curso ensina"),
     ("fps-medicina-2027", "vestibular", "Medicina FPS 2027.1: a prova, o conteúdo e o curso"),

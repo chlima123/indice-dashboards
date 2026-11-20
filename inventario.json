@@ -1,4 +1,16 @@
 {
+ "lafer-hannah-arendt": {
+  "host": "lafer-hannah-arendt.vercel.app",
+  "code": "200",
+  "title": "Hannah Arendt: pensamento, persuasão e poder — guia de leitura",
+  "gate": false
+ },
+ "diplomacia": {
+  "host": "diplomacia-gilt.vercel.app",
+  "code": "200",
+  "title": "Diplomacia — Henry Kissinger | Guia de leitura",
+  "gate": false
+ },
  "carteira-acoes-2026": {
   "host": "carteira-acoes-2026.vercel.app",
   "code": "200",
