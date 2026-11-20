@@ -21,6 +21,7 @@ CACHE = os.path.join(HERE, "inventario.json")
 # (projeto Vercel, categoria, descrição curta)
 # categoria: (título da seção, rótulo curto do chip)
 CAT = {
+    "apps": ("Aplicativos interativos", "Apps"),
     "mppe": ("MPPE e Judiciário", "MPPE"),
     "lei": ("Legislação navegável", "Legislação"),
     "juris": ("Jurisprudência e doutrina", "Jurisprudência"),
@@ -190,6 +191,15 @@ ITENS = [
 # sem projeto Vercel etc.). Entram à mão: a API do Vercel não os enxerga.
 # Chaves: n (id), cat, t (título), d (descrição), host, url, lock, locklabel.
 EXTERNOS = [
+    {
+        "n": "membros-mppe-app",
+        "cat": "apps",
+        "t": "Membros MPPE — app de consulta (iPhone/PWA)",
+        "d": "465 membros do Quadro Geral com cargo, promotoria, telefone com link de WhatsApp, e-mail e foto 3×4 opcional (a foto fica só no aparelho) · busca sem acento e filtros por entrância (1ª 59 · 2ª 129 · 3ª 222 · 2ª Instância 55) e por 109 municípios · instalável e funciona offline no iPhone · retrato de 18/11/2026 + as 11 posses de 19/11",
+        "host": "chlima123.github.io/membros-mppe-app",
+        "url": "https://chlima123.github.io/membros-mppe-app/",
+        "lock": False,
+    },
     {
         "n": "enem-nota-simulator",
         "cat": "vestibular",
@@ -676,7 +686,7 @@ TEMPLATE = r"""<!DOCTYPE html>
 <header class="hero" id="top">
   <div class="eyebrow"><span class="pip"></span>Conta Vercel · sherpachsl</div>
   <h1>__TOTAL__ dashboards, por assunto.</h1>
-  <p class="dek">Todo painel estático publicado na conta Vercel, agrupado por tema — trabalho no MPPE, leis artigo a artigo, guias de livros, vestibular e ENEM, mercado, eleições, saúde e o resto. Os painéis marcados com cadeado pedem senha na entrada.</p>
+  <p class="dek">Todo painel estático publicado na conta Vercel mais os apps e painéis de fora dela, agrupado por tema — apps interativos, trabalho no MPPE, leis artigo a artigo, guias de livros, vestibular e ENEM, mercado, eleições, saúde e o resto. Os painéis marcados com cadeado pedem senha na entrada.</p>
   <div class="stats">
     <div class="stat"><b>__TOTAL__</b><span>painéis</span></div>
     <div class="stat"><b>__NCAT__</b><span>assuntos</span></div>
@@ -703,7 +713,7 @@ TEMPLATE = r"""<!DOCTYPE html>
 </main>
 
 <footer>
-  <p><b>Índice gerado a partir da API do Vercel</b> — <span id="stamp">__STAMP__</span> · __TOTAL__ painéis, um card cada. Painéis fora da Vercel (Streamlit Cloud) entram por lista manual no <code>build.py</code>.</p>
+  <p><b>Índice gerado a partir da API do Vercel</b> — <span id="stamp">__STAMP__</span> · __TOTAL__ painéis, um card cada. Apps e painéis fora da Vercel (GitHub Pages, Streamlit Cloud) entram por lista manual no <code>build.py</code>.</p>
   <p>As senhas dos painéis fechados não ficam nesta página: estão na nota <i>Projetos Vercel</i> do vault (<code>015_HERMES/vercel/</code>). Os links abrem no alias estável <code>&lt;projeto&gt;.vercel.app</code>.</p>
   <p><a href="https://vercel.com/dashboard" target="_blank" rel="noopener">vercel.com/dashboard</a></p>
 </footer>
@@ -959,7 +969,7 @@ def build():
             "locklabel": ex.get("locklabel", "Senha"),
         })
 
-    ordem = ["mppe", "lei", "juris", "livro", "vestibular", "economia",
+    ordem = ["apps", "mppe", "lei", "juris", "livro", "vestibular", "economia",
              "politica", "saude", "imprensa", "tech", "pessoal"]
     itens.sort(key=lambda x: (ordem.index(x["cat"]), x["t"].lower()))
 
@@ -1002,9 +1012,10 @@ def build():
         grupos.append(
             '<section class="group" data-cat="%s" id="cat-%s">'
             '<div class="group-head"><h2>%s</h2><span class="rule"></span>'
-            '<span class="count">%d painéis</span></div>'
+            '<span class="count">%d %s</span></div>'
             '<div class="grid">%s</div></section>'
-            % (cat, cat, CAT[cat][0], len(doGrupo), "".join(cards)))
+            % (cat, cat, CAT[cat][0], len(doGrupo),
+               "painel" if len(doGrupo) == 1 else "painéis", "".join(cards)))
 
     dados = json.dumps({
         "cats": {k: v[0] for k, v in CAT.items()},

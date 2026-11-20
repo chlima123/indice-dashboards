@@ -35,6 +35,7 @@ BUSCAS = {
     "licitações": "l14133-dashboard",
     "henry": "sobre-a-china",
     "novos promotores": "cgmp-novos-pj-2026",
+    "offline": "membros-mppe-app",
 }
 
 falhas = []
@@ -80,11 +81,11 @@ def main():
 
         pg.fill("#q", "")
         pg.wait_for_timeout(300)
-        for cat in ("MPPE", "Legislação", "Livros", "Economia"):
+        for cat in ("Apps", "MPPE", "Legislação", "Livros", "Economia"):
             pg.get_by_role("tab", name=cat).click()
             pg.wait_for_timeout(300)
             n = len(pg.evaluate(VISIVEIS))
-            checa(n == cats.get({"MPPE": "mppe", "Legislação": "lei",
+            checa(n == cats.get({"Apps": "apps", "MPPE": "mppe", "Legislação": "lei",
                                  "Livros": "livro", "Economia": "economia"}[cat]),
                   f"chip {cat} mostra {n} cards")
         pg.get_by_role("tab", name="Todos").click()
