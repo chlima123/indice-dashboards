@@ -1,4 +1,64 @@
 {
+ "marinoff-abc-felicidad": {
+  "host": "marinoff-abc-felicidad.vercel.app",
+  "code": "200",
+  "title": "El ABC de la felicidad — guia de leitura",
+  "gate": false
+ },
+ "alem-do-direito": {
+  "host": "alem-do-direito.vercel.app",
+  "code": "200",
+  "title": "Além do Direito — guia de leitura",
+  "gate": false
+ },
+ "kant-metafisica-costumes": {
+  "host": "kant-metafisica-costumes.vercel.app",
+  "code": "200",
+  "title": "A Metafísica dos Costumes — guia de leitura",
+  "gate": false
+ },
+ "lieberman-corpo-humano": {
+  "host": "lieberman-corpo-humano.vercel.app",
+  "code": "200",
+  "title": "A história do corpo humano — guia de leitura",
+  "gate": false
+ },
+ "buendia-macondo": {
+  "host": "buendia-macondo.vercel.app",
+  "code": "200",
+  "title": "Cem Anos de Solidão — guia de leitura",
+  "gate": false
+ },
+ "era-da-ia": {
+  "host": "era-da-ia.vercel.app",
+  "code": "200",
+  "title": "A Era da IA — guia de leitura",
+  "gate": false
+ },
+ "carteira-acoes-2026": {
+  "host": "carteira-acoes-2026.vercel.app",
+  "code": "200",
+  "title": "Carteira de ações — snapshot de 30/10/2026",
+  "gate": false
+ },
+ "doutrina-de-buda": {
+  "host": "doutrina-de-buda.vercel.app",
+  "code": "200",
+  "title": "A doutrina de Buda — guia de leitura",
+  "gate": false
+ },
+ "dashboard-long-short": {
+  "host": "dashboard-long-short.vercel.app",
+  "code": "200",
+  "title": "Dashboard Long/Short — Operações",
+  "gate": true
+ },
+ "condicao-humana": {
+  "host": "condicao-humana.vercel.app",
+  "code": "200",
+  "title": "A Condição Humana — guia de leitura",
+  "gate": false
+ },
  "lafer-hannah-arendt": {
   "host": "lafer-hannah-arendt.vercel.app",
   "code": "200",
@@ -9,12 +69,6 @@
   "host": "diplomacia-gilt.vercel.app",
   "code": "200",
   "title": "Diplomacia — Henry Kissinger | Guia de leitura",
-  "gate": false
- },
- "carteira-acoes-2026": {
-  "host": "carteira-acoes-2026.vercel.app",
-  "code": "200",
-  "title": "Carteira de ações — snapshot de 30/10/2026",
   "gate": false
  },
  "boletim-otavio-2026": {
@@ -52,30 +106,6 @@
   "code": "200",
   "title": "Boas-vindas aos 11 novos Promotores de Justiça · CGMP/MPPE",
   "gate": true
- },
- "dashboard-long-short": {
-  "host": "dashboard-long-short.vercel.app",
-  "code": "200",
-  "title": "Dashboard Long/Short — Operações",
-  "gate": true
- },
- "era-da-ia": {
-  "host": "era-da-ia.vercel.app",
-  "code": "200",
-  "title": "A Era da IA — Kissinger, Schmidt, Huttenlocher | Guia de leitura",
-  "gate": false
- },
- "lieberman-corpo-humano": {
-  "host": "lieberman-corpo-humano.vercel.app",
-  "code": "200",
-  "title": "A história do corpo humano — Daniel Lieberman | Guia de leitura",
-  "gate": false
- },
- "doutrina-de-buda": {
-  "host": "doutrina-de-buda.vercel.app",
-  "code": "200",
-  "title": "A doutrina de Buda — duas versões do painel",
-  "gate": false
  },
  "sobre-a-china": {
   "host": "sobre-a-china.vercel.app",
@@ -329,12 +359,6 @@
   "title": "NF 066/2025 · Pronunciamento 324/2025, recurso e Despacho 15/2026 — CGMP/MPPE",
   "gate": false
  },
- "alem-do-direito": {
-  "host": "alem-do-direito.vercel.app",
-  "code": "200",
-  "title": "Além do Direito — duas versões do painel",
-  "gate": false
- },
  "lft-medo-cambio": {
   "host": "lft-medo-cambio.vercel.app",
   "code": "200",
@@ -369,12 +393,6 @@
   "host": "genetica-medica-carreiras-2026.vercel.app",
   "code": "200",
   "title": "Geneticista: rotas de carreira e remuneração (2026)",
-  "gate": false
- },
- "buendia-macondo": {
-  "host": "buendia-macondo.vercel.app",
-  "code": "200",
-  "title": "A estirpe dos Buendía — árvore genealógica de Cem Anos de Solidão",
   "gate": false
  },
  "mounjaro": {
@@ -641,12 +659,6 @@
   "title": "Manual de Português e Redação Jurídica — Guia Interativo",
   "gate": true
  },
- "condicao-humana": {
-  "host": "condicao-humana.vercel.app",
-  "code": "200",
-  "title": "A Condição Humana — Hannah Arendt | Guia Interativo",
-  "gate": true
- },
  "guia-poetica": {
   "host": "guia-poetica.vercel.app",
   "code": "200",
@@ -670,12 +682,6 @@
   "code": "200",
   "title": "Teoria e Prática da Promotoria Pública — Guia Interativo",
   "gate": false
- },
- "kant-metafisica-costumes": {
-  "host": "kant-metafisica-costumes.vercel.app",
-  "code": "200",
-  "title": "A Metafísica dos Costumes — Guia Interativo",
-  "gate": true
  },
  "guia-organon": {
   "host": "guia-organon.vercel.app",

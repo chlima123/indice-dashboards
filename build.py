@@ -128,6 +128,7 @@ ITENS = [
     ("sobre-a-china", "livro", "Sobre a China (Kissinger): guia em duas versões — síntese em 26 telas e análise em 14 seções"),
     ("diplomacia", "livro", "Diplomacia (Kissinger): os 31 capítulos com tópicos e ideias-chave, 92 citações conferidas, 13 conceitos e a linha do tempo de 1648 a 1991"),
     ("lafer-hannah-arendt", "livro", "Hannah Arendt por Celso Lafer (19 ensaios): pensamento, persuasão e poder — mapa do livro, 8 eixos e glossário de 38 conceitos"),
+    ("marinoff-abc-felicidad", "livro", "El ABC de la felicidad (Lou Marinoff): os filósofos abc e o caminho do meio — 16 capítulos com tópicos, 68 citações literais, 7 eixos e 30 conceitos"),
     # ---------------- Vestibular
     ("unicap-medicina-2027", "vestibular", "Medicina UNICAP 2027.1: o que a prova cobra e o que o curso ensina"),
     ("fps-medicina-2027", "vestibular", "Medicina FPS 2027.1: a prova, o conteúdo e o curso"),
