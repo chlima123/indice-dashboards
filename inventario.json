@@ -874,5 +874,11 @@
   "code": "200",
   "title": "Registro de Correições — CGMP/MPPE",
   "gate": true
+ },
+ "weber-ciencia-e-politica": {
+  "host": "weber-ciencia-e-politica.vercel.app",
+  "code": "200",
+  "title": "Ciência e política: duas vocações — guia de leitura",
+  "gate": false
  }
 }
