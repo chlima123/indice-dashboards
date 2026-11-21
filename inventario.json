@@ -1,4 +1,16 @@
 {
+ "tocqueville-democracia-america": {
+  "host": "tocqueville-democracia-america.vercel.app",
+  "code": "200",
+  "title": "A Democracia na América — Livro I: Leis e Costumes — guia de leitura",
+  "gate": false
+ },
+ "kahneman-rapido-devagar": {
+  "host": "kahneman-rapido-devagar.vercel.app",
+  "code": "200",
+  "title": "Rápido e Devagar — guia de leitura",
+  "gate": false
+ },
  "marinoff-abc-felicidad": {
   "host": "marinoff-abc-felicidad.vercel.app",
   "code": "200",
