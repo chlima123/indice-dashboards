@@ -880,5 +880,11 @@
   "code": "200",
   "title": "Ciência e política: duas vocações — guia de leitura",
   "gate": false
+ },
+ "atores-com-poder-de-veto": {
+  "host": "atores-com-poder-de-veto.vercel.app",
+  "code": "200",
+  "title": "Atores com poder de veto — George Tsebelis",
+  "gate": false
  }
 }

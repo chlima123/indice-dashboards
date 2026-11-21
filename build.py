@@ -134,6 +134,7 @@ ITENS = [
     ("tocqueville-democracia-america", "livro", "A Democracia na América, Livro I (Tocqueville): 18 capítulos com os tópicos de cada um, 81 citações literais conferidas, 8 eixos e 32 conceitos"),
     ("outlive", "livro", "Outlive (Peter Attia): 17 capítulos + introdução, 71 subseções, 63 citações literais conferidas, 7 eixos e 33 conceitos — healthspan, os quatro cavaleiros e as táticas"),
     ("kahneman-rapido-devagar", "livro", "Rápido e Devagar: duas formas de pensar (Kahneman): 38 capítulos em 5 partes, 168 subseções, 8 eixos e 38 conceitos"),
+    ("atores-com-poder-de-veto", "livro", "Atores com poder de veto (George Tsebelis): 11 capítulos + introdução, 108 subseções nas nove seções fixas, 61 citações literais conferidas, 7 eixos e 33 conceitos"),
     ("geracao-ansiosa", "livro", "A geração ansiosa (Jonathan Haidt): 12 capítulos em 4 partes, 81 subseções, 64 citações literais conferidas, 7 eixos e 39 conceitos — a Grande Reconfiguração da Infância"),
     # ---------------- Vestibular
     ("unicap-medicina-2027", "vestibular", "Medicina UNICAP 2027.1: o que a prova cobra e o que o curso ensina"),
