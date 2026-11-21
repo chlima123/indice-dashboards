@@ -289,8 +289,10 @@ def refresh():
             "host": host,
             "code": "200" if body else "0",
             "title": re.sub(r"\s+", " ", title.group(1)).strip() if title else "",
-            # prompt() (dashboards antigos) ou overlay #gate com comparação de senha
-            "gate": bool(re.search(r"prompt\s*\(|pass\s*!==|value\s*===\s*PASS", body)),
+            # prompt() (dashboards antigos), overlay #gate com comparação de senha,
+            # ou o gate cifrado (data-lock="on" + bloco AES-256-GCM)
+            "gate": bool(re.search(r"prompt\s*\(|pass\s*!==|value\s*===\s*PASS"
+                                   r"|data-lock=[\"']on[\"']|AES-256-GCM", body)),
         }
 
     inv = {}

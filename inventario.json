@@ -3,7 +3,7 @@
   "host": "cgmp-eleicao-monitor.vercel.app",
   "code": "200",
   "title": "CGMP · Posição dos 56 integrantes — monitor",
-  "gate": false
+  "gate": true
  },
  "leitura-ativa-metodo": {
   "host": "leitura-ativa-metodo.vercel.app",
