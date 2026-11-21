@@ -1,4 +1,22 @@
 {
+ "cgmp-eleicao-monitor": {
+  "host": "cgmp-eleicao-monitor.vercel.app",
+  "code": "200",
+  "title": "CGMP · Posição dos 56 integrantes — monitor",
+  "gate": false
+ },
+ "leitura-ativa-metodo": {
+  "host": "leitura-ativa-metodo.vercel.app",
+  "code": "200",
+  "title": "Como lembrar de tudo o que você lê — guia de leitura",
+  "gate": false
+ },
+ "geracao-ansiosa": {
+  "host": "geracao-ansiosa.vercel.app",
+  "code": "200",
+  "title": "A geração ansiosa — guia de leitura",
+  "gate": false
+ },
  "outlive": {
   "host": "outlive-virid.vercel.app",
   "code": "200",
@@ -298,12 +316,6 @@
   "code": "200",
   "title": "Composição Corporal — Charles · InBody 120",
   "gate": true
- },
- "leitura-ativa-metodo": {
-  "host": "leitura-ativa-metodo.vercel.app",
-  "code": "200",
-  "title": "Como lembrar de tudo o que você lê — Leitura Ativa",
-  "gate": false
  },
  "dashboard-faturas-cartoes": {
   "host": "dashboard-faturas-cartoes.vercel.app",
@@ -862,11 +874,5 @@
   "code": "200",
   "title": "Registro de Correições — CGMP/MPPE",
   "gate": true
- },
- "geracao-ansiosa": {
-  "host": "geracao-ansiosa.vercel.app",
-  "code": "200",
-  "title": "A geração ansiosa — guia de leitura",
-  "gate": false
  }
 }
