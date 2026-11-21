@@ -892,5 +892,11 @@
   "gate": false,
   "host": "weber-ciencia-e-politica.vercel.app",
   "title": "Ciência e política: duas vocações — guia de leitura"
+ },
+ "distant-mirror": {
+  "code": "200",
+  "gate": false,
+  "host": "distant-mirror.vercel.app",
+  "title": "A Distant Mirror — Tuchman · guia de leitura"
  }
 }

@@ -136,6 +136,7 @@ ITENS = [
     ("kahneman-rapido-devagar", "livro", "Rápido e Devagar: duas formas de pensar (Kahneman): 38 capítulos em 5 partes, 168 subseções, 8 eixos e 38 conceitos"),
     ("atores-com-poder-de-veto", "livro", "Atores com poder de veto (George Tsebelis): 11 capítulos + introdução, 108 subseções nas nove seções fixas, 61 citações literais conferidas, 7 eixos e 33 conceitos"),
     ("game-theory-binmore", "livro", "Game Theory: A Very Short Introduction (Ken Binmore): 10 capítulos nas nove seções fixas, 90 subseções, 51 citações literais conferidas, 8 eixos e 49 conceitos"),
+    ("distant-mirror", "livro", "A Distant Mirror: The Calamitous 14th Century (Barbara W. Tuchman): 27 capítulos + prefácio nas nove seções fixas, 252 subseções, 56 citações literais conferidas, 7 eixos e 36 conceitos"),
     ("geracao-ansiosa", "livro", "A geração ansiosa (Jonathan Haidt): 12 capítulos em 4 partes, 81 subseções, 64 citações literais conferidas, 7 eixos e 39 conceitos — a Grande Reconfiguração da Infância"),
     # ---------------- Vestibular
     ("unicap-medicina-2027", "vestibular", "Medicina UNICAP 2027.1: o que a prova cobra e o que o curso ensina"),
