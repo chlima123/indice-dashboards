@@ -127,7 +127,7 @@ ITENS = [
     ("cointeligencia", "livro", "Cointeligência, de Ethan Mollick: 9 capítulos + introdução, 11 citações, 40 conceitos"),
     ("lieberman-corpo-humano", "livro", "A história do corpo humano (Lieberman): 13 capítulos, 5 transições evolutivas, 9 citações literais e 31 conceitos — mapa, síntese e glossário"),
     ("sobre-a-china", "livro", "Sobre a China (Kissinger): guia em duas versões — síntese em 26 telas e análise em 14 seções"),
-    ("diplomacia", "livro", "Diplomacia (Kissinger): os 31 capítulos com tópicos e ideias-chave, 92 citações conferidas, 13 conceitos e a linha do tempo de 1648 a 1991"),
+    ("diplomacia", "livro", "Diplomacia (Kissinger): os 31 capítulos com tese, 6 blocos temáticos e citações verbatim, 95 citações conferidas, 22 conceitos em glossário, 7 eixos transversais e a linha do tempo de 1648 a 1991"),
     ("lafer-hannah-arendt", "livro", "Hannah Arendt por Celso Lafer (19 ensaios): pensamento, persuasão e poder — mapa do livro, 8 eixos e glossário de 38 conceitos"),
     ("marinoff-abc-felicidad", "livro", "El ABC de la felicidad (Lou Marinoff): os filósofos abc e o caminho do meio — 16 capítulos com tópicos, 68 citações literais, 7 eixos e 30 conceitos"),
     ("weber-ciencia-e-politica", "livro", "Ciência e política: duas vocações (Max Weber): as duas conferências com 9 seções cada, 22 citações literais conferidas, 7 eixos e 37 conceitos"),
