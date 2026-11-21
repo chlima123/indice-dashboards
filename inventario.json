@@ -862,5 +862,11 @@
   "code": "200",
   "title": "Registro de Correições — CGMP/MPPE",
   "gate": true
+ },
+ "geracao-ansiosa": {
+  "host": "geracao-ansiosa.vercel.app",
+  "code": "200",
+  "title": "A geração ansiosa — guia de leitura",
+  "gate": false
  }
 }
