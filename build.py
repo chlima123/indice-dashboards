@@ -130,6 +130,7 @@ ITENS = [
     ("lafer-hannah-arendt", "livro", "Hannah Arendt por Celso Lafer (19 ensaios): pensamento, persuasão e poder — mapa do livro, 8 eixos e glossário de 38 conceitos"),
     ("marinoff-abc-felicidad", "livro", "El ABC de la felicidad (Lou Marinoff): os filósofos abc e o caminho do meio — 16 capítulos com tópicos, 68 citações literais, 7 eixos e 30 conceitos"),
     ("tocqueville-democracia-america", "livro", "A Democracia na América, Livro I (Tocqueville): 18 capítulos com os tópicos de cada um, 81 citações literais conferidas, 8 eixos e 32 conceitos"),
+    ("outlive", "livro", "Outlive (Peter Attia): 17 capítulos + introdução, 71 subseções, 63 citações literais conferidas, 7 eixos e 33 conceitos — healthspan, os quatro cavaleiros e as táticas"),
     ("kahneman-rapido-devagar", "livro", "Rápido e Devagar: duas formas de pensar (Kahneman): 38 capítulos em 5 partes, 168 subseções, 8 eixos e 38 conceitos"),
     # ---------------- Vestibular
     ("unicap-medicina-2027", "vestibular", "Medicina UNICAP 2027.1: o que a prova cobra e o que o curso ensina"),

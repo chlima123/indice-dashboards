@@ -1,4 +1,16 @@
 {
+ "outlive": {
+  "host": "outlive-virid.vercel.app",
+  "code": "200",
+  "title": "Outlive — guia de leitura",
+  "gate": false
+ },
+ "cointeligencia": {
+  "host": "cointeligencia.vercel.app",
+  "code": "200",
+  "title": "Cointeligência — guia de leitura",
+  "gate": false
+ },
  "tocqueville-democracia-america": {
   "host": "tocqueville-democracia-america.vercel.app",
   "code": "200",
@@ -123,12 +135,6 @@
   "host": "sobre-a-china.vercel.app",
   "code": "200",
   "title": "Sobre a China — Henry Kissinger | Guia de leitura",
-  "gate": false
- },
- "cointeligencia": {
-  "host": "cointeligencia.vercel.app",
-  "code": "200",
-  "title": "Cointeligência — Ethan Mollick | Guia de leitura",
   "gate": false
  },
  "quadro-membros-mppe": {
