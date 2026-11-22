@@ -118,7 +118,7 @@ ITENS = [
     ("guia-aristoteles", "livro", "Hub dos guias de Aristóteles"),
     ("guia-etica-nicomaco", "livro", "Ética a Nicômaco, guia interativo"),
     ("guia-politica", "livro", "Política, de Aristóteles"),
-    ("guia-poetica", "livro", "Poética, de Aristóteles"),
+    ("guia-poetica", "livro", "Poética, de Aristóteles — guia de leitura: 26 capítulos, 104 subseções, 33 citações conferidas, 38 conceitos, 7 eixos (refeito 21/11/2026)"),
     ("guia-metafisica", "livro", "Metafísica, de Aristóteles: 14 livros, 70 subseções, 18 citações conferidas, 8 eixos e 27 conceitos"),
     ("guia-sobre-a-alma", "livro", "Sobre a Alma (De Anima), de Aristóteles"),
     ("guia-organon", "livro", "Órganon, de Aristóteles"),

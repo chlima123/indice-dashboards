@@ -740,7 +740,7 @@
  "guia-poetica": {
   "host": "guia-poetica.vercel.app",
   "code": "200",
-  "title": "Poética — Guia Interativo",
+  "title": "Poética — guia de leitura",
   "gate": false
  },
  "guia-sobre-a-alma": {
