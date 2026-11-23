@@ -922,5 +922,11 @@
   "code": "200",
   "title": "Registro de Correições — CGMP/MPPE",
   "gate": true
+ },
+ "homem-cordial": {
+  "host": "homem-cordial.vercel.app",
+  "code": "200",
+  "title": "O Homem Cordial — guia de leitura (Sérgio Buarque de Holanda)",
+  "gate": false
  }
 }
