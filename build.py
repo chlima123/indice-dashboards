@@ -36,6 +36,8 @@ CAT = {
 }
 
 ITENS = [
+    ("dicionario-hermeneutica", "livro", "Dicionário de Hermenêutica (Streck): 15 capítulos, 29 conceitos"),
+    ("votos-mppe-2026", "politica", "Votos por candidato · MPPE (com senha)"),
     # ---------------- MPPE
     ("correicoes-mppe", "mppe", "Registro de correições da CGMP/MPPE"),
     ("dashboard-processos-sim-2026", "mppe", "Painel de processos do Conselho Superior (SIM)"),

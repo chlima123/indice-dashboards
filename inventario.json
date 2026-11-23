@@ -1,4 +1,52 @@
 {
+ "guia-poetica": {
+  "host": "guia-poetica.vercel.app",
+  "code": "200",
+  "title": "Poética — guia de leitura",
+  "gate": false
+ },
+ "guia-politica": {
+  "host": "guia-politica.vercel.app",
+  "code": "200",
+  "title": "Política — guia de leitura",
+  "gate": false
+ },
+ "consolidado-supermercado": {
+  "host": "consolidado-supermercado.vercel.app",
+  "code": "200",
+  "title": "🛒 Consolidado de Itens de Supermercado — 2026",
+  "gate": false
+ },
+ "tao-da-fisica": {
+  "host": "tao-da-fisica.vercel.app",
+  "code": "200",
+  "title": "O Tao da Física — guia de leitura",
+  "gate": false
+ },
+ "jardim-praca-saldanha": {
+  "host": "jardim-praca-saldanha.vercel.app",
+  "code": "200",
+  "title": "O Jardim e a Praça — guia de leitura",
+  "gate": false
+ },
+ "votos-mppe-2026": {
+  "host": "votos-mppe-2026.vercel.app",
+  "code": "200",
+  "title": "Votos por candidato · MPPE",
+  "gate": true
+ },
+ "huntington-choque-civilizacoes": {
+  "host": "huntington-choque-civilizacoes.vercel.app",
+  "code": "200",
+  "title": "O Choque das Civilizações — guia de leitura",
+  "gate": false
+ },
+ "dashboard-long-short": {
+  "host": "dashboard-long-short.vercel.app",
+  "code": "200",
+  "title": "Dashboard Long/Short — Operações",
+  "gate": true
+ },
  "biologia-fps-cartoes": {
   "host": "biologia-fps-cartoes.vercel.app",
   "code": "200",
@@ -166,12 +214,6 @@
   "code": "200",
   "title": "A doutrina de Buda — guia de leitura",
   "gate": false
- },
- "dashboard-long-short": {
-  "host": "dashboard-long-short.vercel.app",
-  "code": "200",
-  "title": "Dashboard Long/Short — Operações",
-  "gate": true
  },
  "condicao-humana": {
   "host": "condicao-humana.vercel.app",
@@ -341,12 +383,6 @@
   "title": "LINDB Navegável — Lei de Introdução às Normas do Direito Brasileiro",
   "gate": false
  },
- "consolidado-supermercado": {
-  "host": "consolidado-supermercado.vercel.app",
-  "code": "200",
-  "title": "🛒 Consolidado de Itens de Supermercado — 2026",
-  "gate": false
- },
  "fps-itens-videos": {
   "host": "fps-itens-videos.vercel.app",
   "code": "200",
@@ -357,12 +393,6 @@
   "host": "fps-programa-vs-provas-2027.vercel.app",
   "code": "200",
   "title": "Programa 2027.1 × Provas FPS",
-  "gate": false
- },
- "jardim-praca-saldanha": {
-  "host": "jardim-praca-saldanha.vercel.app",
-  "code": "200",
-  "title": "O Jardim e a Praça — Nelson Saldanha (1983) · o privado e o público lidos num painel",
   "gate": false
  },
  "anpc-csmp-mppe": {
@@ -400,12 +430,6 @@
   "code": "200",
   "title": "Composição Corporal — Charles · InBody 120",
   "gate": true
- },
- "tao-da-fisica": {
-  "host": "tao-da-fisica.vercel.app",
-  "code": "200",
-  "title": "O Tao da Física — guia interativo",
-  "gate": false
  },
  "form-10k-tech-2026": {
   "host": "form-10k-tech-2026.vercel.app",
@@ -731,18 +755,6 @@
   "title": "Grafo do Vault · chlima123",
   "gate": true
  },
- "huntington-choque-civilizacoes": {
-  "host": "huntington-choque-civilizacoes.vercel.app",
-  "code": "200",
-  "title": "O Choque das Civilizações — Samuel P. Huntington | Guia Interativo",
-  "gate": true
- },
- "guia-poetica": {
-  "host": "guia-poetica.vercel.app",
-  "code": "200",
-  "title": "Poética — guia de leitura",
-  "gate": false
- },
  "guia-sobre-a-alma": {
   "host": "guia-sobre-a-alma.vercel.app",
   "code": "200",
@@ -765,12 +777,6 @@
   "host": "guia-etica-nicomaco.vercel.app",
   "code": "200",
   "title": "Ética a Nicômaco — Guia Interativo",
-  "gate": false
- },
- "guia-politica": {
-  "host": "guia-politica.vercel.app",
-  "code": "200",
-  "title": "Política — Guia Interativo",
   "gate": false
  },
  "roteiro-construir-sertao": {
@@ -910,5 +916,11 @@
   "code": "200",
   "title": "Registro de Correições — CGMP/MPPE",
   "gate": true
+ },
+ "dicionario-hermeneutica": {
+  "host": "dicionario-hermeneutica.vercel.app",
+  "code": "200",
+  "title": "Dicionário de Hermenêutica — guia de leitura",
+  "gate": false
  }
 }
