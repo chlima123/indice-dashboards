@@ -1,4 +1,34 @@
 {
+ "roteiro-construir-sertao": {
+  "host": "roteiro-construir-sertao.vercel.app",
+  "code": "200",
+  "title": "Roteiro para construir no Sertão do Nordeste — guia de leitura",
+  "gate": false
+ },
+ "dicionario-hermeneutica": {
+  "host": "dicionario-hermeneutica.vercel.app",
+  "code": "200",
+  "title": "Dicionário de Hermenêutica — guia de leitura",
+  "gate": false
+ },
+ "dashboard-long-short": {
+  "host": "dashboard-long-short.vercel.app",
+  "code": "200",
+  "title": "Dashboard Long/Short — Operações",
+  "gate": true
+ },
+ "consolidado-supermercado": {
+  "host": "consolidado-supermercado.vercel.app",
+  "code": "200",
+  "title": "🛒 Consolidado de Itens de Supermercado — 2026",
+  "gate": false
+ },
+ "distribuicao-caruaru": {
+  "host": "distribuicao-caruaru.vercel.app",
+  "code": "200",
+  "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
+  "gate": false
+ },
  "guia-poetica": {
   "host": "guia-poetica.vercel.app",
   "code": "200",
@@ -9,12 +39,6 @@
   "host": "guia-politica.vercel.app",
   "code": "200",
   "title": "Política — guia de leitura",
-  "gate": false
- },
- "consolidado-supermercado": {
-  "host": "consolidado-supermercado.vercel.app",
-  "code": "200",
-  "title": "🛒 Consolidado de Itens de Supermercado — 2026",
   "gate": false
  },
  "tao-da-fisica": {
@@ -40,12 +64,6 @@
   "code": "200",
   "title": "O Choque das Civilizações — guia de leitura",
   "gate": false
- },
- "dashboard-long-short": {
-  "host": "dashboard-long-short.vercel.app",
-  "code": "200",
-  "title": "Dashboard Long/Short — Operações",
-  "gate": true
  },
  "biologia-fps-cartoes": {
   "host": "biologia-fps-cartoes.vercel.app",
@@ -75,12 +93,6 @@
   "host": "diplomacia-gilt.vercel.app",
   "code": "200",
   "title": "Diplomacia — guia de leitura",
-  "gate": false
- },
- "distribuicao-caruaru": {
-  "host": "distribuicao-caruaru.vercel.app",
-  "code": "200",
-  "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
   "gate": false
  },
  "game-theory-binmore": {
@@ -779,12 +791,6 @@
   "title": "Ética a Nicômaco — Guia Interativo",
   "gate": false
  },
- "roteiro-construir-sertao": {
-  "host": "roteiro-construir-sertao.vercel.app",
-  "code": "200",
-  "title": "Roteiro para construir no Sertão · Guia Interativo",
-  "gate": true
- },
  "obsidian-guia-interativo": {
   "host": "obsidian-guia-interativo.vercel.app",
   "code": "200",
@@ -916,11 +922,5 @@
   "code": "200",
   "title": "Registro de Correições — CGMP/MPPE",
   "gate": true
- },
- "dicionario-hermeneutica": {
-  "host": "dicionario-hermeneutica.vercel.app",
-  "code": "200",
-  "title": "Dicionário de Hermenêutica — guia de leitura",
-  "gate": false
  }
 }
