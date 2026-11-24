@@ -928,5 +928,11 @@
   "code": "200",
   "title": "O Homem Cordial — guia de leitura (Sérgio Buarque de Holanda)",
   "gate": false
+ },
+ "o-que-faz-o-brasil-brasil": {
+  "host": "o-que-faz-o-brasil-brasil.vercel.app",
+  "code": "200",
+  "title": "O que faz o brasil, Brasil? — guia de leitura (Roberto DaMatta)",
+  "gate": false
  }
 }
