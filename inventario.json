@@ -1,4 +1,46 @@
 {
+ "consolidado-supermercado": {
+  "host": "consolidado-supermercado.vercel.app",
+  "code": "200",
+  "title": "🛒 Consolidado de Itens de Supermercado — 2026",
+  "gate": false
+ },
+ "o-que-faz-o-brasil-brasil": {
+  "host": "o-que-faz-o-brasil-brasil.vercel.app",
+  "code": "200",
+  "title": "O que faz o brasil, Brasil? — guia de leitura",
+  "gate": false
+ },
+ "homem-cordial": {
+  "host": "homem-cordial.vercel.app",
+  "code": "200",
+  "title": "O homem cordial — guia de leitura",
+  "gate": false
+ },
+ "mercado-analitico": {
+  "host": "mercado-analitico.vercel.app",
+  "code": "200",
+  "title": "Dashboard Analítico de Mercado — pregão de 23/11/2026 (18:00)",
+  "gate": false
+ },
+ "carteira-acoes-2026": {
+  "host": "carteira-acoes-2026.vercel.app",
+  "code": "200",
+  "title": "Carteira de ações — snapshot de 30/10/2026",
+  "gate": false
+ },
+ "dashboard-long-short": {
+  "host": "dashboard-long-short.vercel.app",
+  "code": "200",
+  "title": "Dashboard Long/Short — Operações",
+  "gate": true
+ },
+ "distribuicao-caruaru": {
+  "host": "distribuicao-caruaru.vercel.app",
+  "code": "200",
+  "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
+  "gate": false
+ },
  "roteiro-construir-sertao": {
   "host": "roteiro-construir-sertao.vercel.app",
   "code": "200",
@@ -9,24 +51,6 @@
   "host": "dicionario-hermeneutica.vercel.app",
   "code": "200",
   "title": "Dicionário de Hermenêutica — guia de leitura",
-  "gate": false
- },
- "dashboard-long-short": {
-  "host": "dashboard-long-short.vercel.app",
-  "code": "200",
-  "title": "Dashboard Long/Short — Operações",
-  "gate": true
- },
- "consolidado-supermercado": {
-  "host": "consolidado-supermercado.vercel.app",
-  "code": "200",
-  "title": "🛒 Consolidado de Itens de Supermercado — 2026",
-  "gate": false
- },
- "distribuicao-caruaru": {
-  "host": "distribuicao-caruaru.vercel.app",
-  "code": "200",
-  "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
   "gate": false
  },
  "guia-poetica": {
@@ -215,12 +239,6 @@
   "title": "A Era da IA — guia de leitura",
   "gate": false
  },
- "carteira-acoes-2026": {
-  "host": "carteira-acoes-2026.vercel.app",
-  "code": "200",
-  "title": "Carteira de ações — snapshot de 30/10/2026",
-  "gate": false
- },
  "doutrina-de-buda": {
   "host": "doutrina-de-buda.vercel.app",
   "code": "200",
@@ -249,12 +267,6 @@
   "host": "ollama-consumo.vercel.app",
   "code": "200",
   "title": "Consumo de tokens · Ollama Cloud",
-  "gate": false
- },
- "mercado-analitico": {
-  "host": "mercado-analitico.vercel.app",
-  "code": "200",
-  "title": "Dashboard Analítico de Mercado — pregão de 19/11/2026 (18:01)",
   "gate": false
  },
  "cgmp-novos-pj-2026": {
@@ -922,17 +934,5 @@
   "code": "200",
   "title": "Registro de Correições — CGMP/MPPE",
   "gate": true
- },
- "homem-cordial": {
-  "host": "homem-cordial.vercel.app",
-  "code": "200",
-  "title": "O Homem Cordial — guia de leitura (Sérgio Buarque de Holanda)",
-  "gate": false
- },
- "o-que-faz-o-brasil-brasil": {
-  "host": "o-que-faz-o-brasil-brasil.vercel.app",
-  "code": "200",
-  "title": "O que faz o brasil, Brasil? — guia de leitura (Roberto DaMatta)",
-  "gate": false
  }
 }
