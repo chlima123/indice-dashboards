@@ -934,5 +934,11 @@
   "code": "200",
   "title": "Registro de Correições — CGMP/MPPE",
   "gate": true
+ },
+ "raizes-do-brasil": {
+  "host": "raizes-do-brasil-omega.vercel.app",
+  "code": "200",
+  "title": "Raízes do Brasil — guia de leitura",
+  "gate": false
  }
 }

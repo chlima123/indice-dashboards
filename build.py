@@ -143,6 +143,7 @@ ITENS = [
     ("geracao-ansiosa", "livro", "A geração ansiosa (Jonathan Haidt): 12 capítulos em 4 partes, 81 subseções, 64 citações literais conferidas, 7 eixos e 39 conceitos — a Grande Reconfiguração da Infância"),
     ("homem-cordial", "livro", "O Homem Cordial, de Sérgio Buarque de Holanda (Grandes Ideias, 2012): 5 ensaios, 45 subseções, 17 citações, 35 conceitos"),
     ("o-que-faz-o-brasil-brasil", "livro", "O que faz o brasil, Brasil?, de Roberto DaMatta (Rocco 2011): 8 capítulos, 72 subseções, 24 citações, 28 conceitos"),
+    ("raizes-do-brasil", "livro", "Raízes do Brasil, de Sérgio Buarque de Holanda (edição crítica 80 anos): 7 capítulos, 63 subseções, 22 citações, 45 conceitos"),
     # ---------------- Vestibular
     ("unicap-medicina-2027", "vestibular", "Medicina UNICAP 2027.1: o que a prova cobra e o que o curso ensina"),
     ("fps-medicina-2027", "vestibular", "Medicina FPS 2027.1: a prova, o conteúdo e o curso"),
