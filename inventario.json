@@ -1,26 +1,14 @@
 {
- "consolidado-supermercado": {
-  "host": "consolidado-supermercado.vercel.app",
+ "raizes-do-brasil": {
+  "host": "raizes-do-brasil-omega.vercel.app",
   "code": "200",
-  "title": "🛒 Consolidado de Itens de Supermercado — 2026",
-  "gate": false
- },
- "o-que-faz-o-brasil-brasil": {
-  "host": "o-que-faz-o-brasil-brasil.vercel.app",
-  "code": "200",
-  "title": "O que faz o brasil, Brasil? — guia de leitura",
-  "gate": false
- },
- "homem-cordial": {
-  "host": "homem-cordial.vercel.app",
-  "code": "200",
-  "title": "O homem cordial — guia de leitura",
+  "title": "Raízes do Brasil — guia de leitura",
   "gate": false
  },
  "mercado-analitico": {
   "host": "mercado-analitico.vercel.app",
   "code": "200",
-  "title": "Dashboard Analítico de Mercado — pregão de 23/11/2026 (18:00)",
+  "title": "Dashboard Analítico de Mercado — pregão de 24/11/2026 (18:00)",
   "gate": false
  },
  "carteira-acoes-2026": {
@@ -39,6 +27,30 @@
   "host": "distribuicao-caruaru.vercel.app",
   "code": "200",
   "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
+  "gate": false
+ },
+ "procuradoria-civel-estatisticas": {
+  "host": "procuradoria-civel-estatisticas.vercel.app",
+  "code": "200",
+  "title": "Procuradoria de Justiça Cível — MPPE | Estatísticas",
+  "gate": false
+ },
+ "consolidado-supermercado": {
+  "host": "consolidado-supermercado.vercel.app",
+  "code": "200",
+  "title": "🛒 Consolidado de Itens de Supermercado — 2026",
+  "gate": false
+ },
+ "o-que-faz-o-brasil-brasil": {
+  "host": "o-que-faz-o-brasil-brasil.vercel.app",
+  "code": "200",
+  "title": "O que faz o brasil, Brasil? — guia de leitura",
+  "gate": false
+ },
+ "homem-cordial": {
+  "host": "homem-cordial.vercel.app",
+  "code": "200",
+  "title": "O homem cordial — guia de leitura",
   "gate": false
  },
  "roteiro-construir-sertao": {
@@ -725,12 +737,6 @@
   "title": "Procuradoria de Justiça Regional de Caruaru — Cível · MPPE | Estatísticas",
   "gate": false
  },
- "procuradoria-civel-estatisticas": {
-  "host": "procuradoria-civel-estatisticas.vercel.app",
-  "code": "200",
-  "title": "Procuradoria de Justiça Cível — MPPE | Estatísticas",
-  "gate": false
- },
  "guia-judicializacao-saude": {
   "host": "guia-judicializacao-saude.vercel.app",
   "code": "200",
@@ -934,11 +940,5 @@
   "code": "200",
   "title": "Registro de Correições — CGMP/MPPE",
   "gate": true
- },
- "raizes-do-brasil": {
-  "host": "raizes-do-brasil-omega.vercel.app",
-  "code": "200",
-  "title": "Raízes do Brasil — guia de leitura",
-  "gate": false
  }
 }
