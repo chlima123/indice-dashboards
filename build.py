@@ -67,6 +67,7 @@ ITENS = [
     ("gaju-mps-2026", "mppe", "GAJU/GECJAO nos Ministérios Públicos — Brasil 2026"),
     ("papj-estudo-qualitativo", "mppe", "Estudo qualitativo do PAPJ (oficina AMPEO)"),
     ("item8-correicoes-pjdc-cidadania", "mppe", "Correições PJDC Caruaru e Jaboatão · item 8"),
+    ("tac-disciplinar-mps", "mppe", "TAC disciplinar nos MPs: 11 normas estaduais localizadas e os 7 pontos de atenção do MPPE"),
     ("cnmp-processos-mppe", "mppe", "Processos do MP/PE em tramitação no CNMP (ELO)"),
     ("resolucao-residencia-mppe-2026", "mppe", "Minuta da resolução de residência na comarca"),
     ("membros-fora-titularidade-2026", "mppe", "113 membros que residem fora da comarca de titularidade (excl. RMR) · endereço residencial completo e distância em km"),

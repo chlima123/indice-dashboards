@@ -1,14 +1,8 @@
 {
- "raizes-do-brasil": {
-  "host": "raizes-do-brasil-omega.vercel.app",
+ "tac-disciplinar-mps": {
+  "host": "tac-disciplinar-mps.vercel.app",
   "code": "200",
-  "title": "Raízes do Brasil — guia de leitura",
-  "gate": false
- },
- "mercado-analitico": {
-  "host": "mercado-analitico.vercel.app",
-  "code": "200",
-  "title": "Dashboard Analítico de Mercado — pregão de 24/11/2026 (18:00)",
+  "title": "TAC disciplinar nos Ministérios Públicos — levantamento",
   "gate": false
  },
  "carteira-acoes-2026": {
@@ -17,17 +11,35 @@
   "title": "Carteira de ações — snapshot de 30/10/2026",
   "gate": false
  },
- "dashboard-long-short": {
-  "host": "dashboard-long-short.vercel.app",
+ "mercado-analitico": {
+  "host": "mercado-analitico.vercel.app",
   "code": "200",
-  "title": "Dashboard Long/Short — Operações",
-  "gate": true
+  "title": "Dashboard Analítico de Mercado — pregão de 25/11/2026 (14:00)",
+  "gate": false
  },
  "distribuicao-caruaru": {
   "host": "distribuicao-caruaru.vercel.app",
   "code": "200",
   "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
   "gate": false
+ },
+ "movimentacoes-carreira-mppe": {
+  "host": "movimentacoes-carreira-mppe.vercel.app",
+  "code": "200",
+  "title": "MPPE · Movimentações de Carreira",
+  "gate": true
+ },
+ "raizes-do-brasil": {
+  "host": "raizes-do-brasil-omega.vercel.app",
+  "code": "200",
+  "title": "Raízes do Brasil — guia de leitura",
+  "gate": false
+ },
+ "dashboard-long-short": {
+  "host": "dashboard-long-short.vercel.app",
+  "code": "200",
+  "title": "Dashboard Long/Short — Operações",
+  "gate": true
  },
  "procuradoria-civel-estatisticas": {
   "host": "procuradoria-civel-estatisticas.vercel.app",
@@ -718,12 +730,6 @@
   "code": "200",
   "title": "O que está em jogo na sua cidade",
   "gate": false
- },
- "movimentacoes-carreira-mppe": {
-  "host": "movimentacoes-carreira-mppe.vercel.app",
-  "code": "200",
-  "title": "MPPE · Movimentações de Carreira",
-  "gate": true
  },
  "procuradoria-caruaru-criminal": {
   "host": "procuradoria-caruaru-criminal.vercel.app",
