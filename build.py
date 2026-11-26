@@ -201,7 +201,7 @@ ITENS = [
     ("obsidian-guia-interativo", "tech", "Guia do Obsidian, do zero ao grafo"),
     ("hermes-bots-guide", "tech", "Guia dos bots do Hermes"),
     ("ollama-consumo", "tech", "Consumo de tokens no Ollama Cloud, por provedor e modelo"),
-    ("hermes-setup-infra", "tech", "A infraestrutura do setup: hardware, agente e modelo, uso, 412 skills, 179 agendamentos e as contas autorizadas — medido na máquina"),
+    ("hermes-setup-infra", "tech", "A infraestrutura do setup: hardware, agente e modelo, uso, 413 skills, 179 agendamentos e as contas autorizadas — medido na máquina"),
     ("guia-teste", "tech", "Obra de teste — modelo de guia interativo"),
     # ---------------- Pessoal
     ("clima-pe", "pessoal", "Acompanhamento meteorológico de Pernambuco"),
