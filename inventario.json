@@ -1,4 +1,28 @@
 {
+ "estagio-probatorio-orientacoes": {
+  "host": "estagio-probatorio-orientacoes.vercel.app",
+  "code": "200",
+  "title": "Estágio probatório: o que a Corregedoria orienta",
+  "gate": false
+ },
+ "carteira-acoes-2026": {
+  "host": "carteira-acoes-2026.vercel.app",
+  "code": "200",
+  "title": "Carteira de ações — snapshot de 30/10/2026",
+  "gate": false
+ },
+ "mercado-analitico": {
+  "host": "mercado-analitico.vercel.app",
+  "code": "200",
+  "title": "Dashboard Analítico de Mercado — pregão de 26/11/2026 (14:00)",
+  "gate": false
+ },
+ "distribuicao-caruaru": {
+  "host": "distribuicao-caruaru.vercel.app",
+  "code": "200",
+  "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
+  "gate": false
+ },
  "estagio-probatorio-turma3-2026": {
   "host": "estagio-probatorio-turma3-2026.vercel.app",
   "code": "200",
@@ -11,18 +35,6 @@
   "title": "A economia offline — Dá para comprar a saída do vício em tela?",
   "gate": false
  },
- "mercado-analitico": {
-  "host": "mercado-analitico.vercel.app",
-  "code": "200",
-  "title": "Dashboard Analítico de Mercado — pregão de 25/11/2026 (18:00)",
-  "gate": false
- },
- "carteira-acoes-2026": {
-  "host": "carteira-acoes-2026.vercel.app",
-  "code": "200",
-  "title": "Carteira de ações — snapshot de 30/10/2026",
-  "gate": false
- },
  "dashboard-long-short": {
   "host": "dashboard-long-short.vercel.app",
   "code": "200",
@@ -33,12 +45,6 @@
   "host": "tac-disciplinar-mps.vercel.app",
   "code": "200",
   "title": "TAC disciplinar nos Ministérios Públicos — levantamento",
-  "gate": false
- },
- "distribuicao-caruaru": {
-  "host": "distribuicao-caruaru.vercel.app",
-  "code": "200",
-  "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
   "gate": false
  },
  "movimentacoes-carreira-mppe": {
