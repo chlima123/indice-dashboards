@@ -1,8 +1,14 @@
 {
- "estagio-probatorio-orientacoes": {
-  "host": "estagio-probatorio-orientacoes.vercel.app",
+ "hermes-setup-infra": {
+  "host": "hermes-setup-infra.vercel.app",
   "code": "200",
-  "title": "Estágio probatório: o que a Corregedoria orienta",
+  "title": "A infraestrutura do meu setup",
+  "gate": true
+ },
+ "mercado-analitico": {
+  "host": "mercado-analitico.vercel.app",
+  "code": "200",
+  "title": "Dashboard Analítico de Mercado — pregão de 26/11/2026 (16:00)",
   "gate": false
  },
  "carteira-acoes-2026": {
@@ -11,11 +17,11 @@
   "title": "Carteira de ações — snapshot de 30/10/2026",
   "gate": false
  },
- "mercado-analitico": {
-  "host": "mercado-analitico.vercel.app",
+ "estagio-probatorio-orientacoes": {
+  "host": "estagio-probatorio-orientacoes.vercel.app",
   "code": "200",
-  "title": "Dashboard Analítico de Mercado — pregão de 26/11/2026 (14:00)",
-  "gate": false
+  "title": "Estágio probatório: o que a Corregedoria orienta",
+  "gate": true
  },
  "distribuicao-caruaru": {
   "host": "distribuicao-caruaru.vercel.app",
