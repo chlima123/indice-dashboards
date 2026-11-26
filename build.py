@@ -36,6 +36,7 @@ CAT = {
 }
 
 ITENS = [
+    ("economia-offline", "saude", "Tempo de tela e “economia offline”: a indústria que vende atrito (Men's Health UK)"),
     ("dicionario-hermeneutica", "livro", "Dicionário de Hermenêutica (Streck): 15 capítulos, 29 conceitos"),
     ("votos-mppe-2026", "politica", "Votos por candidato · MPPE (com senha)"),
     # ---------------- MPPE
