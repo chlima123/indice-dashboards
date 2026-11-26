@@ -38,7 +38,9 @@ BUSCAS = {
     "sobre a china": "sobre-a-china",
     "lafer": "lafer-hannah-arendt",
     "novos promotores": "cgmp-novos-pj-2026",
-    "offline": "membros-mppe-app",
+    "turma 3": "estagio-probatorio-turma3-2026",
+    # o termo "offline" passou a casar também economia-offline; "pwa" é exclusivo do app
+    "pwa": "membros-mppe-app",
 }
 
 falhas = []

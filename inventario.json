@@ -1,4 +1,10 @@
 {
+ "estagio-probatorio-turma3-2026": {
+  "host": "estagio-probatorio-turma3-2026.vercel.app",
+  "code": "200",
+  "title": "Estágio probatório — Turma 3 (MPPE)",
+  "gate": true
+ },
  "economia-offline": {
   "host": "economia-offline.vercel.app",
   "code": "200",

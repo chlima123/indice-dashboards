@@ -62,6 +62,7 @@ ITENS = [
     ("cgmp-novos-pj-2026", "mppe", "Posse de 19/11/2026: as 11 Promotorias, mapa das 15 circunscrições, deveres e prazos CNMP"),
     ("cgmp-eleicao-monitor", "mppe", "Posição dos 56 integrantes do CGMP: barra única de Eleitor a Contrário, com a metade da amostra marcada por uma linha preta"),
     ("vitaliciamento-csmp-2109", "mppe", "Vitaliciamento · sessão do CSMP de 21/09"),
+    ("estagio-probatorio-turma3-2026", "mppe", "Estágio probatório · Turma 3: 16 fichas (Quadro Geral, antiguidade, CGMP)"),
     ("csmp-votos-2026", "mppe", "Votos da sessão do CSMP de 04/11/2026"),
     ("anpc-csmp-mppe", "mppe", "ANPC no CSMP/MPPE — 19 casos apreciados, nenhum firmado judicialmente"),
     ("cpj-2a-sessao-2026", "mppe", "2ª Sessão do CPJ, com os 5 painéis embutidos"),
