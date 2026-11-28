@@ -1,14 +1,14 @@
 {
+ "cond-membros-mppe": {
+  "host": "cond-membros-mppe.vercel.app",
+  "code": "200",
+  "title": "Cond · Membros do MPPE",
+  "gate": false
+ },
  "mercado-analitico": {
   "host": "mercado-analitico.vercel.app",
   "code": "200",
-  "title": "Dashboard Analítico de Mercado — pregão de 26/11/2026 (18:00)",
-  "gate": false
- },
- "consolidado-supermercado": {
-  "host": "consolidado-supermercado.vercel.app",
-  "code": "200",
-  "title": "🛒 Consolidado de Itens de Supermercado — 2026",
+  "title": "Dashboard Analítico de Mercado — pregão de 27/11/2026 (18:00)",
   "gate": false
  },
  "dashboard-long-short": {
@@ -16,6 +16,24 @@
   "code": "200",
   "title": "Dashboard Long/Short — Operações",
   "gate": true
+ },
+ "carteira-acoes-2026": {
+  "host": "carteira-acoes-2026.vercel.app",
+  "code": "200",
+  "title": "Carteira de ações — snapshot de 30/10/2026",
+  "gate": false
+ },
+ "distribuicao-caruaru": {
+  "host": "distribuicao-caruaru.vercel.app",
+  "code": "200",
+  "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
+  "gate": false
+ },
+ "consolidado-supermercado": {
+  "host": "consolidado-supermercado.vercel.app",
+  "code": "200",
+  "title": "🛒 Consolidado de Itens de Supermercado — 2026",
+  "gate": false
  },
  "estagio-probatorio-turma3-2026": {
   "host": "estagio-probatorio-turma3-2026.vercel.app",
@@ -29,23 +47,11 @@
   "title": "A infraestrutura do meu setup",
   "gate": true
  },
- "carteira-acoes-2026": {
-  "host": "carteira-acoes-2026.vercel.app",
-  "code": "200",
-  "title": "Carteira de ações — snapshot de 30/10/2026",
-  "gate": false
- },
  "estagio-probatorio-orientacoes": {
   "host": "estagio-probatorio-orientacoes.vercel.app",
   "code": "200",
   "title": "Estágio probatório: o que a Corregedoria orienta",
   "gate": true
- },
- "distribuicao-caruaru": {
-  "host": "distribuicao-caruaru.vercel.app",
-  "code": "200",
-  "title": "Distribuição de Processos — Procuradoria Cível de Caruaru · Ago/2026",
-  "gate": false
  },
  "economia-offline": {
   "host": "economia-offline.vercel.app",

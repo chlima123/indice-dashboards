@@ -51,6 +51,7 @@ ITENS = [
     ("caruaru-ementas", "mppe", "72 ementas da Câmara Regional de Caruaru"),
     ("pronunciamentos-civel", "mppe", "1.278 ementas CNJ com busca semântica"),
     ("quadro-membros-mppe", "mppe", "Quadro geral: cargos, vagas e circunscrições"),
+    ("cond-membros-mppe", "mppe", "Letras cond A, B, C e W dos 437 membros: barras, nomes por categoria, tabela e mapa"),
     ("mppe-cargos-atribuicoes", "mppe", "486 cargos de 1º grau e suas atribuições"),
     ("circunscricoes-ministeriais-mppe", "mppe", "Mapa das circunscrições ministeriais de PE"),
     ("habitacao-urbanismo-mppe", "mppe", "Cargos com atuação em habitação e urbanismo"),
