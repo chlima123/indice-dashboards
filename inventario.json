@@ -3,7 +3,7 @@
   "host": "cond-membros-mppe.vercel.app",
   "code": "200",
   "title": "Cond · Membros do MPPE",
-  "gate": false
+  "gate": true
  },
  "mercado-analitico": {
   "host": "mercado-analitico.vercel.app",
